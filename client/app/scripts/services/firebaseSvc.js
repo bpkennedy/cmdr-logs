@@ -8,7 +8,7 @@
 * Factory in the clientApp.
 */
 angular.module('clientApp')
-.factory('firebaseSvc', function () {
+.factory('firebaseSvc', function ($window) {
 
     function initializeFirebase() {
         var config = {
@@ -21,7 +21,12 @@ angular.module('clientApp')
         firebase.initializeApp(config);
     }
 
+    function getFirebase() {
+        return $window.firebase;
+    }
+
     return {
-        initializeFirebase: initializeFirebase
+        initializeFirebase: initializeFirebase,
+        getFirebase: getFirebase
     };
 });
