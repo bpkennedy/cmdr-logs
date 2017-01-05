@@ -1,4 +1,6 @@
-# client
+# cmdr-logs (Commander Logs)
+
+This project is a sci-fi style journaling platform made specifically for [Elite Dangerous](https://www.elitedangerous.com/) commanders (or CMDRs) to role play writing a Captain's Journal during their adventures.
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.  Setup according to the article/guide [here](http://start.jcolemorrison.com/building-an-angular-and-express-app-part-1/).
