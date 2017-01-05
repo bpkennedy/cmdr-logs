@@ -6,9 +6,9 @@ version 0.15.1.  Setup according to the article/guide [here](http://start.jcolem
 ## Install
 
 * Clone the repo
-* 'cd client' && 'npm install'
-* 'bower install'
-* 'cd ../server' && 'npm install'
+* `cd client` && `npm install`
+* `bower install`
+* `cd ../server` && `npm install`
 
 ## Build & development
 
