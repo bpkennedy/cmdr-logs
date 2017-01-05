@@ -8,16 +8,49 @@
 * Factory in the clientApp.
 */
 angular.module('clientApp')
-.factory('auth', function () {
-    // Service logic
-    // ...
+.factory('auth', function (firebaseSvc) {
+    var vm = this;
+    vm.firebase = firebaseSvc.getFirebase();
 
-    var meaningOfLife = 42;
+    function getCurrentUser() {
+        vm.firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                console.log('User is signed in.');
+            } else {
+                console.log('No user is signed in.');
+            }
+        });
+    }
 
-    // Public API here
+    function createUser(email, password) {
+        console.log('got in here');
+        return vm.firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log('Error creating user.  Code is ' + errorCode + '.  Message is ' + errorMessage);
+        });
+    }
+
+    function signInUser(email, password) {
+        return vm.firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log('Error signing in user.  Code is ' + errorCode + '.  Message is ' + errorMessage);
+        });
+    }
+
+    function signOutUser() {
+        return firebase.auth().signOut().catch(function(error) {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log('Error signing in user.  Code is ' + errorCode + '.  Message is ' + errorMessage);
+        });
+    }
+
     return {
-        someMethod: function () {
-            return meaningOfLife;
-        }
+        getCurrentUser: getCurrentUser,
+        createUser: createUser,
+        signInUser: signInUser,
+        signOutUser: signOutUser
     };
 });
