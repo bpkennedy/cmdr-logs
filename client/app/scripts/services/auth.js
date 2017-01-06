@@ -23,28 +23,15 @@ angular.module('clientApp')
     }
 
     function createUser(email, password) {
-        console.log('got in here');
-        return vm.firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            console.log('Error creating user.  Code is ' + errorCode + '.  Message is ' + errorMessage);
-        });
+        return vm.firebase.auth().createUserWithEmailAndPassword(email, password);
     }
 
     function signInUser(email, password) {
-        return vm.firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            console.log('Error signing in user.  Code is ' + errorCode + '.  Message is ' + errorMessage);
-        });
+        return vm.firebase.auth().signInWithEmailAndPassword(email, password);
     }
 
     function signOutUser() {
-        return firebase.auth().signOut().catch(function(error) {
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            console.log('Error signing in user.  Code is ' + errorCode + '.  Message is ' + errorMessage);
-        });
+        return vm.firebase.auth().signOut();
     }
 
     return {
