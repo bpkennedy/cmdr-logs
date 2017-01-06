@@ -18,7 +18,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ui.router'
+    'ui.router',
+    'toastr'
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/");
@@ -80,6 +81,7 @@ angular
             }
         }
     });
+
 })
 .run(function (firebaseSvc) {
     firebaseSvc.initializeFirebase();

@@ -8,7 +8,7 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('LoginCtrl', function (auth) {
+.controller('LoginCtrl', function (auth, toastr) {
     var vm = this;
     vm.checkIfLoggedIn = checkIfLoggedIn;
     vm.createUser = createUser;
@@ -29,20 +29,33 @@ angular.module('clientApp')
         auth.signInUser(vm.userEmail, vm.password).then(function(response) {
             console.log('response is');
             console.log(response);
+            toastr.success('You signed in.', 'Success!');
+        }).catch(function(error) {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            toastr.error(errorMessage, errorCode);
         });
     }
 
     function createUser() {
-        console.log('called func');
         auth.createUser(vm.newUserEmail, vm.newPassword).then(function(response) {
             console.log('response is');
             console.log(response);
+            toastr.success('New account created.', 'Success!');
+        }).catch(function(error) {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            toastr.error(errorMessage, errorCode);
         });
     }
 
     function signOutUser() {
         auth.signOutUser().then(function() {
-            console.log('signed out now');
+            toastr.success('You signed out.', 'Success!');
+        }).catch(function(error) {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            toastr.error(errorMessage, errorCode);
         });
     }
 
