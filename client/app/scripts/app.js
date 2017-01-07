@@ -19,7 +19,6 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.router',
-    'firebase',
     'toastr'
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
