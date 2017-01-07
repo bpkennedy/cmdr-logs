@@ -11,15 +11,24 @@ angular.module('clientApp')
 .factory('auth', function (firebaseSvc) {
     var vm = this;
     vm.firebase = firebaseSvc.getFirebase();
+    vm.user = {
+        data: null
+    };
+
+    firebase.auth().onAuthStateChanged(function(user) {
+        updateUser(user)
+    });
+
+    function updateUser(user) {
+        if (user) {
+            vm.user.data = user;
+        } else {
+            vm.user.data = null;
+        }
+    }
 
     function getCurrentUser() {
-        vm.firebase.auth().onAuthStateChanged(function(user) {
-            if (user) {
-                console.log('User is signed in.');
-            } else {
-                console.log('No user is signed in.');
-            }
-        });
+        return vm.user;
     }
 
     function createUser(email, password) {

@@ -19,13 +19,14 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.router',
+    'firebase',
     'toastr'
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("/");
+    $urlRouterProvider.otherwise('/');
 
     $stateProvider.state('root', {
-      url: "",
+      url: '',
       // Make this state abstract so it can never be
       // loaded directly
       abstract: true,

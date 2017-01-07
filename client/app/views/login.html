@@ -6,7 +6,7 @@
     <div class="" ng-click="vm.signOutUser()">
         Click to sign out user.
     </div>
-    <div class="">
+    <div class="well">
         Click to try log in.
         <div class="form">
             <div class="form-group">
@@ -22,7 +22,7 @@
             LOGIN
         </div>
     </div>
-    <div class="">
+    <div class="well">
         Click to try creating a user.
         <div class="form">
             <div class="form-group">
@@ -33,9 +33,25 @@
                 <label for="newPassword">Password</label>
                 <input class="form-control" type="text" id="newPassword" name="" value="" ng-model="vm.newPassword">
             </div>
+            <div class="form-group">
+                <label for="cmdrName">Commander Name</label>
+                <input class="form-control" id="cmdrName" type="text" name="" value="" ng-model="vm.cmdrName">
+            </div>
         </div>
         <div class="btn btn-danger" ng-click="vm.createUser()">
             LOGIN
+        </div>
+    </div>
+    <div class="well">
+        Update your profile
+        <div class="form">
+            <div class="form-group">
+                <label for="newCmdrName">New Commander Name</label>
+                <input class="form-control" id="newCmdrName" type="text" name="" value="" ng-model="vm.newCmdrName">
+            </div>
+        </div>
+        <div class="btn btn-danger" ng-click="vm.updateUser()">
+            SAVE
         </div>
     </div>
 </div>
