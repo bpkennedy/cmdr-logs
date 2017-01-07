@@ -19,7 +19,10 @@
         <ul class="nav navbar-nav">
           <li ui-sref-active="active"><a ui-sref="root.dashboard">Home</a></li>
           <li ui-sref-active="active"><a ui-sref="root.about">About</a></li>
-          <li ui-sref-active="active"><a ui-sref="root.login">Login</a></li>
+          <li ng-if="!vm.user.data" ui-sref-active="active"><a ui-sref="root.login">Login</a></li>
+          <li ng-if="vm.user.data" ui-sref-active="active">
+              <a ui-sref="root.login">{{vm.user.data.displayName || 'Commander'}}</a>
+          </li>
         </ul>
       </div>
     </div>
