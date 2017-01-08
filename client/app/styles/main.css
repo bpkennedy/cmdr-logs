@@ -207,6 +207,9 @@ a {
     position: absolute;
     width: 95%;
 }
+.fa-plus {
+    padding-right: 5px;
+}
 .new-entry:hover {
     transition: all 0.2s ease-in;
     color: rgba(0, 0, 0, 0.9)!important;
