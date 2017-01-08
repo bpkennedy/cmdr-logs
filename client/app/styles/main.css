@@ -68,6 +68,8 @@ body {
 html, body {
     font-family: 'Sintony', sans-serif;
     height: 100%;
+    margin:0;
+    padding:0;
 }
 
 /*Global*/
@@ -79,11 +81,10 @@ html, body {
         radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
     background-color:#282828;
     background-size:16px 16px;
-    height:100%;
+    min-height:100%;
 }
 #content-main {
     margin-top: 60px;
-    height: calc(100% - 60px);
 }
 a {
     color: #FF8F00!important;
@@ -95,15 +96,19 @@ a {
 /*Nav*/
 .titlebar-wrapper {
     position: fixed;
-    width:99%;
+    width:99.3%;
+    z-index: 2;
+    background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    opacity: 1;
+    border:none;
 }
-.navbar {
-    padding-left:5px;
+.titlebar-wrapper .navbar {
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     opacity: .9;
     border:none;
     border-radius:0;
     margin-bottom: 0;
+    min-height:40px;
 }
 .nav-top {
     height: 2px;
@@ -142,9 +147,9 @@ a {
 .navbar-nav li {
     flex: 1;
 }
-.navbar-collapse {
-    padding-left: 0;
-    padding-right: 0;
+.navbar-nav li a {
+    padding-bottom:10px;
+    padding-top:10px;
 }
 .active a {
     background: -moz-radial-gradient(circle, #FFA20B, #FAB13E)!important;
@@ -155,7 +160,6 @@ a {
 /*Main Page*/
 .main-wrapper {
     width:100%;
-    height: 100%;
     display: flex;
     color: #FF8F00!important;
     text-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -163,16 +167,131 @@ a {
     outline:none;
 }
 .sidebar {
-    display: inline-block;
-    height: 100%;
-    flex: 1;
+    font-family: "sintony";
+    font-size: 18px;
+    background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    opacity: .9;
+    border:none;
+    position: absolute;
+    left: 5px;
+    top: 58px;
+    bottom: 0;
+    width: 300px;
+    color: #D45705;
+}
+.sidebar-title {
+    height: 50px;
+    line-height: 60px;
+    margin: 0 auto;
+    padding-left: 10px;
+    width: 98%;
+}
+.journal-list {
+    color: #FFA202;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    padding-left: 10px;
+    margin-top:7px;
+}
+.journal-list li {
+}
+.new-entry {
+    transition: all 0.3s ease-in;
+    background-color: #2d0706;
+    bottom: 7px;
+    left: 7px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    position: absolute;
+    width: 95%;
+}
+.new-entry:hover {
+    transition: all 0.2s ease-in;
+    color: rgba(0, 0, 0, 0.9)!important;
+    background: -moz-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    cursor:pointer;
+}
+.separator {
+    height: 2px;
+    background: #D45705;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(255,162,2,1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(255,162,2,1);
+    box-shadow: 0px 0px 4px 0px rgba(255,162,2,1);
+    border-radius: 7px;
+    margin-bottom: 3px;
+    margin-top: 0;
+    width: 96%;
+    margin: 0 auto;
+}
+.reading-separator {
+    width:99%;
+}
+.vertical-separator {
+    background: #D45705;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(255,162,2,1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(255,162,2,1);
+    box-shadow: 0px 0px 4px 0px rgba(255,162,2,1);
+    border-radius: 7px;
+    width: 2px;
+    position: absolute;
+    left: 305px;
+    top: 58px;
+    bottom: 7px;
+}
+.bottom-separator {
+    height: 2px;
+    background: #D45705;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(255,162,2,1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(255,162,2,1);
+    box-shadow: 0px 0px 4px 0px rgba(255,162,2,1);
+    border-radius: 7px;
+    margin-bottom: 3px;
+    margin-top: 0;
+    width: 99.3%;
+    position: absolute;
+    bottom: -2px;
 }
 .reading-pane {
-    display: inline-block;
-    height: 100%;
-    flex: 3;
+    bottom: 0;
+    left: 307px;
+    position: absolute;
+    top: 58px;
+    width: calc(100% - 311px);
+    font-family: "sintony";
+    text-transform: none;
+    font-size: 18px;
+    background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    opacity: .9;
+    color: #D45705;
 }
-
+.entry-title {
+    height: 50px;
+    line-height: 60px;
+    margin: 0 auto;
+    padding-left: 10px;
+    width: 98%;
+    color: #FFA202;
+}
+.star-date {
+    display: inline-block;
+    line-height: 18px;
+    padding: 5px;
+    width: auto;
+    float: right;
+    margin-top: 15px;
+    color: #D45705;
+    font-size: 16px;
+}
+.title-text {
+    display: block;
+    padding-right: 20%;
+    width: 100%;
+}
+.reading-body {
+    padding:10px;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
