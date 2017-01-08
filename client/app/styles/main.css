@@ -195,6 +195,11 @@ a {
     margin-top:7px;
 }
 .journal-list li {
+    position: relative;
+}
+.journal-list li:hover {
+    background-color: #490A08;
+    cursor: pointer;
 }
 .new-entry {
     transition: all 0.3s ease-in;
@@ -215,6 +220,16 @@ a {
     color: rgba(0, 0, 0, 0.9)!important;
     background: -moz-radial-gradient(circle, #FFA20B, #FAB13E)!important;
     cursor:pointer;
+}
+.entry-date {
+    color: #d45705;
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.entry-text {
+    padding-right:80px;
 }
 .separator {
     height: 2px;
