@@ -232,7 +232,11 @@ a {
     top: 5px;
 }
 .entry-text {
-    padding-right:80px;
+    overflow: hidden;
+    padding-right: 80px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
 }
 .separator {
     height: 2px;
