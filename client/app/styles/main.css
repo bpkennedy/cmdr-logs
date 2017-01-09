@@ -193,6 +193,9 @@ a {
     padding:0;
     padding-left: 10px;
     margin-top:7px;
+    max-height: calc(100% - 110px);
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .journal-list li {
     position: relative;
