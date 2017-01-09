@@ -12,6 +12,7 @@ angular.module('clientApp')
       var vm = this;
       vm.entries = [];
       vm.userUid = null;
+      vm.createUserEntry = createUserEntry;
 
       function init() {
           setUserUid();
@@ -31,6 +32,18 @@ angular.module('clientApp')
               $timeout(function() {
                   vm.entries = arrayEntries;
               });
+          }).catch(function(error) {
+              toastr.error(error.message, error.code);
+          });
+      }
+
+      function createUserEntry() {
+          var testData = {
+              title: 'Test Title',
+              message: 'Test Message',
+          };
+          entries.createEntry(testData, vm.userUid).then(function(response) {
+              toastr.success('Item saved to database.', 'Success!');
           }).catch(function(error) {
               toastr.error(error.message, error.code);
           });
