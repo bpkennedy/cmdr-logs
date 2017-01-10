@@ -286,7 +286,16 @@ a {
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     opacity: .7;
     color: #D45705;
+    height:auto;
+    overflow-y:scroll;
+    overflow-x: hidden;
 }
+.entry-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
 .entry-title {
     height: 50px;
     line-height: 60px;
@@ -312,9 +321,19 @@ a {
 }
 .reading-body {
     padding:10px;
+    margin-bottom:50px;
 }
 
 /*Entry*/
+.reading-actions {
+    bottom: 0;
+    height: 50px;
+    position: fixed;
+    left:311px;
+    width: calc(100% - 335px);
+    background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    opacity: 0.7;
+}
 .reading-actions .new-entry {
     display: inline-block;
     text-align: center;
@@ -327,6 +346,57 @@ a {
 .new-entry.delete:hover {
     background:#8E1114!important;
     color:#FFF!important;
+}
+.separator.entry {
+    width:100%;
+}
+.entry-title input {
+    background: #200400;
+    opacity: 0.7;
+    line-height: 18px;
+    padding: 5px;
+    width: 300px;
+    border: 1px solid #D45705;
+}
+#entry-wrapper .form-control {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    background: #200400;
+    opacity: 0.7;
+    color:inherit;
+}
+.ta-toolbar {
+    margin-bottom:10px;
+}
+#entry-wrapper .reading-body .btn-group button {
+    opacity: 0.7;
+    color:inherit;
+    border: 1px solid #D45705;
+}
+#content-main #entry-wrapper .reading-body .btn-default {
+    /*Inactive button, non-hovered*/
+    background: #291513;
+    border-color: #D45705;
+    color: inherit;
+}
+#content-main #entry-wrapper .reading-body .btn-default:hover {
+    /*Inactive button, hovered*/
+    background: #482420!important;
+    border-color: #D45705!important;
+    color: inherit!important;
+}
+#content-main #entry-wrapper .reading-body .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    /*Active button, non-hover*/
+    background: #662D27!important;
+    border-color: #D45705!important;
+    color: inherit!important;
+}
+#content-main #entry-wrapper .reading-body .btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default.focus:active, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
+    /*Active button, hovered*/
+    background: #87352C!important;
+    border-color: #D45705!important;
+    color: inherit!important;
 }
 
 /*Misccellaneous*/

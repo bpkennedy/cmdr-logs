@@ -8,10 +8,12 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('EntryCtrl', function ($state, $timeout, auth, $stateParams, entries, toastr) {
+.controller('EntryCtrl', function ($sce, $state, $timeout, auth, $stateParams, entries, toastr) {
     var vm = this;
     vm.entryKey = $stateParams.entryId;
     vm.userUid = null;
+    vm.isEditMode = false;
+    vm.toggleEditMode = toggleEditMode;
     vm.deleteEntry = deleteEntry;
 
     vm.data = {
@@ -24,15 +26,20 @@ angular.module('clientApp')
         setUserUid();
     }
 
+    function toggleEditMode() {
+        vm.isEditMode = !vm.isEditMode;
+    }
+
     function setUserUid() {
         $timeout(function(){
            vm.userUid = auth.getCurrentUser().data.uid;
-           loadEntry();
+           if ($state.current.name === 'root.entry') {
+               loadEntry();
+           }
        }, 100);
     }
 
     function deleteEntry(entryKey) {
-
         entries.deleteEntry(entryKey, vm.userUid).then(function() {
             $state.go('root.dashboard');
         });
@@ -43,7 +50,7 @@ angular.module('clientApp')
             var response = snapshot.val();
             vm.data.key = snapshot.key;
             vm.data.title = response.title;
-            vm.data.message = response.message;
+            vm.data.message = $sce.trustAsHtml(response.message);
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });

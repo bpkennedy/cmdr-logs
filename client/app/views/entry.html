@@ -2,17 +2,31 @@
     <div class="star-date">
         0109 Jan 7, 3303
     </div>
-    <div class="title-text">
+    <div class="title-text" ng-if="!vm.isEditMode">
         {{vm.data.title}}
+    </div>
+    <div class="" ng-if="vm.isEditMode">
+        <label for="title-text">Title: </label>
+        <input type="text" if="title-text" class="title-text-input" ng-model="vm.data.title"/>        
     </div>
 </div>
 <div class="separator reading-separator"></div>
 <div class="reading-body">
-    {{vm.data.message}}
+    <div ng-if="!vm.isEditMode">
+        {{vm.data.message}}
+    </div>
+    <div ng-if="vm.isEditMode" text-angular ng-model="vm.data.message"></div>
 </div>
 <div class="reading-actions" ng-if="vm.data.title">
-    <div class="new-entry edit">
+    <div class="separator entry"></div>
+    <div class="new-entry edit" ng-click="vm.toggleEditMode()" ng-if="!vm.isEditMode">
         Edit
+    </div>
+    <div class="new-entry edit" ng-click="vm.toggleEditMode()" ng-if="vm.isEditMode">
+        Back
+    </div>
+    <div class="new-entry edit save" ng-click="vm.saveEntry(vm.data.key)" ng-if="vm.isEditMode">
+        Save
     </div>
     <div class="new-entry delete" ng-click="vm.deleteEntry(vm.data.key)">
         Delete
