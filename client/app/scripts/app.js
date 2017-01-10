@@ -62,6 +62,9 @@ angular
     $stateProvider.state('root.entry', {
       url: '/entries/:entryId',
       parent: 'root',
+      params: {
+          isNew: null
+      },
       data: {
           pageName: 'EntryCtrl',
           browserTitle: 'Entry'

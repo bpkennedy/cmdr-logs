@@ -8,15 +8,17 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('EntryCtrl', function ($sce, $state, $timeout, auth, $stateParams, entries, toastr) {
+.controller('EntryCtrl', function ($rootScope, $sce, $state, $timeout, auth, $stateParams, entries, toastr) {
     var vm = this;
     vm.entryKey = $stateParams.entryId;
     vm.userUid = null;
     vm.isEditMode = false;
+    vm.isNew = $stateParams.isNew || false;
+    vm.stateName = $state.current.name;
     vm.toggleEditMode = toggleEditMode;
     vm.deleteEntry = deleteEntry;
     vm.makeHtmlSafe = makeHtmlSafe;
-    vm.updateEntry = updateEntry;
+    vm.saveProgress = saveProgress;
 
     vm.data = {
         key: '',
@@ -25,30 +27,44 @@ angular.module('clientApp')
     };
 
     vm.tempData = {
-        title: '',
-        message: ''
+        title: null,
+        message: null
     };
 
     function init() {
         setUserUid();
     }
 
+    function handleNewEntryClicked() {
+        if (vm.isNew) {
+            toggleEditMode('new');
+        }
+    }
+
     function toggleEditMode(navType) {
         vm.isEditMode = !vm.isEditMode;
         if (navType === 'back') {
-            vm.tempData.title = '';
-            vm.tempData.message = '';
+            vm.tempData.title = null;
+            vm.tempData.message = null;
         } else if (navType === 'edit') {
             vm.tempData.title = vm.data.title;
             vm.tempData.message = vm.data.message;
+        } else if (navType === 'new') {
+            vm.tempData.title = makeHtmlSafe('Entry Title Here..');
+            vm.tempData.message = makeHtmlSafe('<div style="font-style:italics;">The body of your entry here...</div>');
+        } else if (navType === 'save') {
+            vm.tempData.title = null;
+            vm.tempData.message = null;
+            vm.isNew = false;
         }
     }
 
     function setUserUid() {
         $timeout(function(){
            vm.userUid = auth.getCurrentUser().data.uid;
-           if ($state.current.name === 'root.entry') {
+           if (vm.stateName === 'root.entry') {
                loadEntry();
+               handleNewEntryClicked();
            }
        }, 100);
     }
@@ -60,6 +76,7 @@ angular.module('clientApp')
     }
 
     function loadEntry() {
+        vm.isEditMode = false;
         entries.getSingleEntry(vm.entryKey).then(function(snapshot) {
             var response = snapshot.val();
             vm.data.key = snapshot.key;
@@ -70,15 +87,40 @@ angular.module('clientApp')
         });
     }
 
-    function updateEntry() {
+    function saveProgress() {
         vm.data.title = vm.tempData.title;
         vm.data.message = vm.tempData.message;
+        if (vm.isNew) {
+            createEntry();
+        } else {
+            updateEntry();
+        }
+    }
+
+    function createEntry() {
+        entries.createEntry(vm.data, vm.userUid).then(function(response) {
+            console.log(response);
+            toastr.success('You created a new item.', 'Success!');
+            toggleEditMode();
+            getEntriesEmit();
+        }).catch(function(error) {
+            toastr.error(error.message, error.code);
+        });
+    }
+
+    function updateEntry() {
         entries.updateEntry(vm.data, vm.userUid).then(function(response) {
             toastr.success('You updated entry ' + vm.data.key, 'Success!');
             toggleEditMode();
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
+    }
+
+    function getEntriesEmit() {
+        var itemId = entries.getRecentNewEntry();
+        // firing an event upwards
+        $rootScope.$emit('getEntries', itemId);
     }
 
     function makeHtmlSafe(string) {
