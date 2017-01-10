@@ -13,16 +13,8 @@
                     {{entry.created_at | date:'MMM d, y'}}
                 </div>
             </li>
-            <!-- <li>
-                <div class="entry-text">
-                    Into the Black and let's test extra long so that we see wrapping
-                </div>
-                <div class="entry-date">Jan 7, 3303</div>
-            </li>
-            <li>A shaky proposition</li>
-            <li>Aliens, dude</li> -->
         </ul>
-        <div class="new-entry">
+        <div class="new-entry" ng-click="vm.createEntry()">
             <i class="fa fa-plus"></i>
             New Entry
         </div>

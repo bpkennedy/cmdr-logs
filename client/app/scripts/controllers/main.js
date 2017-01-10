@@ -12,6 +12,7 @@ angular.module('clientApp')
       var vm = this;
       vm.entries = [];
       vm.userUid = null;
+      vm.createEntry = createEntry;
 
       function init() {
           setUserUid();
@@ -22,6 +23,19 @@ angular.module('clientApp')
              vm.userUid = auth.getCurrentUser().data.uid;
              getEntries();
          }, 100);
+      }
+
+      function createEntry() {
+          var testData = {
+              title: 'This is an Orange Test',
+              message: 'An awesome example of it working, doge.'
+          };
+          entries.createEntry(testData, vm.userUid).then(function() {
+              toastr.success('You created a new item.', 'Success!');
+              getEntries();
+          }).catch(function(error) {
+              toastr.error(error.message, error.code);
+          });
       }
 
       function getEntries() {
