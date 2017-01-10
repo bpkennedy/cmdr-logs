@@ -17,7 +17,7 @@
     </div>
     <div ng-if="vm.isEditMode" text-angular ng-model="vm.tempData.message"></div>
 </div>
-<div class="reading-actions" ng-if="vm.data.title">
+<div class="reading-actions">
     <div class="separator entry"></div>
     <div class="new-entry edit" ng-click="vm.toggleEditMode('edit')" ng-cloak ng-if="!vm.isEditMode">
         <i class="fa fa-pencil"></i>
@@ -27,7 +27,7 @@
         <i class="fa fa-arrow-left"></i>
         Back
     </div>
-    <div class="new-entry edit save" ng-click="vm.updateEntry()" ng-cloak ng-if="vm.isEditMode">
+    <div class="new-entry edit save" ng-click="vm.saveProgress()" ng-cloak ng-if="vm.isEditMode">
         <i class="fa fa-floppy-o"></i>
         Save
     </div>

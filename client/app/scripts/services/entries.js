@@ -11,6 +11,9 @@ angular.module('clientApp')
 .factory('entries', function ($q, $window, toastr) {
     var vm = this;
     vm.database = $window.firebase.database();
+    vm.lastCreatedUid = {
+        key: ''
+    };
 
     function getUserEntries(uid) {
         return $window.firebase.database().ref('/users/' + uid + '/entries').once('value');
@@ -23,7 +26,6 @@ angular.module('clientApp')
     function deleteEntry(key, uid) {
         var deleteEntryRef = $window.firebase.database().ref('/entries/' + key);
         return deleteEntryRef.remove().then(function() {
-            console.log('in here');
             var deleteUserEntryRef = $window.firebase.database().ref('/users/' + uid + '/entries/' + key);
             return deleteUserEntryRef.remove().then(function() {
                 toastr.success('You deleted entry ' + key, 'Success!');
@@ -61,6 +63,7 @@ angular.module('clientApp')
             'created_by': uid
         }).then(function(snapshot) {
             var newEntryId = snapshot.key;
+            vm.lastCreatedUid.key = newEntryId;
             return updateUserEntries(entry, newEntryId, uid);
         }).catch(function(error) {
             toastr.error(error.message, error.code);
@@ -77,11 +80,16 @@ angular.module('clientApp')
         });
     }
 
+    function getRecentNewEntry() {
+        return vm.lastCreatedUid.key;
+    }
+
     return {
         getUserEntries: getUserEntries,
         getSingleEntry: getSingleEntry,
         createEntry: createEntry,
         deleteEntry: deleteEntry,
-        updateEntry: updateEntry
+        updateEntry: updateEntry,
+        getRecentNewEntry: getRecentNewEntry
     };
 });
