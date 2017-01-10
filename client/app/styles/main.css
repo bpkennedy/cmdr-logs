@@ -287,7 +287,7 @@ a {
     opacity: .7;
     color: #D45705;
     height:auto;
-    overflow-y:scroll;
+    overflow-y: auto;
     overflow-x: hidden;
 }
 .entry-wrapper {
@@ -329,7 +329,7 @@ a {
     bottom: 0;
     height: 50px;
     position: fixed;
-    left:311px;
+    left:310px;
     width: calc(100% - 335px);
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     opacity: 0.7;
@@ -340,8 +340,10 @@ a {
     text-transform: uppercase;
     width: 300px;
 }
-.new-entry.delete {
-    left: 310px;
+.reading-actions .new-entry {
+    position: relative;
+    width: 25%;
+    bottom: -6px;
 }
 .new-entry.delete:hover {
     background:#8E1114!important;

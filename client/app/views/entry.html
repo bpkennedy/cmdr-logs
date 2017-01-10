@@ -7,28 +7,32 @@
     </div>
     <div class="" ng-if="vm.isEditMode">
         <label for="title-text">Title: </label>
-        <input type="text" if="title-text" class="title-text-input" ng-model="vm.data.title"/>        
+        <input type="text" if="title-text" class="title-text-input" ng-model="vm.tempData.title"/>
     </div>
 </div>
 <div class="separator reading-separator"></div>
 <div class="reading-body">
     <div ng-if="!vm.isEditMode">
-        {{vm.data.message}}
+        <div ng-bind-html="vm.data.message"></div>
     </div>
-    <div ng-if="vm.isEditMode" text-angular ng-model="vm.data.message"></div>
+    <div ng-if="vm.isEditMode" text-angular ng-model="vm.tempData.message"></div>
 </div>
 <div class="reading-actions" ng-if="vm.data.title">
     <div class="separator entry"></div>
-    <div class="new-entry edit" ng-click="vm.toggleEditMode()" ng-if="!vm.isEditMode">
+    <div class="new-entry edit" ng-click="vm.toggleEditMode('edit')" ng-cloak ng-if="!vm.isEditMode">
+        <i class="fa fa-pencil"></i>
         Edit
     </div>
-    <div class="new-entry edit" ng-click="vm.toggleEditMode()" ng-if="vm.isEditMode">
+    <div class="new-entry edit" ng-click="vm.toggleEditMode('back')" ng-cloak ng-if="vm.isEditMode">
+        <i class="fa fa-arrow-left"></i>
         Back
     </div>
-    <div class="new-entry edit save" ng-click="vm.saveEntry(vm.data.key)" ng-if="vm.isEditMode">
+    <div class="new-entry edit save" ng-click="vm.updateEntry()" ng-cloak ng-if="vm.isEditMode">
+        <i class="fa fa-floppy-o"></i>
         Save
     </div>
     <div class="new-entry delete" ng-click="vm.deleteEntry(vm.data.key)">
+        <i class="fa fa-trash-o"></i>
         Delete
     </div>
 </div>
