@@ -1,0 +1,20 @@
+<div class="entry-title">
+    <div class="star-date">
+        0109 Jan 7, 3303
+    </div>
+    <div class="title-text">
+        {{vm.data.title}}
+    </div>
+</div>
+<div class="separator reading-separator"></div>
+<div class="reading-body">
+    {{vm.data.message}}
+</div>
+<div class="reading-actions" ng-if="vm.data.title">
+    <div class="new-entry edit">
+        Edit
+    </div>
+    <div class="new-entry delete">
+        Delete
+    </div>
+</div>

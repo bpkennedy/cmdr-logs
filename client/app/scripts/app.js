@@ -50,22 +50,33 @@ angular
               templateUrl: 'views/main.html',
               controller: 'MainCtrl',
               controllerAs: 'vm'
+          },
+          'entry@root.dashboard': {
+              templateUrl: 'views/entry.html',
+              controller: 'EntryCtrl',
+              controllerAs: 'vm'
           }
       }
     });
-    $stateProvider.state('root.about', {
-        url: '/about',
-        data: {
-            pageName: 'AboutCtrl',
-            browserTitle: 'About'
-        },
-        views: {
-            'container@': {
-                templateUrl: 'views/about.html',
-                controller: 'AboutCtrl',
-                controllerAs: 'vm'
-            }
-        }
+    $stateProvider.state('root.entry', {
+      url: '/entries/:entryId',
+      parent: 'root',
+      data: {
+          pageName: 'EntryCtrl',
+          browserTitle: 'Entry'
+      },
+      views: {
+          'container@': {
+              templateUrl: 'views/main.html',
+              controller: 'MainCtrl',
+              controllerAs: 'vm'
+          },
+          'entry@root.entry': {
+              templateUrl: 'views/entry.html',
+              controller: 'EntryCtrl',
+              controllerAs: 'vm'
+          }
+      }
     });
     $stateProvider.state('root.login', {
         url: '/login',

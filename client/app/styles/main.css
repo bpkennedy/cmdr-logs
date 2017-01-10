@@ -313,6 +313,22 @@ a {
 .reading-body {
     padding:10px;
 }
+
+/*Entry*/
+.reading-actions .new-entry {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+}
+.new-entry.delete {
+    left: 310px;
+}
+.new-entry.delete:hover {
+    background:#8E1114!important;
+    color:#FFF!important;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {

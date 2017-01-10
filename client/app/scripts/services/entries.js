@@ -16,6 +16,10 @@ angular.module('clientApp')
         return $window.firebase.database().ref('/users/' + uid + '/entries').once('value');
     }
 
+    function getSingleEntry(key) {
+        return $window.firebase.database().ref('/entries/' + key).once('value');
+    }
+
     // function createEntry(entry, uid) {
     //     // Generate a reference to a new location and add some data using push()
     //     var newEntryRef = vm.database.ref('entries/').push({
@@ -30,7 +34,8 @@ angular.module('clientApp')
     // }
 
     return {
-        getUserEntries: getUserEntries
+        getUserEntries: getUserEntries,
+        getSingleEntry: getSingleEntry
         // createEntry: createEntry
     };
 });

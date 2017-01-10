@@ -5,7 +5,7 @@
         </div>
         <div class="separator"></div>
         <ul class="journal-list">
-            <li ng-repeat="entry in vm.entries">
+            <li ng-repeat="entry in vm.entries" ui-sref="root.entry({entryId: entry.$key})">
                 <div class="entry-text">
                     {{entry.title}}
                 </div>
@@ -29,17 +29,6 @@
     </div>
     <div class="vertical-separator"></div>
     <div class="reading-pane">
-        <div class="entry-title">
-            <div class="star-date">
-                0109 Jan 7, 3303
-            </div>
-            <div class="title-text">
-                Into the Black
-            </div>
-        </div>
-        <div class="separator reading-separator"></div>
-        <div class="reading-body">
-            The text and whatnot will all go here.
-        </div>
+        <div id="entry-wrapper" ui-view="entry"></div>
     </div>
 </div>
