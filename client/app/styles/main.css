@@ -337,6 +337,7 @@ a {
     position: absolute;
     right: 0;
     top: 0;
+    opacity:0.7;
 }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
