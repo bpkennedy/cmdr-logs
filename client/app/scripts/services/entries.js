@@ -8,7 +8,7 @@
 * Factory in the clientApp.
 */
 angular.module('clientApp')
-.factory('entries', function ($q, $window) {
+.factory('entries', function ($q, $window, toastr) {
     var vm = this;
     vm.database = $window.firebase.database();
 
@@ -18,6 +18,21 @@ angular.module('clientApp')
 
     function getSingleEntry(key) {
         return $window.firebase.database().ref('/entries/' + key).once('value');
+    }
+
+    function deleteEntry(key, uid) {
+        var deleteEntryRef = $window.firebase.database().ref('/entries/' + key);
+        return deleteEntryRef.remove().then(function() {
+            console.log('in here');
+            var deleteUserEntryRef = $window.firebase.database().ref('/users/' + uid + '/entries/' + key);
+            return deleteUserEntryRef.remove().then(function() {
+                toastr.success('You deleted entry ' + key, 'Success!');
+            }).catch(function(error) {
+                toastr.error(error.message, error.code);
+            });
+        }).catch(function(error) {
+            toastr.error(error.message, error.code);
+        });
     }
 
     function createEntry(entry, uid) {
@@ -31,6 +46,8 @@ angular.module('clientApp')
         }).then(function(snapshot) {
             var newEntryId = snapshot.key;
             return updateUserEntries(entry, newEntryId, uid);
+        }).catch(function(error) {
+            toastr.error(error.message, error.code);
         });
     }
 
@@ -47,6 +64,7 @@ angular.module('clientApp')
     return {
         getUserEntries: getUserEntries,
         getSingleEntry: getSingleEntry,
-        createEntry: createEntry
+        createEntry: createEntry,
+        deleteEntry: deleteEntry
     };
 });
