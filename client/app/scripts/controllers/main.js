@@ -27,6 +27,9 @@ angular.module('clientApp')
       function getEntries() {
           entries.getUserEntries(vm.userUid).then(function(response) {
               var rawEntries = response.val();
+              $window._.map(rawEntries, function(val, key) {
+                  val.$key = key;
+              });
               var arrayEntries = $window._.values(rawEntries) || [];
               $timeout(function() {
                   vm.entries = arrayEntries;
