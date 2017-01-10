@@ -35,6 +35,22 @@ angular.module('clientApp')
         });
     }
 
+    function updateEntry(data, uid) {
+        var entryRef = $window.firebase.database().ref('/entries/' + data.key);
+        return entryRef.update({
+            'title': data.title,
+            'message': data.message
+        }).then(function(snapshot) {
+            var userEntryRef = $window.firebase.database().ref('/users/' + uid + '/entries/' + data.key);
+            return userEntryRef.update({
+                'title': data.title,
+                'message': data.message
+            });
+        }).catch(function(error) {
+            toastr.error(error.message, error.code);
+        });
+    }
+
     function createEntry(entry, uid) {
         // Generate a reference to a new location and add some data using push()
         var newEntryRef = $window.firebase.database().ref('/entries/');
@@ -65,6 +81,7 @@ angular.module('clientApp')
         getUserEntries: getUserEntries,
         getSingleEntry: getSingleEntry,
         createEntry: createEntry,
-        deleteEntry: deleteEntry
+        deleteEntry: deleteEntry,
+        updateEntry: updateEntry
     };
 });

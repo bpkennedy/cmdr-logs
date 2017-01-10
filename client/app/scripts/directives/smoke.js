@@ -68,7 +68,8 @@ angular.module('clientApp')
                 };
 
                 // Once the callback is arranged then set the source of the image
-                imageObj.src = 'http://www.blog.jonnycornwell.com/wp-content/uploads/2012/07/Smoke10.png';
+                imageObj.src = '../images/Smoke10.png';
+
 
                 // A function to create a particle object.
                 function Particle(context) {
@@ -122,9 +123,9 @@ angular.module('clientApp')
                         }
 
                         // Check if has crossed the bottom edge
-                        if (this.y >= window.canvasHeight) {
+                        if (this.y >= canvasHeight) {
                             this.yVelocity = -this.yVelocity;
-                            this.y = window.canvasHeight;
+                            this.y = canvasHeight;
                         }
 
                         // Check if has crossed the top edge
@@ -179,9 +180,6 @@ angular.module('clientApp')
                             particles.push(particle);
                         }
                     }
-                    else {
-                        console.log('Please use a modern browser');
-                    }
                 }
 
                 // The function to draw the scene
@@ -201,7 +199,6 @@ angular.module('clientApp')
                     particles.forEach(function(particle) {
                         particle.update();
                     });
-                    console.log(particles.length);
                 };
 
                 // Initialize the scene

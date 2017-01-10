@@ -19,6 +19,7 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.router',
+    'textAngular',
     'toastr'
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
@@ -92,7 +93,16 @@ angular
             }
         }
     });
-
+})
+.config(function($provide) {
+    $provide.decorator('taOptions', ['taRegisterTool', '$delegate', function(taRegisterTool, taOptions) {
+        taOptions.toolbar = [
+            ['bold', 'italics', 'underline', 'justifyLeft', 'justifyCenter', 'justifyRight', 'h1', 'h2', 'h3', 'p', 'pre', 'html', 'insertImage','insertLink', 'insertVideo'],
+            // ['bold', 'italics', 'underline', 'strikeThrough', 'ul', 'ol', 'redo', 'undo', 'clear'],
+            // ['justifyLeft', 'justifyCenter', 'justifyRight', 'indent', 'outdent'],
+        ];
+        return taOptions;
+    }]);
 })
 .run(function (firebaseSvc) {
     firebaseSvc.initializeFirebase();
