@@ -41,12 +41,14 @@ angular.module('clientApp')
         var entryRef = $window.firebase.database().ref('/entries/' + data.key);
         return entryRef.update({
             'title': data.title,
-            'message': data.message
+            'message': data.message,
+            'modified_at': makeEliteDate()
         }).then(function(snapshot) {
             var userEntryRef = $window.firebase.database().ref('/users/' + uid + '/entries/' + data.key);
             return userEntryRef.update({
                 'title': data.title,
-                'message': data.message
+                'message': data.message,
+                'modified_at': makeEliteDate()
             });
         }).catch(function(error) {
             toastr.error(error.message, error.code);
@@ -59,7 +61,8 @@ angular.module('clientApp')
         return newEntryRef.push({
             'title': entry.title,
             'message': entry.message,
-            'created_at': new Date().getTime(),
+            'modified_at': makeEliteDate(),
+            'created_at': makeEliteDate(),
             'created_by': uid
         }).then(function(snapshot) {
             var newEntryId = snapshot.key;
@@ -75,9 +78,19 @@ angular.module('clientApp')
         return userRef.child(newEntryId).set({
             'title': entry.title,
             'message': entry.message,
-            'created_at': new Date().getTime(),
+            'modified_at': makeEliteDate(),
+            'created_at': makeEliteDate(),
             'created_by': uid
         });
+    }
+
+    function makeEliteDate() {
+        var d = new Date();
+        var year = d.getFullYear();
+        var month = d.getMonth();
+        var day = d.getDate();
+        var c = new Date(year + 1286, month, day);
+        return c.getTime();
     }
 
     function getRecentNewEntry() {

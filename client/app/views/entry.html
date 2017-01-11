@@ -1,6 +1,6 @@
 <div class="entry-title">
     <div class="star-date">
-        0109 Jan 7, 3303
+        {{vm.data.date | date:'MMM d, y'}}
     </div>
     <div class="title-text" ng-if="!vm.isEditMode">
         {{vm.data.title}}
@@ -13,7 +13,7 @@
 <div class="separator reading-separator"></div>
 <div class="reading-body">
     <div ng-if="!vm.isEditMode">
-        <div ng-bind-html="vm.data.message"></div>
+        <div ta-bind ng-model="vm.data.message"></div>
     </div>
     <div ng-if="vm.isEditMode" text-angular ng-model="vm.tempData.message"></div>
 </div>
