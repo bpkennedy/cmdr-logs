@@ -41,12 +41,14 @@ angular.module('clientApp')
         var entryRef = $window.firebase.database().ref('/entries/' + data.key);
         return entryRef.update({
             'title': data.title,
-            'message': data.message
+            'message': data.message,
+            'modified_at': makeEliteDate()
         }).then(function(snapshot) {
             var userEntryRef = $window.firebase.database().ref('/users/' + uid + '/entries/' + data.key);
             return userEntryRef.update({
                 'title': data.title,
-                'message': data.message
+                'message': data.message,
+                'modified_at': makeEliteDate()
             });
         }).catch(function(error) {
             toastr.error(error.message, error.code);
@@ -59,6 +61,7 @@ angular.module('clientApp')
         return newEntryRef.push({
             'title': entry.title,
             'message': entry.message,
+            'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
             'created_by': uid
         }).then(function(snapshot) {
@@ -75,6 +78,7 @@ angular.module('clientApp')
         return userRef.child(newEntryId).set({
             'title': entry.title,
             'message': entry.message,
+            'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
             'created_by': uid
         });
