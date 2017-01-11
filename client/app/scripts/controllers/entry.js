@@ -23,7 +23,8 @@ angular.module('clientApp')
     vm.data = {
         key: '',
         title: '',
-        message: ''
+        message: '',
+        date: ''
     };
 
     vm.tempData = {
@@ -79,12 +80,21 @@ angular.module('clientApp')
         vm.isEditMode = false;
         entries.getSingleEntry(vm.entryKey).then(function(snapshot) {
             var response = snapshot.val();
+            var createdAt = buildEliteDate(response.created_at);
             vm.data.key = snapshot.key;
             vm.data.title = response.title;
             vm.data.message = makeHtmlSafe(response.message);
+            vm.data.date = createdAt;
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
+    }
+
+    function buildEliteDate(time) {
+        var milliseconds = parseInt(time);
+        var newDate = new Date(milliseconds);
+        return newDate;
+
     }
 
     function saveProgress() {
@@ -99,7 +109,6 @@ angular.module('clientApp')
 
     function createEntry() {
         entries.createEntry(vm.data, vm.userUid).then(function(response) {
-            console.log(response);
             toastr.success('You created a new item.', 'Success!');
             toggleEditMode();
             getEntriesEmit();
@@ -119,7 +128,6 @@ angular.module('clientApp')
 
     function getEntriesEmit() {
         var itemId = entries.getRecentNewEntry();
-        // firing an event upwards
         $rootScope.$emit('getEntries', itemId);
     }
 
