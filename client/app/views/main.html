@@ -5,7 +5,7 @@
         </div>
         <div class="separator"></div>
         <ul class="journal-list">
-            <li ng-repeat="entry in vm.entries" ui-sref="root.entry({entryId: entry.$key, isNew: false})">
+            <li ng-repeat="entry in vm.entries" ui-sref="root.entry({entryId: entry.$id, isNew: false})">
                 <div class="entry-text">
                     {{entry.title}}
                 </div>
