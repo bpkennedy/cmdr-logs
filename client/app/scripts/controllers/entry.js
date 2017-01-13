@@ -81,10 +81,12 @@ angular.module('clientApp')
         entries.getSingleEntry(vm.entryKey).then(function(snapshot) {
             var response = snapshot.val();
             var createdAt = buildEliteDate(response.created_at);
-            vm.data.key = snapshot.key;
-            vm.data.title = response.title;
-            vm.data.message = makeHtmlSafe(response.message);
-            vm.data.date = createdAt;
+            $timeout(function() {
+                vm.data.key = snapshot.key;
+                vm.data.title = response.title;
+                vm.data.message = makeHtmlSafe(response.message);
+                vm.data.date = createdAt;
+            });
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
