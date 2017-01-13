@@ -33,7 +33,6 @@ angular.module('clientApp')
 
     function init() {
         if (vm.stateName === 'root.entry') {
-            loadEntry();
             handleNewEntryClicked();
         }
     }
@@ -41,6 +40,8 @@ angular.module('clientApp')
     function handleNewEntryClicked() {
         if (vm.isNew) {
             toggleEditMode('new');
+        } else {
+            loadEntry();
         }
     }
 
