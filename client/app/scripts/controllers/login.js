@@ -8,8 +8,10 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('LoginCtrl', function (auth, toastr, $timeout) {
+.controller('LoginCtrl', function (auth, toastr, $window) {
     var vm = this;
+    vm.auth = auth;
+    vm.user = auth.$getAuth();
     vm.createUser = createUser;
     vm.updateUser = updateUser;
     vm.login = login;
@@ -22,15 +24,16 @@ angular.module('clientApp')
     vm.newCmdrName = '';
 
     function login() {
-        auth.signInUser(vm.userEmail, vm.password).then(function(response) {
-            toastr.success('You signed in.', 'Success!');
+        vm.auth.$signInWithEmailAndPassword(vm.userEmail, vm.password).then(function(firebaseUser) {
+            var name = vm.user.displayName || vm.user.email;
+            toastr.success('Welcome back ' + name, 'Yo!');
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
     }
 
     function createUser() {
-        auth.createUser(vm.newUserEmail, vm.newPassword).then(function(user) {
+        vm.auth.$createUserWithEmailAndPassword(vm.newUserEmail, vm.newPassword).then(function(user) {
             updateProfile(vm.cmdrName);
             toastr.success('New account created.', 'Success!');
         }).catch(function(error) {
@@ -43,7 +46,7 @@ angular.module('clientApp')
     }
 
     function updateProfile(cmdrNameVal) {
-        var user = firebase.auth().currentUser;
+        var user = $window.firebase.auth().currentUser;
         user.updateProfile({
             displayName: cmdrNameVal
         }).then(function() {
@@ -54,7 +57,7 @@ angular.module('clientApp')
     }
 
     function signOutUser() {
-        auth.signOutUser().then(function() {
+        vm.auth.$signOut().then(function() {
             toastr.success('You signed out.', 'Success!');
         }).catch(function(error) {
             toastr.error(error.message, error.code);

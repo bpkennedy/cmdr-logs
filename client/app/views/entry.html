@@ -1,6 +1,6 @@
 <div class="entry-title">
     <div class="star-date">
-        {{vm.data.date | date:'MMM d, y'}}
+        {{vm.data.created_at | eliteDate }}
     </div>
     <div class="title-text" ng-if="!vm.isEditMode">
         {{vm.data.title}}

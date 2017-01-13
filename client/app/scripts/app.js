@@ -20,67 +20,75 @@ angular
     'ui.router',
     'textAngular',
     'toastr',
-    'ngAudio'
+    'ngAudio',
+    'firebase'
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/');
 
     $stateProvider.state('root', {
-      url: '',
-      // Make this state abstract so it can never be
-      // loaded directly
-      abstract: true,
-      resolve: {
-      },
-      views: {
-          'titlebar@': {
-              templateUrl: 'views/titlebar.html',
-              controller: 'TitlebarCtrl',
-              controllerAs: 'vm'
-          },
-      }
+        url: '',
+        // Make this state abstract so it can never be
+        // loaded directly
+        abstract: true,
+        resolve: {
+            // controller will not be loaded until $requireSignIn resolves
+            // Auth refers to our $firebaseAuth wrapper in the factory below
+            'currentUser': ['auth', function(auth) {
+                // $requireSignIn returns a promise so the resolve waits for it to complete
+                // If the promise is rejected, it will throw a $stateChangeError (see above)
+                return auth.$waitForSignIn();
+            }]
+        },
+        views: {
+            'titlebar@': {
+                templateUrl: 'views/titlebar.html',
+                controller: 'TitlebarCtrl',
+                controllerAs: 'vm'
+            },
+        }
     });
     $stateProvider.state('root.dashboard', {
-      url: '/',
-      data: {
-          pageName: 'MainCtrl',
-          browserTitle: 'Main'
-      },
-      views: {
-          'container@': {
-              templateUrl: 'views/main.html',
-              controller: 'MainCtrl',
-              controllerAs: 'vm'
-          },
-          'entry@root.dashboard': {
-              templateUrl: 'views/entry.html',
-              controller: 'EntryCtrl',
-              controllerAs: 'vm'
-          }
-      }
+        url: '/',
+        data: {
+            pageName: 'MainCtrl',
+            browserTitle: 'Main'
+        },
+        views: {
+            'container@': {
+                templateUrl: 'views/main.html',
+                controller: 'MainCtrl',
+                controllerAs: 'vm'
+            },
+            'entry@root.dashboard': {
+                templateUrl: 'views/entry.html',
+                controller: 'EntryCtrl',
+                controllerAs: 'vm'
+            }
+        }
     });
     $stateProvider.state('root.entry', {
-      url: '/entries/:entryId',
-      parent: 'root',
-      params: {
-          isNew: null
-      },
-      data: {
-          pageName: 'EntryCtrl',
-          browserTitle: 'Entry'
-      },
-      views: {
-          'container@': {
-              templateUrl: 'views/main.html',
-              controller: 'MainCtrl',
-              controllerAs: 'vm'
-          },
-          'entry@root.entry': {
-              templateUrl: 'views/entry.html',
-              controller: 'EntryCtrl',
-              controllerAs: 'vm'
-          }
-      }
+        url: '/entries/:entryId',
+        parent: 'root',
+        params: {
+            isNew: null
+        },
+        data: {
+            pageName: 'EntryCtrl',
+            browserTitle: 'Entry'
+        },
+        views: {
+            'container@': {
+                templateUrl: 'views/main.html',
+                controller: 'MainCtrl',
+                controllerAs: 'vm'
+            },
+            'entry@root.entry': {
+                templateUrl: 'views/entry.html',
+                controller: 'EntryCtrl',
+                controllerAs: 'vm'
+            }
+        }
     });
     $stateProvider.state('root.login', {
         url: '/login',
@@ -107,6 +115,17 @@ angular
         return taOptions;
     }]);
 })
-.run(function (firebaseSvc) {
-    firebaseSvc.initializeFirebase();
+.run(function (firebaseSvc, $rootScope, $state) {
+    firebaseSvc.initialize();
+
+    // for authentication, managing the state if error..
+    $rootScope.$on('$stateChangeError',
+    function (event, toState, toParams, fromState, fromParams, error) {
+
+        // if the error is "NO USER" the go to login state
+        if (error === 'NO USER' || error === 'AUTH_REQUIRED') {
+            event.preventDefault();
+            $state.go('root.login', {});
+        }
+    });
 });

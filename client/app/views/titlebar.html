@@ -14,12 +14,11 @@
           <li ng-class="{active: vm.isEntry()}">
               <a ui-sref="root.dashboard">CMDR Logs</a>
           </li>
-          <!-- <li ui-sref-active="active"><a ui-sref="root.about">About</a></li> -->
-          <li ng-if="!vm.user.data" ui-sref-active="active">
+          <li ng-if="!vm.user" ui-sref-active="active">
               <a ui-sref="root.login">Login</a>
           </li>
-          <li ng-if="vm.user.data" ui-sref-active="active">
-              <a ui-sref="root.login">{{vm.user.data.displayName || 'Commander'}}</a>
+          <li ng-if="vm.user" ui-sref-active="active">
+              <a ui-sref="root.login">{{vm.user.displayName || 'COMMANDER'}}</a>
           </li>
         </ul>
       </div>

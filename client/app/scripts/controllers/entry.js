@@ -8,10 +8,9 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('EntryCtrl', function ($rootScope, $sce, $state, $timeout, auth, $stateParams, entries, toastr) {
+.controller('EntryCtrl', function ($firebaseObject, $sce, $state, auth, $stateParams, entries, toastr) {
     var vm = this;
     vm.entryKey = $stateParams.entryId;
-    vm.userUid = null;
     vm.isEditMode = false;
     vm.isNew = $stateParams.isNew || false;
     vm.stateName = $state.current.name;
@@ -33,7 +32,10 @@ angular.module('clientApp')
     };
 
     function init() {
-        setUserUid();
+        if (vm.stateName === 'root.entry') {
+            loadEntry();
+            handleNewEntryClicked();
+        }
     }
 
     function handleNewEntryClicked() {
@@ -60,43 +62,19 @@ angular.module('clientApp')
         }
     }
 
-    function setUserUid() {
-        $timeout(function(){
-           vm.userUid = auth.getCurrentUser().data.uid;
-           if (vm.stateName === 'root.entry') {
-               loadEntry();
-               handleNewEntryClicked();
-           }
-       }, 100);
-    }
-
-    function deleteEntry(entryKey) {
-        entries.deleteEntry(entryKey, vm.userUid).then(function() {
+    function deleteEntry() {
+        var deletedItemKey = vm.data.$id;
+        entries.deleteEntry(vm.data).then(function(response) {
+            toastr.success('You deleted entry ' + deletedItemKey, 'Success!');
             $state.go('root.dashboard');
-        });
-    }
-
-    function loadEntry() {
-        vm.isEditMode = false;
-        entries.getSingleEntry(vm.entryKey).then(function(snapshot) {
-            var response = snapshot.val();
-            var createdAt = buildEliteDate(response.created_at);
-            $timeout(function() {
-                vm.data.key = snapshot.key;
-                vm.data.title = response.title;
-                vm.data.message = makeHtmlSafe(response.message);
-                vm.data.date = createdAt;
-            });
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
     }
 
-    function buildEliteDate(time) {
-        var milliseconds = parseInt(time);
-        var newDate = new Date(milliseconds);
-        return newDate;
-
+    function loadEntry() {
+        vm.isEditMode = false;
+        vm.data = $firebaseObject(entries.getSingleEntry(vm.entryKey));
     }
 
     function saveProgress() {
@@ -110,27 +88,21 @@ angular.module('clientApp')
     }
 
     function createEntry() {
-        entries.createEntry(vm.data, vm.userUid).then(function(response) {
+        entries.createEntry(vm.data).then(function(response) {
             toastr.success('You created a new item.', 'Success!');
             toggleEditMode();
-            getEntriesEmit();
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
     }
 
     function updateEntry() {
-        entries.updateEntry(vm.data, vm.userUid).then(function(response) {
-            toastr.success('You updated entry ' + vm.data.key, 'Success!');
+        entries.updateEntry(vm.data).then(function(response) {
+            toastr.success('You updated entry ' + vm.data.$id, 'Success!');
             toggleEditMode();
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
-    }
-
-    function getEntriesEmit() {
-        var itemId = entries.getRecentNewEntry();
-        $rootScope.$emit('getEntries', itemId);
     }
 
     function makeHtmlSafe(string) {

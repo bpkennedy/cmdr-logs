@@ -8,14 +8,10 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('TitlebarCtrl', function ($state, auth, $timeout) {
+.controller('TitlebarCtrl', function ($state, currentUser, $timeout) {
     var vm = this;
-    vm.user = null;
+    vm.user = currentUser;
     vm.isEntry = isEntry;
-
-    function init() {
-        checkIfLoggedIn();
-    }
 
     function isEntry() {
         var state = $state.current.name;
@@ -26,11 +22,4 @@ angular.module('clientApp')
         }
     }
 
-    function checkIfLoggedIn() {
-        $timeout(function() {
-            vm.user = auth.getCurrentUser();
-        }, 100);
-    }
-
-    init();
 });

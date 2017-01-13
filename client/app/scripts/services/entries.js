@@ -8,54 +8,45 @@
 * Factory in the clientApp.
 */
 angular.module('clientApp')
-.factory('entries', function ($q, $window, toastr) {
+.factory('entries', function (auth, $firebaseObject, $window, toastr) {
     var vm = this;
-    vm.database = $window.firebase.database();
+    vm.user = auth.$getAuth();
     vm.lastCreatedUid = {
         key: ''
     };
 
-    function getUserEntries(uid) {
-        return $window.firebase.database().ref('/users/' + uid + '/entries').once('value');
+    function getUserEntries() {
+        return $window.firebase.database().ref('users/' + vm.user.uid).child('entries');
     }
 
     function getSingleEntry(key) {
-        return $window.firebase.database().ref('/entries/' + key).once('value');
+        return $window.firebase.database().ref('entries').child(key);
     }
 
-    function deleteEntry(key, uid) {
-        var deleteEntryRef = $window.firebase.database().ref('/entries/' + key);
-        return deleteEntryRef.remove().then(function() {
-            var deleteUserEntryRef = $window.firebase.database().ref('/users/' + uid + '/entries/' + key);
-            return deleteUserEntryRef.remove().then(function() {
-                toastr.success('You deleted entry ' + key, 'Success!');
-            }).catch(function(error) {
-                toastr.error(error.message, error.code);
-            });
-        }).catch(function(error) {
-            toastr.error(error.message, error.code);
+    function deleteEntry(entry) {
+        return entry.$remove().then(function(response) {
+            var deleteUserEntryRef = $window.firebase.database().ref('/users/' + vm.user.uid + '/entries/' + entry.$id);
+            var userEntryItemObj = $firebaseObject(deleteUserEntryRef);
+            return userEntryItemObj.$remove();
         });
     }
 
-    function updateEntry(data, uid) {
-        var entryRef = $window.firebase.database().ref('/entries/' + data.key);
-        return entryRef.update({
-            'title': data.title,
-            'message': data.message,
-            'modified_at': makeEliteDate()
-        }).then(function(snapshot) {
-            var userEntryRef = $window.firebase.database().ref('/users/' + uid + '/entries/' + data.key);
+    function updateEntry(entry) {
+        var eliteDate = makeEliteDate();
+        entry.modified_at = eliteDate;
+        return entry.$save().then(function(response) {
+            var userEntryRef = $window.firebase.database().ref('/users/' + vm.user.uid + '/entries/' + entry.$id);
             return userEntryRef.update({
-                'title': data.title,
-                'message': data.message,
-                'modified_at': makeEliteDate()
+                'title': entry.title,
+                'message': entry.message,
+                'modified_at': eliteDate
             });
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
     }
 
-    function createEntry(entry, uid) {
+    function createEntry(entry) {
         // Generate a reference to a new location and add some data using push()
         var newEntryRef = $window.firebase.database().ref('/entries/');
         return newEntryRef.push({
@@ -63,24 +54,24 @@ angular.module('clientApp')
             'message': entry.message,
             'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
-            'created_by': uid
+            'created_by': vm.user.uid
         }).then(function(snapshot) {
             var newEntryId = snapshot.key;
             vm.lastCreatedUid.key = newEntryId;
-            return updateUserEntries(entry, newEntryId, uid);
+            return updateUserEntries(entry, newEntryId);
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
     }
 
-    function updateUserEntries(entry, newEntryId, uid) {
-        var userRef = $window.firebase.database().ref('/users/' + uid + '/entries/');
+    function updateUserEntries(entry, newEntryId) {
+        var userRef = $window.firebase.database().ref('/users/' + vm.user.uid + '/entries/');
         return userRef.child(newEntryId).set({
             'title': entry.title,
             'message': entry.message,
             'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
-            'created_by': uid
+            'created_by': vm.user.uid
         });
     }
 

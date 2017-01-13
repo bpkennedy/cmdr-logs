@@ -1,11 +1,14 @@
 <div class="container">
     <p>This is the login view.</p>
-    <div class="" ng-click="vm.checkIfLoggedIn()">
-        Click to check if logged in.
+    <div class="well">
+        <div class="">
+            Logged in as {{vm.user.email}}
+        </div>
+        <div class="" ng-click="vm.signOutUser()">
+            Click to sign out user.
+        </div>
     </div>
-    <div class="" ng-click="vm.signOutUser()">
-        Click to sign out user.
-    </div>
+
     <div class="well">
         Click to try log in.
         <div class="form">
