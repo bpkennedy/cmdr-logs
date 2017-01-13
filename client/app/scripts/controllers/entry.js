@@ -8,10 +8,9 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('EntryCtrl', function ($scope, $rootScope, currentUser, $firebaseObject, $sce, $state, $timeout, auth, $stateParams, entries, toastr) {
+.controller('EntryCtrl', function ($firebaseObject, $sce, $state, auth, $stateParams, entries, toastr) {
     var vm = this;
     vm.entryKey = $stateParams.entryId;
-    vm.user = currentUser;
     vm.isEditMode = false;
     vm.isNew = $stateParams.isNew || false;
     vm.stateName = $state.current.name;
@@ -19,7 +18,6 @@ angular.module('clientApp')
     vm.deleteEntry = deleteEntry;
     vm.makeHtmlSafe = makeHtmlSafe;
     vm.saveProgress = saveProgress;
-    $scope.data = {};
 
     vm.data = {
         key: '',
@@ -93,7 +91,6 @@ angular.module('clientApp')
         entries.createEntry(vm.data).then(function(response) {
             toastr.success('You created a new item.', 'Success!');
             toggleEditMode();
-            getEntriesEmit();
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
@@ -106,11 +103,6 @@ angular.module('clientApp')
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
-    }
-
-    function getEntriesEmit() {
-        var itemId = entries.getRecentNewEntry();
-        $rootScope.$emit('getEntries', itemId);
     }
 
     function makeHtmlSafe(string) {

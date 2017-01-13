@@ -8,10 +8,10 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('LoginCtrl', function (auth, currentUser, toastr, $window) {
+.controller('LoginCtrl', function (auth, toastr, $window) {
     var vm = this;
     vm.auth = auth;
-    vm.user = currentUser;
+    vm.user = auth.$getAuth();
     vm.createUser = createUser;
     vm.updateUser = updateUser;
     vm.login = login;
@@ -25,7 +25,8 @@ angular.module('clientApp')
 
     function login() {
         vm.auth.$signInWithEmailAndPassword(vm.userEmail, vm.password).then(function(firebaseUser) {
-            toastr.success('You signed in.', 'Success!');
+            var name = vm.user.displayName || vm.user.email;
+            toastr.success('Welcome back ' + name, 'Yo!');
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });

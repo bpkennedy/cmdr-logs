@@ -8,7 +8,7 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('MainCtrl', function ($rootScope, $firebaseArray, $location, $state, entries, toastr, $timeout) {
+.controller('MainCtrl', function ($firebaseArray, $location, $state, entries, toastr, $timeout) {
     var vm = this;
     vm.entries = [];
     vm.goToNewEntry = goToNewEntry;
@@ -29,9 +29,4 @@ angular.module('clientApp')
     }
 
     init();
-
-    $rootScope.$on('getEntries', function (event, data) {
-        getEntries();
-        $state.go('root.entry', {entryId: data, isNew: false});
-    });
 });
