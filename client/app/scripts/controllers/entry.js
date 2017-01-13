@@ -77,10 +77,8 @@ angular.module('clientApp')
     }
 
     function loadEntry() {
-        console.log('loading entry called');
         vm.isEditMode = false;
         entries.getSingleEntry(vm.entryKey).then(function(snapshot) {
-            console.log('success in controller, setting response');
             var response = snapshot.val();
             var createdAt = buildEliteDate(response.created_at);
             $timeout(function() {
