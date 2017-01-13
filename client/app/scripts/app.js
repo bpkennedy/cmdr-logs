@@ -19,7 +19,8 @@ angular
     'ngTouch',
     'ui.router',
     'textAngular',
-    'toastr'
+    'toastr',
+    'ngAudio'
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/');
