@@ -92,6 +92,10 @@ angular
     });
     $stateProvider.state('root.login', {
         url: '/login',
+        parent: 'root',
+        params: {
+            isNew: null
+        },
         data: {
             pageName: 'LoginCtrl',
             browserTitle: 'Login'
