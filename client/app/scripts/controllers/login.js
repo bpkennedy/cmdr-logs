@@ -8,10 +8,11 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('LoginCtrl', function (auth, toastr, $window) {
+.controller('LoginCtrl', function ($state, auth, toastr, $window) {
     var vm = this;
     vm.auth = auth;
     vm.user = auth.$getAuth();
+    vm.submitForm = submitForm;
     vm.createUser = createUser;
     vm.updateUser = updateUser;
     vm.login = login;
@@ -20,12 +21,21 @@ angular.module('clientApp')
     vm.userEmail = '';
     vm.newUserEmail = '';
     vm.newPassword = '';
+    vm.confirmPassword = '';
     vm.cmdrName = '';
     vm.newCmdrName = '';
 
+    function submitForm(isValid) {
+        if (isValid) {
+            login();
+        }
+    }
+
     function login() {
         vm.auth.$signInWithEmailAndPassword(vm.userEmail, vm.password).then(function(firebaseUser) {
+            vm.user = auth.$getAuth();
             var name = vm.user.displayName || vm.user.email;
+            $state.go('root.dashboard', {isNew:false});
             toastr.success('Welcome back ' + name, 'Yo!');
         }).catch(function(error) {
             toastr.error(error.message, error.code);
@@ -41,8 +51,10 @@ angular.module('clientApp')
         });
     }
 
-    function updateUser() {
-        updateProfile(vm.newCmdrName);
+    function updateUser(isValid) {
+        if (isValid) {
+            updateProfile(vm.newCmdrName);
+        }
     }
 
     function updateProfile(cmdrNameVal) {
@@ -57,7 +69,8 @@ angular.module('clientApp')
     }
 
     function signOutUser() {
-        vm.auth.$signOut().then(function() {
+        vm.auth.$signOut().then(function(firebaseUser) {
+            vm.user = firebaseUser;
             toastr.success('You signed out.', 'Success!');
         }).catch(function(error) {
             toastr.error(error.message, error.code);

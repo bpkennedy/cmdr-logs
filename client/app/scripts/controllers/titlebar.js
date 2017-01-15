@@ -8,10 +8,19 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('TitlebarCtrl', function ($state, currentUser, $timeout) {
+.controller('TitlebarCtrl', function (auth, $state, currentUser, $timeout) {
     var vm = this;
-    vm.user = currentUser;
+    vm.auth = auth;
+    vm.user = auth.$getAuth();
     vm.isEntry = isEntry;
+
+    vm.auth.$onAuthStateChanged(function(firebaseUser) {
+        if (firebaseUser) {
+            vm.user = firebaseUser;
+        } else {
+            vm.user = null;
+        }
+    });
 
     function isEntry() {
         var state = $state.current.name;

@@ -84,7 +84,7 @@ html, body {
     min-height:100%;
 }
 #content-main {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 a {
     color: #FF8F00!important;
@@ -400,6 +400,25 @@ a {
     border-color: #D45705!important;
     color: inherit!important;
 }
+
+/*Login*/
+.login-wrapper {
+    position: absolute;
+    bottom: 0;
+    top: 55px;
+    width: calc(100% - 10px);
+    background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    color: #d45705;
+    font-family: 'sintony',sans-serif;
+    font-size: 18px;
+    height: calc(100% - 55px);
+    overflow: hidden;
+}
+.inner-login-wrapper {
+    height: 100%;
+    overflow: auto;
+}
+
 
 /*Misccellaneous*/
 #myCanvas{
