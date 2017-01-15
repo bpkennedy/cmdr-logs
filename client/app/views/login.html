@@ -17,7 +17,7 @@
                 </div>
             </form>
         </div>
-        <form ng-if="!vm.user" name="loginForm" class="form" ng-submit="vm.submitForm(loginForm.$valid)" novalidate>
+        <form ng-if="!vm.user" name="loginForm" class="form login-form" ng-submit="vm.submitForm(loginForm.$valid)" novalidate>
             <div class="form-group" ng-if="!vm.createMode">
                 <label for="userEmail">User Email</label>
                 <input class="form-control"

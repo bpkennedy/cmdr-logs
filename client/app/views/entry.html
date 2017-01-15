@@ -19,20 +19,22 @@
 </div>
 <div class="reading-actions">
     <div class="separator entry"></div>
-    <div class="new-entry edit" ng-click="vm.toggleEditMode('edit')" ng-cloak ng-if="!vm.isEditMode">
-        <i class="fa fa-pencil"></i>
-        Edit
-    </div>
-    <div class="new-entry edit" ng-click="vm.toggleEditMode('back')" ng-cloak ng-if="vm.isEditMode">
-        <i class="fa fa-arrow-left"></i>
-        Back
-    </div>
-    <div class="new-entry edit save" ng-click="vm.saveProgress()" ng-cloak ng-if="vm.isEditMode">
-        <i class="fa fa-floppy-o"></i>
-        Save
-    </div>
-    <div class="new-entry delete" ng-click="vm.deleteEntry(vm.data.key)">
-        <i class="fa fa-trash-o"></i>
-        Delete
+    <div ng-if="vm.data">
+        <div class="new-entry edit" ng-click="vm.toggleEditMode('edit')" ng-cloak ng-if="!vm.isEditMode">
+            <i class="fa fa-pencil"></i>
+            Edit
+        </div>
+        <div class="new-entry edit" ng-click="vm.toggleEditMode('back')" ng-cloak ng-if="vm.isEditMode">
+            <i class="fa fa-arrow-left"></i>
+            Back
+        </div>
+        <div class="new-entry edit save" ng-click="vm.saveProgress()" ng-cloak ng-if="vm.isEditMode">
+            <i class="fa fa-floppy-o"></i>
+            Save
+        </div>
+        <div class="new-entry delete" ng-click="vm.deleteEntry(vm.data.key)">
+            <i class="fa fa-trash-o"></i>
+            Delete
+        </div>
     </div>
 </div>
