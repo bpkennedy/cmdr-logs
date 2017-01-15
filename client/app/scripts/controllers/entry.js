@@ -19,12 +19,7 @@ angular.module('clientApp')
     vm.makeHtmlSafe = makeHtmlSafe;
     vm.saveProgress = saveProgress;
 
-    vm.data = {
-        key: '',
-        title: '',
-        message: '',
-        date: ''
-    };
+    vm.data = null;
 
     vm.tempData = {
         title: null,
@@ -50,10 +45,17 @@ angular.module('clientApp')
         if (navType === 'back') {
             vm.tempData.title = null;
             vm.tempData.message = null;
+            if (vm.isNew) {
+                vm.isNew = false;
+                $state.go('root.dashboard', {isNew:false});
+            }
         } else if (navType === 'edit') {
             vm.tempData.title = vm.data.title;
             vm.tempData.message = vm.data.message;
         } else if (navType === 'new') {
+            vm.data = {
+                isNew: true
+            };
             vm.tempData.title = makeHtmlSafe('Entry Title Here..');
             vm.tempData.message = makeHtmlSafe('<div style="font-style:italics;">The body of your entry here...</div>');
         } else if (navType === 'save') {
