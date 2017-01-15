@@ -413,14 +413,16 @@ a {
     font-size: 18px;
     height: calc(100% - 55px);
     overflow: hidden;
+    opacity: 0.7;
 }
 .inner-login-wrapper {
     height: 100%;
     overflow: auto;
+    opacity: 0.7;
 }
 
 
-/*Misccellaneous*/
+/*Miscellaneous*/
 #myCanvas{
     background: black none repeat scroll 0 0;
     bottom: 0;
