@@ -15,20 +15,46 @@ angular.module('clientApp')
     vm.submitForm = submitForm;
     vm.createUser = createUser;
     vm.updateUser = updateUser;
+    vm.resetPassword = resetPassword;
+    vm.cancelAction = cancelAction;
     vm.login = login;
     vm.signOutUser = signOutUser;
+    vm.forgotPassword = forgotPassword;
     vm.password = '';
     vm.userEmail = '';
     vm.newUserEmail = '';
+    vm.resetEmail = '';
     vm.newPassword = '';
     vm.confirmPassword = '';
     vm.cmdrName = '';
     vm.newCmdrName = '';
+    vm.createMode = false;
+    vm.resetPasswordMode = false;
 
     function submitForm(isValid) {
         if (isValid) {
             login();
         }
+    }
+
+    function resetPassword() {
+        vm.createMode = false;
+        vm.resetPasswordMode = true;
+    }
+
+    function cancelAction() {
+        vm.createMode = false;
+        vm.resetPasswordMode = false;
+    }
+
+    function forgotPassword() {
+        console.log(vm.resetEmail);
+        vm.auth.$sendPasswordResetEmail(vm.resetEmail).then(function() {
+            vm.resetPasswordMode = false;
+            toastr.success('Password reset email sent to ' + vm.resetEmail, 'Success!');
+        }).catch(function(error) {
+            toastr.error(error.message, error.code);
+        });
     }
 
     function login() {

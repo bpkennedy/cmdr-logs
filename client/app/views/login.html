@@ -13,13 +13,13 @@
                     SAVE
                 </button>
                 <div class="btn btn-danger" ng-click="vm.signOutUser()">
-                    Sign Out
+                    SIGN OUT
                 </div>
             </form>
         </div>
         <form ng-if="!vm.user" name="loginForm" class="form login-form" ng-submit="vm.submitForm(loginForm.$valid)" novalidate>
-            <div class="form-group" ng-if="!vm.createMode">
-                <label for="userEmail">User Email</label>
+            <div class="form-group" ng-if="!vm.createMode && !vm.resetPasswordMode">
+                <label for="userEmail">Email Address</label>
                 <input class="form-control"
                     id="userEmail"
                     type="email"
@@ -27,11 +27,11 @@
                     ng-model="vm.userEmail"
                     required>
                     <div ng-messages="loginForm.userEmail.$error">
-                        <p ng-message="required" ng-show="loginForm.userEmail.$touched">Username is required.</p>
+                        <p ng-message="required" ng-show="loginForm.userEmail.$touched">Email Address is required.</p>
                         <p ng-message="email" ng-show="loginForm.userEmail.$touched">Must be valid email.</p>
                     </div>
             </div>
-            <div class="form-group" ng-if="!vm.createMode">
+            <div class="form-group" ng-if="!vm.createMode && !vm.resetPasswordMode">
                 <label for="password">Password</label>
                 <input class="form-control"
                     type="text"
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="form-group" ng-if="vm.createMode">
-                <label for="newUserEmail">Username (email address)</label>
+                <label for="newUserEmail">Email Address</label>
                 <input class="form-control"
                     id="newUserEmail"
                     type="text"
@@ -52,8 +52,20 @@
                     ng-model="vm.newUserEmail"
                     required>
                 <div ng-messages="loginForm.newUserEmail.$error">
-                    <p ng-message="required" ng-show="loginForm.newUserEmail.$touched">Username is required.</p>
+                    <p ng-message="required" ng-show="loginForm.newUserEmail.$touched">Email Address is required.</p>
                     <p ng-message="email" ng-show="loginForm.newUserEmail.$touched">Must be valid email.</p>
+                </div>
+            </div>
+            <div class="form-group" ng-if="vm.createMode">
+                <label for="cmdrName">Commander Name</label>
+                <input class="form-control"
+                    id="cmdrName"
+                    type="text"
+                    name="cmdrName"
+                    ng-model="vm.cmdrName"
+                    required>
+                <div ng-messages="loginForm.cmdrName.$error">
+                    <p ng-message="required" ng-show="loginForm.cmdrName.$touched">Commander Name is required.</p>
                 </div>
             </div>
             <div class="form-group" ng-if="vm.createMode">
@@ -81,30 +93,37 @@
                     <p ng-message="pattern" ng-show="loginForm.confirmPassword.$touched">Passwords do not match.</p>
                 </div>
             </div>
-            <div class="form-group" ng-if="vm.createMode">
-                <label for="cmdrName">Commander Name</label>
+            <div class="form-group" ng-if="vm.resetPasswordMode">
+                <label for="resetEmail">Email Address</label>
                 <input class="form-control"
-                    id="cmdrName"
-                    type="text"
-                    name="cmdrName"
-                    ng-model="vm.cmdrName"
+                    id="resetEmail"
+                    type="email"
+                    name="resetEmail"
+                    ng-model="vm.resetEmail"
                     required>
-                <div ng-messages="loginForm.cmdrName.$error">
-                    <p ng-message="required" ng-show="loginForm.cmdrName.$touched">Commander Name is required.</p>
+                <div ng-messages="loginForm.resetEmail.$error">
+                    <p ng-message="required" ng-show="loginForm.resetEmail.$touched">Email is required.</p>
+                    <p ng-message="email" ng-show="loginForm.resetEmail.$touched">Must be valid email.</p>
                 </div>
             </div>
-            <button ng-disabled="loginForm.$invalid" type="submit" class="btn btn-primary" ng-if="!vm.createMode">
+            <button ng-disabled="loginForm.$invalid" type="submit" class="btn btn-primary" ng-if="!vm.createMode && !vm.resetPasswordMode">
                 LOGIN
             </button>
-            <button type="submit" class="btn btn-primary" ng-click="vm.createMode = !vm.createMode" ng-if="!vm.createMode">
+            <button type="submit" class="btn btn-primary" ng-click="vm.createMode = !vm.createMode" ng-if="!vm.createMode && !vm.resetPasswordMode">
                 REGISTER
             </button>
             <button ng-disabled="loginForm.$invalid" class="btn btn-danger" ng-click="vm.createUser()" ng-if="vm.createMode">
                 CREATE
             </button>
-            <button class="btn btn-default" ng-click="vm.createMode = !vm.createMode" ng-if="vm.createMode">
+            <button ng-disabled="loginForm.$invalid" class="btn btn-primary" ng-click="vm.forgotPassword()" ng-if="vm.resetPasswordMode">
+                SEND EMAIL
+            </button>
+            <button class="btn btn-default" ng-click="vm.cancelAction()" ng-if="vm.createMode || vm.resetPasswordMode">
                 CANCEL
             </button>
+            <div class="forgot-password" ng-click="vm.resetPassword()" ng-if="!vm.resetPasswordMode && !vm.createMode">
+                Forgot Password?
+            </div>
         </form>
     </div>
 </div>

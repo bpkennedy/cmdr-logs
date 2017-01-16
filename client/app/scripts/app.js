@@ -50,6 +50,15 @@ angular
     });
     $stateProvider.state('root.dashboard', {
         url: '/',
+        resolve: {
+            // controller will not be loaded until $requireSignIn resolves
+            // Auth refers to our $firebaseAuth wrapper in the factory below
+            'dashboard': ['auth', function(auth) {
+                // $requireSignIn returns a promise so the resolve waits for it to complete
+                // If the promise is rejected, it will throw a $stateChangeError (see above)
+                return auth.$requireSignIn();
+            }]
+        },
         data: {
             pageName: 'MainCtrl',
             browserTitle: 'Main'
@@ -70,6 +79,15 @@ angular
     $stateProvider.state('root.entry', {
         url: '/entries/:entryId',
         parent: 'root',
+        resolve: {
+            // controller will not be loaded until $requireSignIn resolves
+            // Auth refers to our $firebaseAuth wrapper in the factory below
+            'entry': ['auth', function(auth) {
+                // $requireSignIn returns a promise so the resolve waits for it to complete
+                // If the promise is rejected, it will throw a $stateChangeError (see above)
+                return auth.$requireSignIn();
+            }]
+        },
         params: {
             isNew: null
         },

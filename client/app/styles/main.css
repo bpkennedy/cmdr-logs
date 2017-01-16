@@ -431,6 +431,9 @@ a {
     margin: 0 auto;
     max-width: 400px;
 }
+.forgot-password {
+    padding: 5px;
+}
 
 
 /*Miscellaneous*/
