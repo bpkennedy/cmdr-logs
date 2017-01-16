@@ -14,7 +14,7 @@ var app = express();
 app.use(favicon(__dirname + '/dist/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 /// error handlers
