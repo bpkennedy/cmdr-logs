@@ -352,7 +352,7 @@ a {
 .separator.entry {
     width:100%;
 }
-.entry-title input {
+input {
     background: #200400;
     opacity: 0.7;
     line-height: 18px;
@@ -408,7 +408,7 @@ a {
     top: 55px;
     width: calc(100% - 10px);
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
-    color: #d45705;
+    color: #ffa202;
     font-family: 'sintony',sans-serif;
     font-size: 18px;
     height: calc(100% - 55px);
@@ -419,12 +419,13 @@ a {
     height: 100%;
     overflow: auto;
     opacity: 0.7;
-    padding: 5% 10% 10%;
+    padding: 2% 10% 10%;
 }
 
 .inner-login-wrapper .login-form {
     margin: 0 auto;
     max-width: 300px;
+    padding-bottom: 30px;
 }
 
 .inner-login-wrapper .logged-in-info {
@@ -433,6 +434,10 @@ a {
 }
 .forgot-password {
     padding: 5px;
+    font-size:0.8em;
+}
+.error-message {
+    color: red;
 }
 
 
@@ -445,6 +450,26 @@ a {
     right: 0;
     top: 0;
     opacity:0.7;
+}
+.cmdr-button {
+    background-color: #2d0706;
+    border: none;
+    padding: 7px;
+    display: inline-block;
+    transition: all 0.2s ease-in;
+}
+.cmdr-button:hover {
+    transition: all 0.2s ease-in;
+    color: rgba(0, 0, 0, 0.9)!important;
+    background: -moz-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    cursor:pointer;
+}
+.cmdr-button:disabled {
+    background-color: #120202;
+}
+.cmdr-button.delete:hover {
+    background:#8E1114!important;
+    color:#FFF!important;
 }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

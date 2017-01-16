@@ -48,7 +48,6 @@ angular.module('clientApp')
     }
 
     function forgotPassword() {
-        console.log(vm.resetEmail);
         vm.auth.$sendPasswordResetEmail(vm.resetEmail).then(function() {
             vm.resetPasswordMode = false;
             toastr.success('Password reset email sent to ' + vm.resetEmail, 'Success!');
@@ -88,6 +87,7 @@ angular.module('clientApp')
         user.updateProfile({
             displayName: cmdrNameVal
         }).then(function() {
+            vm.newCmdrName = '';
             toastr.success('Updated profile.', 'Success!');
         }, function(error) {
             toastr.error(error.message, error.code);
