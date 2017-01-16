@@ -1,0 +1,22 @@
+{
+  "name": "commander-log",
+  "version": "1.0.0",
+  "description": "A simple blog platform for Elite Dangerous CMDRS Role Play",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "cd server && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpkennedy/cmdr-logs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpkennedy/cmdr-logs/issues"
+  },
+  "homepage": "https://github.com/bpkennedy/cmdr-logs#readme"
+}
