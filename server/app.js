@@ -10,9 +10,6 @@ var users = require('./routes/users');
 
 var app = express();
 
-// all environments
-app.set('port', process.env.PORT || 8080);
-
 // app.use(favicon());
 app.use(favicon(__dirname + '/dist/favicon.ico'));
 app.use(logger('dev'));
@@ -59,6 +56,13 @@ if (app.get('env') === 'production') {
 		});
 	});
 }
+
+app.set('port', process.env.PORT || 3000);
+
+var server = app.listen(app.get('port'), function() {
+	// debug('Express server listening on port ' + server.address().port);
+   	console.log('myApp server listening on port ' + app.get('port'));
+});
 
 
 module.exports = app;
