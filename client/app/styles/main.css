@@ -440,6 +440,107 @@ input {
     color: red;
 }
 
+/*Toast UI*/
+#toast-container .toast {
+    background:none!important;
+    border-radius:0!important;
+    box-shadow: none!important;
+    margin: 0!important;
+    padding: 0!important;
+    width: inherit!important;
+}
+#toast-container .toast.toast-success {
+    background:none!important;
+}
+
+#toast-container .toast-success {
+    background: none!important;
+}
+#toast-container .toast-error {
+    background: none!important;
+}
+#toast-container .toast-warning {
+    background: none!important;
+}
+#toast-container .toast-success .arrow {
+    border-top: 18px solid #228DFF;
+    opacity: 0.8;
+}
+#toast-container .toast-success .background-text div {
+    display: none;
+}
+#toast-container .toast-top-right {
+    top: 34px;
+}
+.custom-container {
+    color: red;
+    font-size: 0.8em;
+    height: 142px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 330px;
+    position: relative;
+    opacity:0.85;
+}
+.cmdr-toast-lead {
+    color: #fff;;
+    font-size: 1.6em;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 38px;
+    white-space: normal;
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FFDD1B,
+               0 0 35px #FFDD1B,
+               0 0 40px #FFDD1B,
+               0 0 50px #FFDD1B,
+               0 0 75px #FFDD1B;
+}
+.triangle-container {
+    height: 94px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 160px;
+    opacity:0.85;
+}
+
+.arrow {
+    position: absolute;
+    width: 100px;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 18px solid #f00;
+}
+.arrow.bottom {
+    transform: rotate(180deg);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.arrow.middle {
+    bottom: 37px;
+    right: 10px;
+    transform: rotate(60deg);
+}
+.arrow.top {
+    bottom: 37px;
+    left: 10px;
+    transform: rotate(-60deg);
+}
+
+
+
 
 /*Miscellaneous*/
 #myCanvas{
