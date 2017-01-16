@@ -18,8 +18,17 @@ angular.module('clientApp')
     vm.deleteEntry = deleteEntry;
     vm.makeHtmlSafe = makeHtmlSafe;
     vm.saveProgress = saveProgress;
+    vm.dismissConfirm = dismissConfirm;
+    vm.saveAndReturn = saveAndReturn;
+    vm.goBack = goBack;
+    vm.toggleDelete = toggleDelete;
 
     vm.data = null;
+    vm.confirm = {
+        show: false,
+        type: '',
+        message: ''
+    };
 
     vm.tempData = {
         title: null,
@@ -40,28 +49,61 @@ angular.module('clientApp')
         }
     }
 
-    function toggleEditMode(navType) {
+    function dismissConfirm() {
+        vm.confirm.show = false;
+        vm.confirm.type = '';
+        vm.confirm.message = '';
+    }
+
+    function goBack() {
+        dismissConfirm();
         vm.isEditMode = !vm.isEditMode;
+        vm.tempData.title = null;
+        vm.tempData.message = null;
+        if (vm.isNew) {
+            vm.isNew = false;
+            $state.go('root.dashboard', {isNew:false});
+        }
+    }
+
+    function saveAndReturn() {
+        if (vm.confirm.type === 'save') {
+            dismissConfirm();
+            vm.saveProgress();
+        } else if (vm.confirm.type === 'delete') {
+            dismissConfirm();
+            deleteEntry();
+        }
+    }
+
+    function toggleEditMode(navType) {
         if (navType === 'back') {
-            vm.tempData.title = null;
-            vm.tempData.message = null;
-            if (vm.isNew) {
-                vm.isNew = false;
-                $state.go('root.dashboard', {isNew:false});
+            if (vm.tempData.title !== vm.data.title || vm.tempData.message !== vm.data.message) {
+                vm.confirm.show = true;
+                vm.confirm.type = 'save';
+                vm.confirm.message = 'Save your changes?';
+            } else {
+                vm.isEditMode = !vm.isEditMode;
+                goBack();
             }
         } else if (navType === 'edit') {
+            vm.isEditMode = !vm.isEditMode;
             vm.tempData.title = vm.data.title;
             vm.tempData.message = vm.data.message;
         } else if (navType === 'new') {
+            vm.isEditMode = !vm.isEditMode;
             vm.data = {
                 isNew: true
             };
-            vm.tempData.title = makeHtmlSafe('Entry Title Here..');
-            vm.tempData.message = makeHtmlSafe('<div style="font-style:italics;">The body of your entry here...</div>');
+            vm.tempData.title = vm.data.title;
+            vm.tempData.message = vm.data.message;
         } else if (navType === 'save') {
+            vm.isEditMode = !vm.isEditMode;
             vm.tempData.title = null;
             vm.tempData.message = null;
             vm.isNew = false;
+        } else {
+            vm.isEditMode = !vm.isEditMode;
         }
     }
 
@@ -73,6 +115,12 @@ angular.module('clientApp')
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
+    }
+
+    function toggleDelete() {
+        vm.confirm.show = true;
+        vm.confirm.type = 'delete';
+        vm.confirm.message = 'Are you sure?';
     }
 
     function loadEntry() {

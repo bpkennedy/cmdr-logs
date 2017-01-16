@@ -325,6 +325,15 @@ a {
 }
 
 /*Entry*/
+.confirm .message {
+    display: inline-block;
+    padding: 10px;
+}
+.reading-actions .confirm .new-entry {
+    display: inline-block;
+    bottom: 0;
+    width:15%;
+}
 .reading-actions {
     bottom: 0;
     height: 50px;

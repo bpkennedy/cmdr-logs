@@ -7,7 +7,7 @@
     </div>
     <div class="" ng-if="vm.isEditMode">
         <label for="title-text">Title: </label>
-        <input type="text" if="title-text" class="title-text-input" ng-model="vm.tempData.title"/>
+        <input type="text" if="title-text" class="title-text-input" ng-model="vm.tempData.title" placeholder="Entry title here..."/>
     </div>
 </div>
 <div class="separator reading-separator"></div>
@@ -20,6 +20,12 @@
 <div class="reading-actions">
     <div class="separator entry"></div>
     <div ng-if="vm.data">
+        <div class="confirm" ng-if="vm.confirm.show">
+            <div class="message">{{vm.confirm.message}}</div>
+            <div class="yes-confirm new-entry" ng-click="vm.saveAndReturn()">Yes</div>
+            <div class="no-confirm new-entry" ng-click="vm.goBack()" ng-if="vm.confirm.type !== 'delete'">No</div>
+            <div class="no-confirm new-entry" ng-click="vm.dismissConfirm()">Cancel</div>
+        </div>
         <div class="new-entry edit" ng-click="vm.toggleEditMode('edit')" ng-cloak ng-if="!vm.isEditMode">
             <i class="fa fa-pencil"></i>
             Edit
@@ -32,7 +38,7 @@
             <i class="fa fa-floppy-o"></i>
             Save
         </div>
-        <div class="new-entry delete" ng-click="vm.deleteEntry(vm.data.key)">
+        <div class="new-entry delete" ng-click="vm.toggleDelete()" ng-if="!vm.data.isNew">
             <i class="fa fa-trash-o"></i>
             Delete
         </div>
