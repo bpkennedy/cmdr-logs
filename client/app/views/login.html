@@ -9,7 +9,7 @@
                     <label for="newCmdrName">Update commander name</label>
                     <input class="" id="newCmdrName" type="text" name="" value="" ng-model="vm.newCmdrName">
                 </div>
-                <div class="cmdr-button" ng-click="vm.updateProfile()">
+                <div class="cmdr-button" ng-click="vm.updateProfile(vm.newCmdrName)">
                     SAVE
                 </div>
                 <div class="cmdr-button delete" ng-click="vm.signOutUser()">
@@ -112,7 +112,7 @@
             <button type="submit" class="cmdr-button" ng-click="vm.createMode = !vm.createMode" ng-if="!vm.createMode && !vm.resetPasswordMode">
                 REGISTER
             </button>
-            <button ng-disabled="loginForm.$invalid" class="cmdr-button" ng-click="vm.createUser()" ng-if="vm.createMode">
+            <button ng-disabled="loginForm.$invalid" class="cmdr-button" ng-if="vm.createMode">
                 CREATE
             </button>
             <button ng-disabled="loginForm.$invalid" class="cmdr-button" ng-click="vm.forgotPassword()" ng-if="vm.resetPasswordMode">

@@ -83,7 +83,6 @@ angular.module('clientApp')
                 vm.confirm.type = 'save';
                 vm.confirm.message = 'Save your changes?';
             } else {
-                vm.isEditMode = !vm.isEditMode;
                 goBack();
             }
         } else if (navType === 'edit') {
@@ -129,12 +128,18 @@ angular.module('clientApp')
     }
 
     function saveProgress() {
-        vm.data.title = vm.tempData.title;
-        vm.data.message = vm.tempData.message;
-        if (vm.isNew) {
-            createEntry();
+        if (!vm.tempData.title || vm.tempData.title === '') {
+            toastr.error('No Entry title', 'Required Fields');
+        } else if (!vm.tempData.message || vm.tempData.message === '') {
+            toastr.error('No Entry message', 'Required Fields');
         } else {
-            updateEntry();
+            vm.data.title = vm.tempData.title;
+            vm.data.message = vm.tempData.message;
+            if (vm.isNew) {
+                createEntry();
+            } else {
+                updateEntry();
+            }
         }
     }
 

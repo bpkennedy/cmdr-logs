@@ -33,7 +33,11 @@ angular.module('clientApp')
 
     function submitForm(isValid) {
         if (isValid) {
-            login();
+            if (vm.createMode) {
+                createUser();
+            } else {
+                login();
+            }
         }
     }
 
@@ -68,21 +72,23 @@ angular.module('clientApp')
     }
 
     function createUser() {
-        vm.auth.$createUserWithEmailAndPassword(vm.newUserEmail, vm.newPassword).then(function(user) {
-            updateProfile(vm.cmdrName);
-            toastr.success('New account created.', 'Success!');
+        vm.auth.$createUserWithEmailAndPassword(vm.newUserEmail, vm.newPassword).then(function() {
+            updateProfile(vm.cmdrName, 'new');
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
     }
 
-    function updateProfile() {
+    function updateProfile(commanderName, isNew) {
         var user = $window.firebase.auth().currentUser;
         user.updateProfile({
-            displayName: vm.newCmdrName
+            displayName: commanderName
         }).then(function() {
             vm.newCmdrName = '';
             toastr.success('Updated profile.', 'Success!');
+            if (isNew) {
+                $state.go('root.dashboard');
+            }
         }, function(error) {
             toastr.error(error.message, error.code);
         });
