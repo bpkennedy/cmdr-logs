@@ -458,24 +458,25 @@ input {
     padding: 0!important;
     width: inherit!important;
 }
-#toast-container .toast.toast-success {
+#toast-container .toast.toast-success,
+#toast-container .toast.toast-error,
+#toast-container .toast.toast-warning {
     background:none!important;
 }
 
-#toast-container .toast-success {
-    background: none!important;
-}
-#toast-container .toast-error {
-    background: none!important;
-}
+#toast-container .toast-success,
+#toast-container .toast-error,
 #toast-container .toast-warning {
     background: none!important;
 }
+
 #toast-container .toast-success .arrow {
     border-top: 18px solid #228DFF;
     opacity: 0.8;
 }
-#toast-container .toast-success .background-text div {
+#toast-container .toast-success .background-text div,
+#toast-container .toast-error .background-text div,
+#toast-container .toast-warning .background-text div {
     display: none;
 }
 #toast-container .toast-top-right {
