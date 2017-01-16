@@ -11,7 +11,7 @@ var users = require('./routes/users');
 var app = express();
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 
 // app.use(favicon());
 app.use(favicon(__dirname + '/dist/favicon.ico'));
