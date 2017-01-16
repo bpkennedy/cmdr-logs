@@ -14,7 +14,7 @@ angular.module('clientApp')
     vm.user = auth.$getAuth();
     vm.submitForm = submitForm;
     vm.createUser = createUser;
-    vm.updateUser = updateUser;
+    vm.updateProfile = updateProfile;
     vm.resetPassword = resetPassword;
     vm.cancelAction = cancelAction;
     vm.login = login;
@@ -76,16 +76,10 @@ angular.module('clientApp')
         });
     }
 
-    function updateUser(isValid) {
-        if (isValid) {
-            updateProfile(vm.newCmdrName);
-        }
-    }
-
-    function updateProfile(cmdrNameVal) {
+    function updateProfile() {
         var user = $window.firebase.auth().currentUser;
         user.updateProfile({
-            displayName: cmdrNameVal
+            displayName: vm.newCmdrName
         }).then(function() {
             vm.newCmdrName = '';
             toastr.success('Updated profile.', 'Success!');

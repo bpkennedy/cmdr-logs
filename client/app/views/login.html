@@ -4,17 +4,17 @@
             <div class="">
                 Logged in as {{vm.user.email}}
             </div>
-            <form class="form" name="updateForm" ng-submit="vm.updateUser(updateForm.$valid)" novalidate>
+            <form class="form" name="updateForm" novalidate>
                 <div class="form-group">
                     <label for="newCmdrName">Update commander name</label>
                     <input class="" id="newCmdrName" type="text" name="" value="" ng-model="vm.newCmdrName">
                 </div>
-                <button class="cmdr-button">
+                <div class="cmdr-button" ng-click="vm.updateProfile()">
                     SAVE
-                </button>
-                <button class="cmdr-button delete" ng-click="vm.signOutUser()">
+                </div>
+                <div class="cmdr-button delete" ng-click="vm.signOutUser()">
                     SIGN OUT
-                </button>
+                </div>
             </form>
         </div>
         <form ng-if="!vm.user" name="loginForm" class="form login-form" ng-submit="vm.submitForm(loginForm.$valid)" novalidate>

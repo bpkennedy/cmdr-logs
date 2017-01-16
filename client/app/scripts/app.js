@@ -127,7 +127,7 @@ angular
         }
     });
 })
-.config(function($provide) {
+.config(function($provide, toastrConfig) {
     $provide.decorator('taOptions', ['taRegisterTool', '$delegate', function(taRegisterTool, taOptions) {
         taOptions.toolbar = [
             ['bold', 'italics', 'underline', 'justifyLeft', 'justifyCenter', 'justifyRight', 'h1', 'h2', 'h3', 'p', 'pre', 'html', 'insertImage','insertLink', 'insertVideo'],
@@ -136,6 +136,11 @@ angular
         ];
         return taOptions;
     }]);
+    angular.extend(toastrConfig, {
+        templates: {
+            toast: 'views/toast.html'
+        }
+    });
 })
 .run(function (firebaseSvc, $rootScope, $state) {
     firebaseSvc.initialize();
