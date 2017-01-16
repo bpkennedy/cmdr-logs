@@ -10,6 +10,9 @@ var users = require('./routes/users');
 
 var app = express();
 
+// all environments
+app.set('port', process.env.PORT || 3000);
+
 // app.use(favicon());
 app.use(favicon(__dirname + '/dist/favicon.ico'));
 app.use(logger('dev'));
