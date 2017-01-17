@@ -8,7 +8,7 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('EntryCtrl', function ($firebaseObject, $sce, $state, auth, $stateParams, entries, toastr) {
+.controller('EntryCtrl', function (ngAudio, $firebaseObject, $sce, $state, auth, $stateParams, entries, toastr) {
     var vm = this;
     vm.entryKey = $stateParams.entryId;
     vm.isEditMode = false;
@@ -22,6 +22,9 @@ angular.module('clientApp')
     vm.saveAndReturn = saveAndReturn;
     vm.goBack = goBack;
     vm.toggleDelete = toggleDelete;
+    vm.clickBtnSound = ngAudio.load('../sounds/buttonClick.mp3');
+    vm.clickBtnHover = ngAudio.load('../sounds/buttonHover.mp3');
+    vm.playSound = playSound;
 
     vm.data = null;
     vm.confirm = {
@@ -56,6 +59,7 @@ angular.module('clientApp')
     }
 
     function goBack() {
+        playSound('click');
         dismissConfirm();
         vm.isEditMode = !vm.isEditMode;
         vm.tempData.title = null;
@@ -73,12 +77,14 @@ angular.module('clientApp')
         } else if (vm.confirm.type === 'delete') {
             dismissConfirm();
             deleteEntry();
+            playSound('click');
         }
     }
 
     function toggleEditMode(navType) {
         if (navType === 'back') {
             if (vm.tempData.title !== vm.data.title || vm.tempData.message !== vm.data.message) {
+                playSound('click');
                 vm.confirm.show = true;
                 vm.confirm.type = 'save';
                 vm.confirm.message = 'Save your changes?';
@@ -86,6 +92,7 @@ angular.module('clientApp')
                 goBack();
             }
         } else if (navType === 'edit') {
+            playSound('click');
             vm.isEditMode = !vm.isEditMode;
             vm.tempData.title = vm.data.title;
             vm.tempData.message = vm.data.message;
@@ -97,6 +104,7 @@ angular.module('clientApp')
             vm.tempData.title = vm.data.title;
             vm.tempData.message = vm.data.message;
         } else if (navType === 'save') {
+            playSound('click');
             vm.isEditMode = !vm.isEditMode;
             vm.tempData.title = null;
             vm.tempData.message = null;
@@ -117,6 +125,7 @@ angular.module('clientApp')
     }
 
     function toggleDelete() {
+        playSound('click');
         vm.confirm.show = true;
         vm.confirm.type = 'delete';
         vm.confirm.message = 'Are you sure?';
@@ -144,6 +153,7 @@ angular.module('clientApp')
     }
 
     function createEntry() {
+        playSound('click');
         entries.createEntry(vm.data).then(function(response) {
             toastr.success('You created a new item.', 'Success!');
             toggleEditMode();
@@ -153,6 +163,7 @@ angular.module('clientApp')
     }
 
     function updateEntry() {
+        playSound('click');
         entries.updateEntry(vm.data).then(function(response) {
             toastr.success('You updated entry ' + vm.data.$id, 'Success!');
             toggleEditMode();
@@ -164,6 +175,14 @@ angular.module('clientApp')
     function makeHtmlSafe(string) {
         var safeString = $sce.trustAsHtml(string);
         return safeString;
+    }
+
+    function playSound(type) {
+        if (type === 'click') {
+            vm.clickBtnSound.play();
+        } else if (type === 'hover') {
+            vm.clickBtnHover.play();
+        }
     }
 
     init();

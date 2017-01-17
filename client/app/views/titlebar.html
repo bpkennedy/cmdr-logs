@@ -12,12 +12,12 @@
 
         <ul class="nav navbar-nav">
           <li ng-class="{active: vm.isEntry()}">
-              <a ui-sref="root.dashboard" ng-audio="../sounds/navClick.wav" volume="1">CMDR Logs</a>
+              <a ui-sref="root.dashboard" ng-audio="../sounds/navClick.mp3" volume="1">CMDR Logs</a>
           </li>
           <li ng-if="!vm.user" ui-sref-active="active">
-              <a ui-sref="root.login" ng-audio="../sounds/navClick.wav" volume="1">Login</a>
+              <a ui-sref="root.login" ng-audio="../sounds/navClick.mp3" volume="1">Login</a>
           </li>
-          <li ng-if="vm.user" ui-sref-active="active" ng-audio="../sounds/navClick.wav" volume="1">
+          <li ng-if="vm.user" ui-sref-active="active" ng-audio="../sounds/navClick.mp3" volume="1">
               <a ui-sref="root.login">{{vm.user.displayName || 'COMMANDER'}}</a>
           </li>
         </ul>

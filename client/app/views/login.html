@@ -9,10 +9,10 @@
                     <label for="newCmdrName">Update commander name</label>
                     <input class="" id="newCmdrName" type="text" name="" value="" ng-model="vm.newCmdrName">
                 </div>
-                <div class="cmdr-button" ng-click="vm.updateProfile(vm.newCmdrName)">
+                <div class="cmdr-button" ng-mouseover="vm.playSound('hover')" ng-click="vm.updateProfile(vm.newCmdrName)">
                     SAVE
                 </div>
-                <div class="cmdr-button delete" ng-click="vm.signOutUser()">
+                <div class="cmdr-button delete" ng-mouseover="vm.playSound('hover')" ng-click="vm.signOutUser()">
                     SIGN OUT
                 </div>
             </form>
@@ -106,22 +106,22 @@
                     <p class="error-message" ng-message="email" ng-show="loginForm.resetEmail.$touched">Must be valid email.</p>
                 </div>
             </div>
-            <button ng-disabled="loginForm.$invalid" type="submit" class="cmdr-button" ng-if="!vm.createMode && !vm.resetPasswordMode">
+            <button ng-disabled="loginForm.$invalid" ng-mouseover="vm.playSound('hover')" type="submit" class="cmdr-button" ng-if="!vm.createMode && !vm.resetPasswordMode">
                 LOGIN
             </button>
-            <button type="submit" class="cmdr-button" ng-click="vm.createMode = !vm.createMode" ng-if="!vm.createMode && !vm.resetPasswordMode">
+            <button type="submit" class="cmdr-button" ng-mouseover="vm.playSound('hover')" ng-click="vm.createMode = !vm.createMode" ng-if="!vm.createMode && !vm.resetPasswordMode">
                 REGISTER
             </button>
-            <button ng-disabled="loginForm.$invalid" class="cmdr-button" ng-if="vm.createMode">
+            <button ng-disabled="loginForm.$invalid" ng-mouseover="vm.playSound('hover')" class="cmdr-button" ng-if="vm.createMode">
                 CREATE
             </button>
-            <button ng-disabled="loginForm.$invalid" class="cmdr-button" ng-click="vm.forgotPassword()" ng-if="vm.resetPasswordMode">
+            <button ng-disabled="loginForm.$invalid" class="cmdr-button" ng-mouseover="vm.playSound('hover')" ng-click="vm.forgotPassword()" ng-if="vm.resetPasswordMode">
                 SEND EMAIL
             </button>
-            <button class="cmdr-button" ng-click="vm.cancelAction()" ng-if="vm.createMode || vm.resetPasswordMode">
+            <button class="cmdr-button" ng-mouseover="vm.playSound('hover')" ng-click="vm.cancelAction()" ng-if="vm.createMode || vm.resetPasswordMode">
                 CANCEL
             </button>
-            <div class="forgot-password" ng-click="vm.resetPassword()" ng-if="!vm.resetPasswordMode && !vm.createMode">
+            <div class="forgot-password" ng-mouseover="vm.playSound('hover')" ng-click="vm.resetPassword()" ng-if="!vm.resetPasswordMode && !vm.createMode">
                 Forgot Password?
             </div>
         </form>
