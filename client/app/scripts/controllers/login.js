@@ -8,10 +8,13 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('LoginCtrl', function ($state, auth, toastr, $window) {
+.controller('LoginCtrl', function (ngAudio, $state, auth, toastr, $window) {
     var vm = this;
     vm.auth = auth;
     vm.user = auth.$getAuth();
+    vm.clickBtnSound = ngAudio.load('../sounds/buttonClick.mp3');
+    vm.clickBtnHover = ngAudio.load('../sounds/buttonHover.mp3');
+    vm.playSound = playSound;
     vm.submitForm = submitForm;
     vm.createUser = createUser;
     vm.updateProfile = updateProfile;
@@ -33,6 +36,7 @@ angular.module('clientApp')
 
     function submitForm(isValid) {
         if (isValid) {
+            playSound('click');
             if (vm.createMode) {
                 createUser();
             } else {
@@ -80,6 +84,7 @@ angular.module('clientApp')
     }
 
     function updateProfile(commanderName, isNew) {
+        playSound('click');
         var user = $window.firebase.auth().currentUser;
         user.updateProfile({
             displayName: commanderName
@@ -95,12 +100,21 @@ angular.module('clientApp')
     }
 
     function signOutUser() {
+        playSound('click');
         vm.auth.$signOut().then(function(firebaseUser) {
             vm.user = firebaseUser;
             toastr.success('You signed out.', 'Success!');
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
+    }
+
+    function playSound(type) {
+        if (type === 'click') {
+            vm.clickBtnSound.play();
+        } else if (type === 'hover') {
+            vm.clickBtnHover.play();
+        }
     }
 
 });
