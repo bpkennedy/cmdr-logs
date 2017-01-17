@@ -75,6 +75,22 @@ html, body {
 /*Global*/
 .wrapper {
     padding: 5px;
+    background: -webkit-radial-gradient(black 15%, transparent 16%) 0 0,
+        -webkit-radial-gradient(black 15%, transparent 16%) 8px 8px,
+        -webkit-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        -webkit-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background: -moz-radial-gradient(black 15%, transparent 16%) 0 0,
+        -moz-radial-gradient(black 15%, transparent 16%) 8px 8px,
+        -moz-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        -moz-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background: -ms-radial-gradient(black 15%, transparent 16%) 0 0,
+        -ms-radial-gradient(black 15%, transparent 16%) 8px 8px,
+        -ms-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        -ms-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background: -o-radial-gradient(black 15%, transparent 16%) 0 0,
+        -o-radial-gradient(black 15%, transparent 16%) 8px 8px,
+        -o-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        -o-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
     background: radial-gradient(black 15%, transparent 16%) 0 0,
         radial-gradient(black 15%, transparent 16%) 8px 8px,
         radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
@@ -98,11 +114,19 @@ a {
     position: fixed;
     width:99.3%;
     z-index: 2;
+    background: -webkit-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -moz-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -ms-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -o-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     opacity: .7;
     border:none;
 }
 .titlebar-wrapper .navbar {
+    background: -webkit-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -moz-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -ms-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -o-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     opacity: .7;
     border:none;
@@ -152,7 +176,11 @@ a {
     padding-top:10px;
 }
 .active a {
+    background: -webkit-radial-gradient(circle, #FFA20B, #FAB13E)!important;
     background: -moz-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    background: -ms-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    background: -o-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    background: radial-gradient(circle, #FFA20B, #FAB13E)!important;
     color: rgba(0, 0, 0, 0.9)!important;
     text-transform:uppercase;
 }
@@ -169,6 +197,10 @@ a {
 .sidebar {
     font-family: "sintony";
     font-size: 18px;
+    background: -webkit-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -moz-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -ms-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -o-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     opacity: .7;
     border:none;
@@ -205,7 +237,11 @@ a {
     cursor: pointer;
 }
 .new-entry {
-    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
     background-color: #2d0706;
     bottom: 7px;
     left: 7px;
@@ -219,9 +255,17 @@ a {
     padding-right: 5px;
 }
 .new-entry:hover {
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
     color: rgba(0, 0, 0, 0.9)!important;
+    background: -webkit-radial-gradient(circle, #FFA20B, #FAB13E)!important;
     background: -moz-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    background: -ms-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    background: -o-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    background: radial-gradient(circle, #FFA20B, #FAB13E)!important;
     cursor:pointer;
 }
 .entry-date {
@@ -283,6 +327,10 @@ a {
     font-family: "sintony";
     text-transform: none;
     font-size: 18px;
+    background: -webkit-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -moz-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -ms-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -o-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     opacity: .7;
     color: #D45705;
@@ -340,6 +388,10 @@ a {
     position: fixed;
     left:310px;
     width: calc(100% - 335px);
+    background: -webkit-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -moz-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -ms-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -o-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     opacity: 0.7;
 }
@@ -416,6 +468,10 @@ input {
     bottom: 0;
     top: 55px;
     width: calc(100% - 10px);
+    background: -webkit-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -moz-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -ms-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -o-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     color: #ffa202;
     font-family: 'sintony',sans-serif;
@@ -567,12 +623,23 @@ input {
     border: none;
     padding: 7px;
     display: inline-block;
-    transition: all 0.2s ease-in;
-}
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;}
 .cmdr-button:hover {
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
     color: rgba(0, 0, 0, 0.9)!important;
+    background: -webkit-radial-gradient(circle, #FFA20B, #FAB13E)!important;
     background: -moz-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    background: -ms-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    background: -o-radial-gradient(circle, #FFA20B, #FAB13E)!important;
+    background: radial-gradient(circle, #FFA20B, #FAB13E)!important;
     cursor:pointer;
 }
 .cmdr-button:disabled {
