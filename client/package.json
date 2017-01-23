@@ -5,7 +5,7 @@
   "productName": "Commander Log",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
-    "electron-packager": "^8.5.0",
+    "electron-packager": "8.4.0",
     "grunt": "^0.4.5",
     "grunt-angular-templates": "^0.5.7",
     "grunt-concurrent": "^1.0.0",
@@ -42,8 +42,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=images/yeoman.png --prune=true --out=release-builds",
-    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=images/yeoman.png --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Commander Log\"",
+    "package-mac": "electron-packager . --platform=darwin --arch=x64 --icon=images/yeoman.png --prune=true --out=release-builds --overwrite=true",
+    "package-win": "electron-packager . --platform=win32 --arch=ia32 --icon=images/yeoman.png --prune=true --out=release-builds --overwrite=true --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Commander Log\"",
     "test": "karma start test/karma.conf.js"
   },
   "dependencies": {
