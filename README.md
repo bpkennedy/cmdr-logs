@@ -27,6 +27,26 @@ The production run command is `npm start`.
 
 Note: Bower is installed to `/client/app` so that the server can access the bower_components location without having to change the index.html of those resources.
 
+## Mac Electron build
+Commander Log uses electron to create desktop software.
+* Global npm installs, do `npm install -g electron electron-packager@8.4.0`
+
+Ensure you've done `npm install` and `bower install` from the `/client` folder.  Now simply do `npm run package-mac` and after a time it should create a `release-builds` folder where you'll find the generated .app.
+
+## Windows Electron build
+Commander Log uses electron to create desktop software.  Currently, for Windows the pre-requisites are to have the following setup:
+* Start from Win10 OS.
+* Install Visual Studio 2015 (or Community 2015), and MAKE SURE to pick Visual C++ and Python Tools during installation options.  If already installed, you can return to that screen by going Control Panel > click Update on VS2015 > Then pick during Update.
+* Install Node
+* Install npm
+* Global npm installs, do `npm install -g electron electron-packager@8.4.0` - if totally new OS, you'll need the normal globals as well like `bower grunt-cli`, etc..
+* Install Python 2.7 (python.org)
+* Add a system variable to your PATH.  You can use command prompt to do "setx GYP_MSVS_VERSION 2015".
+* (optional) - setup Windows Powershell and use this for all your terminal actions.  I recommend ensuring your Windows Powershell version is up to date (I think this requires newest version of GA .NET).
+* NOTE: Run Powershell as Adminstrator if you get errors about "cannot create symlinks".
+
+After pre-reqs are in place, you should be able to build from that windows machine.  Ensure you've done `npm install` and `bower install` in the `/client` folder.  Then you'll want to also copy the `bower_components` folder into the `/client/app` folder, as I havent' setup a better way to do this now (I realize it's silly).  Now from `/client` simply do `npm run package-win` and it will build a `release-builds` folder where you'll find the generated .exe.
+
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.

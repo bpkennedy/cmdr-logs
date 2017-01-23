@@ -1,0 +1,26 @@
+<div class="main-wrapper">
+    <div class="sidebar">
+        <div class="sidebar-title">
+            Journal Entries
+        </div>
+        <div class="separator"></div>
+        <ul class="journal-list">
+            <li ng-repeat="entry in vm.entries" ui-sref="root.entry({entryId: entry.$id, isNew: false})">
+                <div class="entry-text">
+                    {{entry.title}}
+                </div>
+                <div class="entry-date">
+                    {{entry.created_at | date:'MMM d, y'}}
+                </div>
+            </li>
+        </ul>
+        <div class="new-entry" ng-mouseover="vm.playSound('hover')" ng-click="vm.goToNewEntry()">
+            <i class="fa fa-plus"></i>
+            New Entry
+        </div>
+    </div>
+    <div class="vertical-separator"></div>
+    <div class="reading-pane">
+        <div id="entry-wrapper" ui-view="entry"></div>
+    </div>
+</div>
