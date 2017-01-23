@@ -25,6 +25,7 @@ build/Release
 client/node_modules
 client/app/bower_components
 server/node_modules
+client/release-builds
 
 # Third Party
 .DS_Store
