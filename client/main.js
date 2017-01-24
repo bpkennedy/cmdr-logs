@@ -1,3 +1,10 @@
+//handle setupevents as quickly as possible
+const setupEvents = require('./installers/setupEvents')
+if (setupEvents.handleSquirrelEvent()) {
+   // squirrel event handled and app will exit in 1000ms, so don't do anything else
+   return;
+}
+
 const electron = require('electron')
 // Module to control application life.
 const app = electron.app
@@ -15,6 +22,7 @@ function createWindow () {
       height: 600,
       minHeight: 600,
       minWidth: 900,
+      title: 'CommanderLog',
       icon: __dirname + '/app/images/64x64.png'
   })
 
