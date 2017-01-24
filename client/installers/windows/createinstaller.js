@@ -14,12 +14,13 @@ function getInstallerConfig () {
     const outPath = path.join(rootPath, 'release-builds')
 
     return Promise.resolve({
-       appDirectory: path.join(outPath, 'Commander\ Log-win32-ia32/'),
+       appDirectory: path.join(outPath, 'CommanderLog-win32-ia32/'),
+       loadingGif: path.join(rootPath, 'images', 'cmdrLoader.gif'),
        authors: 'Brian Kennedy',
        noMsi: true,
        outputDirectory: path.join(outPath, 'windows-installer'),
-       exe: 'Commander Log.exe',
+       exe: 'CommanderLog.exe',
        setupExe: 'CommanderLogInstaller.exe',
-       setupIcon: path.join(rootPath, 'images', 'commanderLog.ico')
+       iconUrl: 'https://github.com/bpkennedy/cmdr-logs/blob/master/commanderLog.ico'
    })
 }
