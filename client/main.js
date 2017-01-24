@@ -10,8 +10,13 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 900, height: 600})
-  mainWindow.setMinimumSize(900, 600)
+  mainWindow = new BrowserWindow({
+      width: 900,
+      height: 600,
+      minHeight: 600,
+      minWidth: 900,
+      icon: __dirname + '/app/images/64x64.png'
+  })
 
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/app/index.html`)
