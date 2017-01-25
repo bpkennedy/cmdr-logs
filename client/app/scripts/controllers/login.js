@@ -43,10 +43,10 @@ angular.module('clientApp')
         isElectron();
     }
 
-    function download() {
-        if (vm.detect.osType === 'Windows') {
+    function download(term) {
+        if (term === 'Windows') {
             $window.location.href = 'https://github.com/bpkennedy/cmdr-logs/raw/master/desktopApps/commanderLogWindows.7z';
-        } else if (vm.detect.osType === 'Mac') {
+        } else if (term === 'Mac') {
             $window.location.href = 'https://github.com/bpkennedy/cmdr-logs/raw/master/desktopApps/CommanderLog.dmg';
         }
     }
