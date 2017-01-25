@@ -33,6 +33,42 @@ angular.module('clientApp')
     vm.newCmdrName = '';
     vm.createMode = false;
     vm.resetPasswordMode = false;
+    vm.detect = {
+        isElectron: false,
+        osType: ''
+    };
+    vm.download = download;
+
+    function init() {
+        isElectron();
+    }
+
+    function download() {
+        if (vm.detect.osType === 'Windows') {
+            $window.location.href = 'https://github.com/bpkennedy/cmdr-logs/raw/master/desktopApps/commanderLogWindows.7z';
+        } else if (vm.detect.osType === 'Mac') {
+            $window.location.href = 'https://github.com/bpkennedy/cmdr-logs/raw/master/desktopApps/CommanderLog.dmg';
+        }
+    }
+
+    function isElectron() {
+        if ((typeof process !== 'undefined') && process.versions && (process.versions.electron !== undefined)) {
+            vm.detect.isElectron = true;
+        } else {
+            setOsType();
+        }
+    }
+
+    function setOsType() {
+        var platform = $window.platform;
+        if (platform.os.family.indexOf('Windows') > -1 || platform.description.indexOf('Windows') > -1) {
+            vm.detect.osType = 'Windows';
+        } else if (platform.os.family.indexOf('Mac') > -1 || platform.description.indexOf('Mac') > -1 || platform.os.family.indexOf('OS X') > -1) {
+            vm.detect.osType = 'Mac';
+        } else {
+            vm.detecet.isElectron = false;
+        }
+    }
 
     function submitForm(isValid) {
         if (isValid) {
@@ -116,5 +152,7 @@ angular.module('clientApp')
             vm.clickBtnHover.play();
         }
     }
+
+    init();
 
 });

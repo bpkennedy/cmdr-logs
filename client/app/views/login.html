@@ -1,5 +1,11 @@
 <div class="login-wrapper">
     <div class="inner-login-wrapper">
+        <div class="desktop-apps-wrapper" ng-if="!vm.detect.isElectron && !vm.user">
+            <div class="cmdr-button download" ng-click="vm.download()">
+                <i class="fa fa-download"></i>
+                <span class="button-text">Download for {{vm.detect.osType}}</span>
+            </div>
+        </div>
         <div class="logged-in-info" ng-if="vm.user">
             <div class="">
                 Logged in as {{vm.user.email}}
