@@ -494,6 +494,7 @@ input {
 }
 .desktop-apps-wrapper .cmdr-button {
     width:100%;
+    margin: 5px;
 }
 .desktop-apps-wrapper .cmdr-button i {
     margin-left: 40px;
