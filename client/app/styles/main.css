@@ -196,7 +196,7 @@ a {
     outline:none;
 }
 .sidebar {
-    font-family: "sintony";
+    font-family: 'Sintony', sans-serif;
     font-size: 18px;
     background: -webkit-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     background: -moz-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
@@ -325,7 +325,7 @@ a {
     position: absolute;
     top: 58px;
     width: calc(100% - 311px);
-    font-family: "sintony";
+    font-family: 'Sintony', sans-serif;
     text-transform: none;
     font-size: 18px;
     background: -webkit-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
@@ -475,7 +475,7 @@ input {
     background: -o-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
     color: #ffa202;
-    font-family: 'sintony',sans-serif;
+    font-family: 'Sintony', sans-serif;
     font-size: 18px;
     height: calc(100% - 55px);
     overflow: hidden;
@@ -634,8 +634,139 @@ input {
     transform: rotate(-60deg);
 }
 
+/*Loader*/
 
+.loader-wrapper {
+    background: -webkit-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -moz-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -ms-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: -o-repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    background: repeating-linear-gradient(0deg, #150002, #000, #150002 10px);
+    opacity: 1;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+.loader-inner-wrap {
+    bottom: 0;
+    height: 150px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 125px;
+    width: 150px;
+}
+.message {
+    bottom: -3px;
+    font-size: 18px;
+    font-family: 'Sintony', sans-serif;
+    letter-spacing: -1px;
+    color: #d45705;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
 
+#loader svg {
+  width: 150px;
+  height: 150px;
+}
+#loader path {
+  fill: #FF8C0D;
+  stroke: #000;
+  stroke-width: 0;
+  opacity: 0;
+}
+@keyframes hideshow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes inner {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.l1 {
+  animation: hideshow 750ms linear infinite;
+}
+.l2 {
+  animation: inner 750ms linear infinite;
+}
+.d19 {
+  animation-delay: 750ms;
+}
+.d18 {
+  animation-delay: 710.52631579ms;
+}
+.d17 {
+  animation-delay: 671.05263158ms;
+}
+.d16 {
+  animation-delay: 631.57894737ms;
+}
+.d15 {
+  animation-delay: 592.10526316ms;
+}
+.d14 {
+  animation-delay: 552.63157895ms;
+}
+.d13 {
+  animation-delay: 513.15789474ms;
+}
+.d12 {
+  animation-delay: 473.68421053ms;
+}
+.d11 {
+  animation-delay: 434.21052632ms;
+}
+.d10 {
+  animation-delay: 394.73684211ms;
+}
+.d9 {
+  animation-delay: 355.26315789ms;
+}
+.d8 {
+  animation-delay: 315.78947368ms;
+}
+.d7 {
+  animation-delay: 276.31578947ms;
+}
+.d6 {
+  animation-delay: 236.84210526ms;
+}
+.d5 {
+  animation-delay: 197.36842105ms;
+}
+.d4 {
+  animation-delay: 157.89473684ms;
+}
+.d3 {
+  animation-delay: 118.42105263ms;
+}
+.d2 {
+  animation-delay: 78.94736842ms;
+}
+.d1 {
+  animation-delay: 39.47368421ms;
+}
 
 /*Miscellaneous*/
 #myCanvas{
