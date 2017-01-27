@@ -8,7 +8,7 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('LoginCtrl', function (ngAudio, $state, auth, toastr, $window) {
+.controller('LoginCtrl', function (loaderSvc, ngAudio, $state, auth, toastr, $window) {
     var vm = this;
     vm.auth = auth;
     vm.user = auth.$getAuth();
@@ -101,11 +101,13 @@ angular.module('clientApp')
     }
 
     function login() {
+        loaderSvc.toggleOnText('Retrieving data..');
         vm.auth.$signInWithEmailAndPassword(vm.userEmail, vm.password).then(function(firebaseUser) {
             vm.user = auth.$getAuth();
             var name = vm.user.displayName || vm.user.email;
             $state.go('root.dashboard', {isNew:false});
             toastr.success('Welcome back ' + name, 'Yo!');
+            loaderSvc.toggleOff();
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
