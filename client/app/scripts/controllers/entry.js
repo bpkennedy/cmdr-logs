@@ -157,6 +157,7 @@ angular.module('clientApp')
         entries.createEntry(vm.data).then(function(response) {
             toastr.success('You created a new item.', 'Success!');
             toggleEditMode();
+            $state.go('root.dashboard');
         }).catch(function(error) {
             toastr.error(error.message, error.code);
         });
