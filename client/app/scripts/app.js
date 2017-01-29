@@ -142,8 +142,15 @@ angular
         }
     });
 })
-.run(function (firebaseSvc, $rootScope, $state) {
+.run(function (firebaseSvc, $rootScope, $state, $location, googleAnalytics) {
     firebaseSvc.initialize();
+
+    googleAnalytics.init();
+
+    //send page to Google Analytics on state change
+    $rootScope.$on('$stateChangeSuccess', function (event) {
+        googleAnalytics.trackPage($location.path());
+    });
 
     // for authentication, managing the state if error..
     $rootScope.$on('$stateChangeError',
