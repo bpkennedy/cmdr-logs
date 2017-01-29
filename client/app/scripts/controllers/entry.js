@@ -8,7 +8,7 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('EntryCtrl', function (ngAudio, $firebaseObject, $sce, $state, auth, $stateParams, entries, toastr) {
+.controller('EntryCtrl', function (ngAudio, $firebaseObject, $sce, $state, auth, $stateParams, entries, toastr, googleAnalytics) {
     var vm = this;
     vm.entryKey = $stateParams.entryId;
     vm.isEditMode = false;
@@ -118,6 +118,7 @@ angular.module('clientApp')
         var deletedItemKey = vm.data.$id;
         entries.deleteEntry(vm.data).then(function(response) {
             toastr.success('You deleted entry ' + deletedItemKey, 'Success!');
+            googleAnalytics.trackEvent('Entry Page', 'Deleted entry');
             $state.go('root.dashboard');
         }).catch(function(error) {
             toastr.error(error.message, error.code);
@@ -156,6 +157,7 @@ angular.module('clientApp')
         playSound('click');
         entries.createEntry(vm.data).then(function(response) {
             toastr.success('You created a new item.', 'Success!');
+            googleAnalytics.trackEvent('Entry Page', 'Created new entry');
             toggleEditMode();
             $state.go('root.dashboard');
         }).catch(function(error) {
@@ -167,6 +169,7 @@ angular.module('clientApp')
         playSound('click');
         entries.updateEntry(vm.data).then(function(response) {
             toastr.success('You updated entry ' + vm.data.$id, 'Success!');
+            googleAnalytics.trackEvent('Entry Page', 'Updated entry');
             toggleEditMode();
         }).catch(function(error) {
             toastr.error(error.message, error.code);
