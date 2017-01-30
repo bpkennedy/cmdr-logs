@@ -8,7 +8,7 @@
 * Factory in the clientApp.
 */
 angular.module('clientApp')
-.factory('entries', function (auth, $firebaseObject, $window, toastr) {
+.factory('entries', function (auth, $firebaseObject, $window, toastr, $http) {
     var vm = this;
     vm.user = auth.$getAuth();
     vm.lastCreatedUid = {
@@ -88,12 +88,20 @@ angular.module('clientApp')
         return vm.lastCreatedUid.key;
     }
 
+    function querySystem(keyword) {
+        return $http({
+            method: 'GET',
+            url: 'http://beta.edsm.net:8080/typeahead/systems/query/' + keyword
+        });
+    }
+
     return {
         getUserEntries: getUserEntries,
         getSingleEntry: getSingleEntry,
         createEntry: createEntry,
         deleteEntry: deleteEntry,
         updateEntry: updateEntry,
-        getRecentNewEntry: getRecentNewEntry
+        getRecentNewEntry: getRecentNewEntry,
+        querySystem: querySystem
     };
 });
