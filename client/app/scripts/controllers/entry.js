@@ -25,12 +25,19 @@ angular.module('clientApp')
     vm.clickBtnSound = ngAudio.load('../sounds/buttonClick.mp3');
     vm.clickBtnHover = ngAudio.load('../sounds/buttonHover.mp3');
     vm.playSound = playSound;
+    vm.query = query;
 
     vm.data = null;
     vm.confirm = {
         show: false,
         type: '',
         message: ''
+    };
+    vm.info = {
+        selectedSystem: '',
+        isShowing: true,
+        infoEditMode: false,
+        data: {}
     };
 
     vm.tempData = {
@@ -42,6 +49,15 @@ angular.module('clientApp')
         if (vm.stateName === 'root.entry') {
             handleNewEntryClicked();
         }
+    }
+
+    function query(keyword) {
+        console.log('in here');
+        entries.querySystem(keyword).then(function(response) {
+            console.log(response);
+        }).catch(function(error) {
+            console.log(error);
+        });
     }
 
     function handleNewEntryClicked() {

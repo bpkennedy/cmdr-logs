@@ -344,6 +344,39 @@ a {
     height: 100%;
     width: 100%;
 }
+.entry-info {
+    height: calc(100% - 104px);
+    overflow: hidden;
+    position: absolute;
+    right: -100%;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.entry-info.info-panel-show {
+    right: 0;
+    width:300px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.reading-body.info-panel-show {
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-right: 300px;
+}
+
+.info-header {
+    color: #ffa202;
+    padding: 5px 5px 5px 15px;
+}
 
 .entry-title {
     height: 50px;
@@ -371,6 +404,12 @@ a {
 .reading-body {
     padding:10px;
     margin-bottom:50px;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 /*Entry*/
@@ -406,6 +445,7 @@ a {
     position: relative;
     width: 25%;
     bottom: -6px;
+    outline: none;
 }
 .new-entry.delete:hover {
     background:#8E1114!important;

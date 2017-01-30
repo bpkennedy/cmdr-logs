@@ -11,11 +11,52 @@
     </div>
 </div>
 <div class="separator reading-separator"></div>
-<div class="reading-body">
+<div class="reading-body" ng-class="{'info-panel-show': vm.info.isShowing}">
     <div ng-if="!vm.isEditMode">
         <div ta-bind ng-model="vm.data.message"></div>
     </div>
     <div ng-if="vm.isEditMode" text-angular ng-model="vm.tempData.message"></div>
+</div>
+<div class="entry-info" ng-class="{'info-panel-show': vm.info.isShowing}">
+    <div class="info-header">
+        SYSTEM DATA
+    </div>
+    <div class="separator"></div>
+    <input type="text" ng-model="vm.info.selectedSystem" ng-if="!vm.info.data.system" ng-keyup="$event.keyCode == 13 ? vm.query(vm.info.selectedSystem) : null">
+    <div class="info-empty-message" ng-if="!vm.info.data.system">
+        Select a system for this entry.
+    </div>
+    <div class="info-inner-wrap" ng-if="vm.info.data.system">
+        <div class="system-name">
+            {{vm.info.data.system}}
+        </div>
+        <ul class="info-wrapper">
+            <li class="info-item">
+                <div class="">Controlling Faction:</div>
+                <div class="">{{vm.info.data.faction}}</div>
+            </li>
+            <li class="info-item">
+                <div class="">Government:</div>
+                <div class="">{{vm.info.data.government}}</div>
+            </li>
+            <li class="info-item">
+                <div class="">State:</div>
+                <div class="">{{vm.info.data.state}}</div>
+            </li>
+            <li class="info-item">
+                <div class="">Allegiance:</div>
+                <div class="">{{vm.info.data.allegiance}}</div>
+            </li>
+            <li class="info-item">
+                <div class="">Population:</div>
+                <div class="">{{vm.info.data.population}}</div>
+            </li>
+            <li class="info-item">
+                <div class="">Security:</div>
+                <div class="">{{vm.info.data.security}}</div>
+            </li>
+        </ul>
+    </div>
 </div>
 <div class="reading-actions">
     <div class="separator entry"></div>
@@ -41,6 +82,10 @@
         <div class="new-entry delete" ng-mouseover="vm.playSound('hover')" ng-click="vm.toggleDelete()" ng-if="!vm.data.isNew">
             <i class="fa fa-trash-o"></i>
             Delete
+        </div>
+        <div class="new-entry info" ng-mouseover="vm.playSound('hover')" ng-click="vm.info.isShowing = !vm.info.isShowing">
+            <i class="fa fa-info"></i>
+            Info
         </div>
     </div>
 </div>
