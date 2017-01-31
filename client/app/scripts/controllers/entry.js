@@ -25,6 +25,8 @@ angular.module('clientApp')
     vm.clickBtnSound = ngAudio.load('../sounds/buttonClick.mp3');
     vm.clickBtnHover = ngAudio.load('../sounds/buttonHover.mp3');
     vm.playSound = playSound;
+    vm.query = query;
+    vm.getSystem = getSystem;
 
     vm.data = null;
     vm.confirm = {
@@ -32,15 +34,52 @@ angular.module('clientApp')
         type: '',
         message: ''
     };
+    vm.info = {
+        previousSystem: {
+            value: ''
+        },
+        selectedSystemData: {
+            name: '',
+            information: {}
+        },
+        isShowing: false,
+        data: {
+            systems: []
+        }
+    };
 
     vm.tempData = {
         title: null,
-        message: null
+        message: null,
+        system: {}
     };
 
     function init() {
         if (vm.stateName === 'root.entry') {
             handleNewEntryClicked();
+        }
+    }
+
+    function getSystem() {
+        if (!vm.data.system || vm.info.previousSystem !== vm.data.system.name.value) {
+            entries.getSystem(vm.tempData.system.name.value).then(function(response) {
+                vm.data.system = response.data;
+                vm.info.previousSystem = vm.data.system.name.value;
+            }).catch(function(error) {
+                toastr.error(error.message, error.code);
+            });
+        }
+    }
+
+    function query(keyword) {
+        if (keyword.length > 2) {
+            entries.querySystem(keyword).then(function(response) {
+                vm.info.data.systems = response.data;
+            }).catch(function(error) {
+                toastr.error(error.message, error.code);
+            });
+        } else {
+            vm.info.data.systems = [];
         }
     }
 

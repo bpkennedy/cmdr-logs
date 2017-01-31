@@ -1,6 +1,6 @@
 {
   "name": "commander-log",
-  "version": "1.0.0",
+  "version": "0.2.2",
   "description": "A simple blog platform for Elite Dangerous CMDRS Role Play",
   "main": "index.js",
   "dependencies": {},

@@ -11,11 +11,52 @@
     </div>
 </div>
 <div class="separator reading-separator"></div>
-<div class="reading-body">
+<div class="reading-body" ng-class="{'info-panel-show': vm.info.isShowing}">
     <div ng-if="!vm.isEditMode">
         <div ta-bind ng-model="vm.data.message"></div>
     </div>
     <div ng-if="vm.isEditMode" text-angular ng-model="vm.tempData.message"></div>
+</div>
+<div class="entry-info" ng-class="{'info-panel-show': vm.info.isShowing}">
+    <div class="info-header">
+        SYSTEM DATA
+    </div>
+    <div class="separator"></div>
+    <ui-select ng-model="vm.tempData.system.name" ng-change="vm.getSystem()" ng-if="vm.isEditMode">
+      <ui-select-match placeholder="Search for Systems">{{$select.selected.value}}</ui-select-match>
+      <ui-select-choices
+            repeat="system in (vm.info.data.systems | filter: $select.search) track by system.id"
+            refresh="vm.query($select.search)"
+            refresh-delay="300">
+        <span ng-bind-html="system.value"></span>
+      </ui-select-choices>
+    </ui-select>
+    <div class="system-name">{{vm.data.system.name}}</div>
+    <div class="info-inner-wrap" ng-if="!vm.data.system.name && !vm.isEditMode">
+        <div class="new-info-prompt">
+            In Edit Mode, indicate the system for this entry.
+        </div>
+    </div>
+    <div class="info-inner-wrap" ng-if="vm.data.system.name">
+        <ul class="info-wrapper">
+            <li class="info-item">
+                <div class="">Allegiance:</div>
+                <div class="">{{vm.data.system.information.allegiance}}</div>
+            </li>
+            <li class="info-item">
+                <div class="">Government:</div>
+                <div class="">{{vm.data.system.information.government}}</div>
+            </li>
+            <li class="info-item">
+                <div class="">Faction:</div>
+                <div class="">{{vm.data.system.information.faction}}</div>
+            </li>
+            <li class="info-item">
+                <div class="">Population:</div>
+                <div class="">{{vm.data.system.information.population | number : fractionSize}}</div>
+            </li>
+        </ul>
+    </div>
 </div>
 <div class="reading-actions">
     <div class="separator entry"></div>
@@ -41,6 +82,10 @@
         <div class="new-entry delete" ng-mouseover="vm.playSound('hover')" ng-click="vm.toggleDelete()" ng-if="!vm.data.isNew">
             <i class="fa fa-trash-o"></i>
             Delete
+        </div>
+        <div class="new-entry info" ng-mouseover="vm.playSound('hover')" ng-click="vm.info.isShowing = !vm.info.isShowing">
+            <i class="fa fa-info-circle"></i>
+            Info
         </div>
     </div>
 </div>
