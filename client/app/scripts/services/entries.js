@@ -39,7 +39,8 @@ angular.module('clientApp')
             return userEntryRef.update({
                 'title': entry.title,
                 'message': entry.message,
-                'modified_at': eliteDate
+                'modified_at': eliteDate,
+                'system': entry.system
             });
         }).catch(function(error) {
             toastr.error(error.message, error.code);
@@ -54,7 +55,8 @@ angular.module('clientApp')
             'message': entry.message,
             'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
-            'created_by': vm.user.uid
+            'created_by': vm.user.uid,
+            'system': entry.system
         }).then(function(snapshot) {
             var newEntryId = snapshot.key;
             vm.lastCreatedUid.key = newEntryId;
@@ -71,7 +73,8 @@ angular.module('clientApp')
             'message': entry.message,
             'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
-            'created_by': vm.user.uid
+            'created_by': vm.user.uid,
+            'system': entry.system
         });
     }
 
@@ -91,7 +94,14 @@ angular.module('clientApp')
     function querySystem(keyword) {
         return $http({
             method: 'GET',
-            url: 'http://beta.edsm.net:8080/typeahead/systems/query/' + keyword
+            url: 'https://www.edsm.net/typeahead/systems/query/' + keyword
+        });
+    }
+
+    function getSystem(system) {
+        return $http({
+            method: 'GET',
+            url: 'https://www.edsm.net/api-v1/system?systemName=' + system + '&showCoordinates=1&showInformation=1'
         });
     }
 
@@ -102,6 +112,7 @@ angular.module('clientApp')
         deleteEntry: deleteEntry,
         updateEntry: updateEntry,
         getRecentNewEntry: getRecentNewEntry,
-        querySystem: querySystem
+        querySystem: querySystem,
+        getSystem: getSystem
     };
 });

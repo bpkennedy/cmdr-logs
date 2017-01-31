@@ -8,7 +8,7 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('EntryCtrl', function (ngAudio, $firebaseObject, $sce, $state, auth, $stateParams, entries, toastr, googleAnalytics) {
+.controller('EntryCtrl', function ($scope, $timeout, ngAudio, $firebaseObject, $sce, $state, auth, $stateParams, entries, toastr, googleAnalytics) {
     var vm = this;
     vm.entryKey = $stateParams.entryId;
     vm.isEditMode = false;
@@ -26,6 +26,7 @@ angular.module('clientApp')
     vm.clickBtnHover = ngAudio.load('../sounds/buttonHover.mp3');
     vm.playSound = playSound;
     vm.query = query;
+    vm.getSystem = getSystem;
 
     vm.data = null;
     vm.confirm = {
@@ -34,10 +35,21 @@ angular.module('clientApp')
         message: ''
     };
     vm.info = {
-        selectedSystem: '',
-        isShowing: true,
+        selectedSystem: {
+            value: ''
+        },
+        previousSystem: {
+            value: ''
+        },
+        selectedSystemData: {
+            name: '',
+            information: {}
+        },
+        isShowing: false,
         infoEditMode: false,
-        data: {}
+        data: {
+            systems: []
+        }
     };
 
     vm.tempData = {
@@ -51,13 +63,27 @@ angular.module('clientApp')
         }
     }
 
+    function getSystem() {
+        if (!vm.data.system || vm.info.previousSystem !== vm.data.system.name.value) {
+            entries.getSystem(vm.tempData.system.name.value).then(function(response) {
+                vm.data.system = response.data;
+                vm.info.previousSystem = vm.data.system.name.value;
+            }).catch(function(error) {
+                toastr.error(error.message, error.code);
+            });
+        }
+    }
+
     function query(keyword) {
-        console.log('in here');
-        entries.querySystem(keyword).then(function(response) {
-            console.log(response);
-        }).catch(function(error) {
-            console.log(error);
-        });
+        if (keyword.length > 2) {
+            entries.querySystem(keyword).then(function(response) {
+                vm.info.data.systems = response.data;
+            }).catch(function(error) {
+                toastr.error(error.message, error.code);
+            });
+        } else {
+            vm.info.data.systems = [];
+        }
     }
 
     function handleNewEntryClicked() {
