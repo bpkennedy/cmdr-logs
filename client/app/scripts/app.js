@@ -21,9 +21,11 @@ angular
     'textAngular',
     'toastr',
     'ngAudio',
-    'firebase'
+    'firebase',
+    'ui.select'
 ])
-.config(function ($stateProvider, $urlRouterProvider) {
+.config(function ($stateProvider, $urlRouterProvider, uiSelectConfig) {
+    uiSelectConfig.dropdownPosition = 'down';
     $urlRouterProvider.otherwise('/');
 
     $stateProvider.state('root', {
