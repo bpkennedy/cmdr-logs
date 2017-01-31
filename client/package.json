@@ -5,7 +5,7 @@
   "author": "Brian Kennedy",
   "productName": "CommanderLog",
   "description": "An immersive, role playing, companion app to the game Elite Dangerous",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "electron-installer-dmg": "^0.2.0",

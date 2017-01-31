@@ -8,7 +8,7 @@
 * Factory in the clientApp.
 */
 angular.module('clientApp')
-.factory('entries', function (auth, $firebaseObject, $window, toastr) {
+.factory('entries', function (auth, $firebaseObject, $window, toastr, $http) {
     var vm = this;
     vm.user = auth.$getAuth();
     vm.lastCreatedUid = {
@@ -39,7 +39,8 @@ angular.module('clientApp')
             return userEntryRef.update({
                 'title': entry.title,
                 'message': entry.message,
-                'modified_at': eliteDate
+                'modified_at': eliteDate,
+                'system': entry.system
             });
         }).catch(function(error) {
             toastr.error(error.message, error.code);
@@ -54,7 +55,8 @@ angular.module('clientApp')
             'message': entry.message,
             'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
-            'created_by': vm.user.uid
+            'created_by': vm.user.uid,
+            'system': entry.system
         }).then(function(snapshot) {
             var newEntryId = snapshot.key;
             vm.lastCreatedUid.key = newEntryId;
@@ -71,7 +73,8 @@ angular.module('clientApp')
             'message': entry.message,
             'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
-            'created_by': vm.user.uid
+            'created_by': vm.user.uid,
+            'system': entry.system
         });
     }
 
@@ -88,12 +91,28 @@ angular.module('clientApp')
         return vm.lastCreatedUid.key;
     }
 
+    function querySystem(keyword) {
+        return $http({
+            method: 'GET',
+            url: 'https://www.edsm.net/typeahead/systems/query/' + keyword
+        });
+    }
+
+    function getSystem(system) {
+        return $http({
+            method: 'GET',
+            url: 'https://www.edsm.net/api-v1/system?systemName=' + system + '&showCoordinates=1&showInformation=1'
+        });
+    }
+
     return {
         getUserEntries: getUserEntries,
         getSingleEntry: getSingleEntry,
         createEntry: createEntry,
         deleteEntry: deleteEntry,
         updateEntry: updateEntry,
-        getRecentNewEntry: getRecentNewEntry
+        getRecentNewEntry: getRecentNewEntry,
+        querySystem: querySystem,
+        getSystem: getSystem
     };
 });
