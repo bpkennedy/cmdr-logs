@@ -8,7 +8,7 @@
 * Controller of the clientApp
 */
 angular.module('clientApp')
-.controller('EntryCtrl', function ($scope, $timeout, ngAudio, $firebaseObject, $sce, $state, auth, $stateParams, entries, toastr, googleAnalytics) {
+.controller('EntryCtrl', function (ngAudio, $firebaseObject, $sce, $state, auth, $stateParams, entries, toastr, googleAnalytics) {
     var vm = this;
     vm.entryKey = $stateParams.entryId;
     vm.isEditMode = false;
@@ -35,9 +35,6 @@ angular.module('clientApp')
         message: ''
     };
     vm.info = {
-        selectedSystem: {
-            value: ''
-        },
         previousSystem: {
             value: ''
         },
@@ -46,7 +43,6 @@ angular.module('clientApp')
             information: {}
         },
         isShowing: false,
-        infoEditMode: false,
         data: {
             systems: []
         }
@@ -54,7 +50,8 @@ angular.module('clientApp')
 
     vm.tempData = {
         title: null,
-        message: null
+        message: null,
+        system: {}
     };
 
     function init() {
