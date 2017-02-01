@@ -45,9 +45,9 @@ angular.module('clientApp')
 
     function download(term) {
         if (term === 'Windows') {
-            $window.location.href = 'https://github.com/bpkennedy/cmdr-logs/raw/master/desktopApps/commanderLogWindows.7z';
+            $window.location.href = 'https://www.dropbox.com/s/ofh0cbpmzvupn3z/commanderLogWindows.7z?dl=0';
         } else if (term === 'Mac') {
-            $window.location.href = 'https://github.com/bpkennedy/cmdr-logs/raw/master/desktopApps/CommanderLog.dmg';
+            $window.location.href = 'https://www.dropbox.com/s/zg74iwmytlrp7km/CommanderLog.dmg?dl=0';
         }
     }
 
