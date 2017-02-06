@@ -13,6 +13,7 @@ angular.module('clientApp')
     vm.auth = auth;
     vm.user = auth.$getAuth();
     vm.isEntry = isEntry;
+    vm.isMap = isMap;
 
     vm.auth.$onAuthStateChanged(function(firebaseUser) {
         if (firebaseUser) {
@@ -25,6 +26,15 @@ angular.module('clientApp')
     function isEntry() {
         var state = $state.current.name;
         if (state === 'root.entry' || state === 'root.dashboard') {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function isMap() {
+        var state = $state.current.name;
+        if (state === 'root.map') {
             return true;
         } else {
             return false;

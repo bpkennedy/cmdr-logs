@@ -14,7 +14,7 @@ angular.module('clientApp')
         link: function postLink(scope, element, attrs) {
             $(document).ready(function() {
                 handleResize();
-                var canvas = $('<canvas/>', { id: 'myCanvas', height: $(window).height(), width: $(window).width()});
+                var canvas = $('<canvas/>', { id: 'smokeCanvas', height: $(window).height(), width: $(window).width()});
                 $('#smoke-wrapper').prepend(canvas);
                 setupSmoke();
             });
@@ -25,7 +25,7 @@ angular.module('clientApp')
                     clearTimeout(resizeTimer);
                     resizeTimer = setTimeout(function() {
                         clearCanvas();
-                        var canvas = $('<canvas/>', { id: 'myCanvas', height: $(window).height(), width: $(window).width()});
+                        var canvas = $('<canvas/>', { id: 'smokeCanvas', height: $(window).height(), width: $(window).width()});
                         $('#smoke-wrapper').prepend(canvas);
                         setupSmoke();
                     }, 250);
@@ -33,7 +33,7 @@ angular.module('clientApp')
             }
 
             function clearCanvas() {
-                $('canvas').remove();
+                $('#smokeCanvas').remove();
                 clearInterval(window.drawInterval);
             }
 
@@ -162,7 +162,7 @@ angular.module('clientApp')
 
                 // Initialise the scene and set the context if possible
                 function init() {
-                    var canvas = document.getElementById('myCanvas');
+                    var canvas = document.getElementById('smokeCanvas');
                     if (canvas.getContext) {
 
                         // Set the context variable so it can be re-used

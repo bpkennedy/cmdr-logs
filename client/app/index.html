@@ -27,7 +27,9 @@
     <![endif]-->
     <div class="wrapper">
         <loader></loader>
-        <smoke></smoke>
+        <div class="smoke-directive-holder">
+            <smoke></smoke>
+        </div>
         <div ui-view="titlebar"></div>
         <div id="content-main" ui-view="container"></div>
         <div class="bottom-separator"></div>
@@ -66,6 +68,7 @@
     <script src="bower_components/platform.js/platform.js"></script>
     <script src="bower_components/angular-ui-select/dist/select.js"></script>
     <script src="bower_components/select2/dist/js/select2.js"></script>
+    <script src="bower_components/three.js/build/three.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -82,9 +85,13 @@
         <script src="scripts/filters/elitedate.js"></script>
         <script src="scripts/directives/loader.js"></script>
         <script src="scripts/services/googleanalytics.js"></script>
+        <script src="scripts/directives/mapsize.js"></script>
+        <script src="scripts/controllers/map.js"></script>
+        <script src="scripts/directives/galaxymap.js"></script>
         <!-- endbuild -->
 
     <!-- Insert this line after script imports -->
+    <script src="scripts/ed3dmap.js"></script>
     <script>if (window.module) module = window.module;</script>
 </body>
 </html>
