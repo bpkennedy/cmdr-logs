@@ -1,0 +1,2232 @@
+{
+    "categories": {
+        "Objects": {
+            "0": {
+                "name": "Black Hole",
+                "color": "FF052A"
+            },
+            "15": {
+                "name": "Supergiant",
+                "color": "FFB200"
+            }
+        },
+        "Nebulas": {
+            "1": {
+                "name": "Part of Cloud",
+                "color": "02E8AA"
+            },
+            "2": {
+                "name": "Emission Object",
+                "color": "02E8AA"
+            },
+            "3": {
+                "name": "Interstellar cloud",
+                "color": "02E8AA"
+            },
+            "4": {
+                "name": "Galactic nebula",
+                "color": "02E8AA"
+            },
+            "5": {
+                "name": "Bright Nebula",
+                "color": "02E8AA"
+            },
+            "6": {
+                "name": "Dark nebula",
+                "color": "02E8AA"
+            },
+            "7": {
+                "name": "Reflection nebula",
+                "color": "02E8AA"
+            },
+            "8": {
+                "name": "Molecular cloud",
+                "color": "02E8AA"
+            },
+            "9": {
+                "name": "Star forming region",
+                "color": "02E8AA"
+            },
+            "10": {
+                "name": "HII region",
+                "color": "02E8AA"
+            },
+            "11": {
+                "name": "Planetary Nebula",
+                "color": "02E8AA"
+            },
+            "12": {
+                "name": "Supernova remnant",
+                "color": "02E8AA"
+            },
+            "13": {
+                "name": "CircumStellar matter",
+                "color": "02E8AA"
+            },
+            "14": {
+                "name": "Herbig-Haro Object",
+                "color": "02E8AA"
+            }
+        }
+    },
+    "systems": [
+        {
+            "name": "GHJ2008 3",
+            "coords": {
+                "x": "10258",
+                "y": "-1554",
+                "z": "23840"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/ghj2008-3\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Great Annihilator",
+            "coords": {
+                "x": "355",
+                "y": "-42",
+                "z": "22997"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div>1E1740.7-2942, or the Great Annihilator, is a large black hole thought to be located in the core region of the Milky Way, near the supermassive black hole Sgr A* at the Galactic Center. It is one of the brightest gamma ray sources found in the Milky Way, producing massive amounts of photon pairs at 511 keV, which usually indicates the annihilation of an electron-positron pair. The Great Annihilator also has a radio source counterpart that emits jets approximately three light-years long. These...<\/div><div><a href=\"en\/object\/great-annihilator\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "GRS 1739-278",
+            "coords": {
+                "x": "-317",
+                "y": "554",
+                "z": "26992"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/grs-1739-278\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "GRS 1758-258",
+            "coords": {
+                "x": "-1257",
+                "y": "-380",
+                "z": "15946"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/grs-1758-258\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "GU Muscae",
+            "coords": {
+                "x": "14804",
+                "y": "-2032",
+                "z": "6998"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div>The gamma-ray and X-ray source GRS 1124-683, discovered by the Granat mission and Ginga, is a system containing a black hole candidate. The system also goes by the name X-ray Nova Muscae 1991 or GU Muscae. These two orbiting X-ray telescopes discovered the system when the system produced an outburst of X-rays on January 9, 1991.<\/div><div><a href=\"en\/object\/gu-muscae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "KV Ursae Majoris",
+            "coords": {
+                "x": "-1059",
+                "y": "5313",
+                "z": "-2578"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/kv-ursae-majoris\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "MM Velorum",
+            "coords": {
+                "x": "12760",
+                "y": "2111",
+                "z": "1314"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/mm-velorum\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NOR X-1",
+            "coords": {
+                "x": null,
+                "y": null,
+                "z": null
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/nor-x-1\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "QZ Vulpeculae",
+            "coords": {
+                "x": "-7856",
+                "y": "-460",
+                "z": "3939"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/qz-vulpeculae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V1033 Scorpii",
+            "coords": {
+                "x": "2071",
+                "y": "343",
+                "z": "7720"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div>GRO J1655-40 is a binary star consisting of an evolved F5 primary star and a massive, unseen companion, which orbit each other once every 2.6 days in the constellation of Scorpius. Gas from the surface of the visible star is accreted onto the dark companion, which appears to be a stellar black hole with several times the mass of the Sun. The optical companion of this low-mass X-ray binary is a subgiant F star.<br \/>\nAlong with GRS 1915+105, GRO J1655-40 is one of at least two galactic...<\/div><div><a href=\"en\/object\/v1033-scorpii\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V1357 Cygni",
+            "coords": {
+                "x": "-7095",
+                "y": "401",
+                "z": "2397"
+            },
+            "cat": [
+                0,
+                15
+            ],
+            "infos": "<div>Cygnus\u00a0X-1 (abbreviated Cyg\u00a0X-1) is a well-known galactic X-ray source, thought to be a black hole, in the constellation Cygnus. It was discovered in 1964 during a rocket flight and is one of the strongest X-ray sources seen from Earth, producing a peak X-ray flux density of 6977229999999999999\u26602.3\u00d710\u221223\u00a0Wm\u22122 Hz\u22121 (7003230000000000000\u26602.3\u00d7103\u00a0Jansky). Cygnus\u00a0X-1 was the first X-ray source widely accepted to be a black hole and it remains among the most studied astronomical...<\/div><div><a href=\"en\/object\/v1357-cygni\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V1487 Aquilae",
+            "coords": {
+                "x": "-5764",
+                "y": "-31",
+                "z": "5691"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div>GRS 1915+105 or V1487 Aquilae is an X-ray binary star system which features a regular star and a black hole. It was discovered on August 15, 1992 by the WATCH all-sky monitor aboard Granat. \"GRS\" stands for \"GRANAT source\", \"1915\" is the right ascension (19 hours and 15 minutes) and \"105\" is declination in units of 0.1 degree (i.e. its declination is 10.5 degrees). The near-infrared counterpart was confirmed by spectroscopic observations. The binary system lies 11,000 parsecs away in Aquila....<\/div><div><a href=\"en\/object\/v1487-aquilae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V2107 Ophiuchii",
+            "coords": {
+                "x": "657",
+                "y": "4250",
+                "z": "26655"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/v2107-ophiuchii\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V381 Normae",
+            "coords": {
+                "x": "9530",
+                "y": "-542",
+                "z": "14067"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/v381-normae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V406 Vulpeculae",
+            "coords": {
+                "x": "-24011",
+                "y": "4490",
+                "z": "17416"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/v406-vulpeculae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V4641 Sagittarii",
+            "coords": {
+                "x": "-3526",
+                "y": "-2505",
+                "z": "29687"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div>V4641 Sagittarii (V4641 Sgr) is a variable X-ray binary star system in the constellation Sagittarius. It is the source of one of the fastest superluminal jets in the Milky Way galaxy.<br \/>\nIn 1999 a violent X-ray outburst revealed it to contain a black hole. At the time, it was considered to be the closest known black hole to Earth, at a distance of approximately 1,600 light-years (490\u00a0pc). Later observations showed it to be at least 15 times farther away.<\/div><div><a href=\"en\/object\/v4641-sagittarii\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V821 Arae",
+            "coords": {
+                "x": "9675",
+                "y": "-2037",
+                "z": "25125"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div>GX 339-4 is a moderately strong variable galactic low-mass X-ray binary (LMXB) source and black-hole candidate that flares from time to time. From spectroscopic measurements, the mass of the black-hole was found to be at least of 5.8 solar masses.<br \/>\nDuring the outbursts GX 339-4 shows evolution of quasi-periodic oscillations (QPOs). In the rising phase the QPO frequency monotonically increase as the CENBOL propagates closer to the black hole and in the declining phase the QPO frequency...<\/div><div><a href=\"en\/object\/v821-arae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "XTE J1752-223",
+            "coords": {
+                "x": "-1901",
+                "y": "627",
+                "z": "16882"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/xte-j1752-223\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "XTE J1817-330",
+            "coords": {
+                "x": "32",
+                "y": "-1391",
+                "z": "9903"
+            },
+            "cat": [
+                0
+            ],
+            "infos": "<div><a href=\"en\/object\/xte-j1817-330\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "BD-05 1299",
+            "coords": {
+                "x": "609",
+                "y": "-449",
+                "z": "-1095"
+            },
+            "cat": [
+                1
+            ],
+            "infos": "<div><a href=\"en\/object\/bd-05-1299\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "AG Carinae",
+            "coords": {
+                "x": "16178",
+                "y": "-249",
+                "z": "5736"
+            },
+            "cat": [
+                2,
+                11,
+                15
+            ],
+            "infos": "<div>AG Carinae (AG Car) is a star in the constellation Carina. It is classified as a luminous blue variable and is one of the most luminous stars in the Milky Way. The large distance (20,000 light-years) and intervening dust mean that the star is not usually visible to the naked eye; its apparent brightness varies irregularly between 5.7m and 9.0m.<br \/>\nThe star is surrounded by a nebula of ejected material at 0.4-1.2pc from the star. The nebula contains around 15\u00a0M\u2609, all lost from the star around...<\/div><div><a href=\"en\/object\/ag-carinae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HD 148937",
+            "coords": {
+                "x": "549",
+                "y": "-18",
+                "z": "1275"
+            },
+            "cat": [
+                2,
+                10,
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/hd-148937\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HIP 113269",
+            "coords": {
+                "x": "-755",
+                "y": "-11",
+                "z": "-257"
+            },
+            "cat": [
+                2
+            ],
+            "infos": "<div><a href=\"en\/object\/hip-113269\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HIP 20160",
+            "coords": {
+                "x": "-47",
+                "y": "-62",
+                "z": "-238"
+            },
+            "cat": [
+                2
+            ],
+            "infos": "<div><a href=\"en\/object\/hip-20160\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HIP 20777",
+            "coords": {
+                "x": "-16",
+                "y": "-34",
+                "z": "-121"
+            },
+            "cat": [
+                2
+            ],
+            "infos": "<div><a href=\"en\/object\/hip-20777\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HIP 91911",
+            "coords": {
+                "x": "-204",
+                "y": "-5",
+                "z": "367"
+            },
+            "cat": [
+                2
+            ],
+            "infos": "<div><a href=\"en\/object\/hip-91911\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "MWC 712",
+            "coords": {
+                "x": "-5382",
+                "y": "-481",
+                "z": "-5454"
+            },
+            "cat": [
+                2
+            ],
+            "infos": "<div><a href=\"en\/object\/mwc-712\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "2MASS J03292407+3119577",
+            "coords": {
+                "x": "-374",
+                "y": "-379",
+                "z": "-944"
+            },
+            "cat": [
+                3,
+                5,
+                13,
+                14
+            ],
+            "infos": "<div><a href=\"en\/object\/2mass-j03292407-3119577\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "72 Tauri",
+            "coords": {
+                "x": "-33",
+                "y": "-111",
+                "z": "-360"
+            },
+            "cat": [
+                3,
+                7
+            ],
+            "infos": "<div><a href=\"en\/object\/72-tauri\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Alniyat",
+            "coords": {
+                "x": "65",
+                "y": "100",
+                "z": "459"
+            },
+            "cat": [
+                3,
+                7,
+                10
+            ],
+            "infos": "<div>The name Al Niyat\/Alniyat comes from the Arabic \u0627\u0644\u0646\u064a\u0627\u0637 an-niy\u0101\u0163 meaning \"the arteries [of the scorpion]\", and refers to two stars which flank Antares, the scorpion's heart:<br \/>\nSigma Scorpii<br \/>\nTau Scorpii<br \/>\n<\/div><div><a href=\"en\/object\/alniyat\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Antares",
+            "coords": {
+                "x": "72",
+                "y": "138",
+                "z": "531"
+            },
+            "cat": [
+                3,
+                7,
+                10
+            ],
+            "infos": "<div>Antares (\/\u00e6n\u02c8t\u0251\u02d0ri\u02d0z\/), also known by its Bayer designation Alpha Scorpii (abbreviated to \u03b1 Scorpii or \u03b1 Sco), is the fifteenth brightest star in the night sky and the brightest star in the constellation Scorpius, and is often referred to as \"the heart of the scorpion\". Along with Aldebaran, Regulus, and Fomalhaut, Antares comprises the group known as the 'Royal stars of Persia'. It is one of the four brightest stars near the ecliptic.<br \/>\nDistinctly reddish when viewed with the unaided...<\/div><div><a href=\"en\/object\/antares\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Cat's Paw Nebula",
+            "coords": {
+                "x": "841",
+                "y": "61",
+                "z": "5432"
+            },
+            "cat": [
+                3,
+                8,
+                10,
+                12
+            ],
+            "infos": "<div>NGC 6334 (also known as the Cat's Paw Nebula, Bear Claw Nebula and Gum 64) is an emission nebula and star-forming region located in the constellation Scorpius. It was discovered by astronomer John Herschel in 1837, who observed it from the Cape of Good Hope in South Africa.<\/div><div><a href=\"en\/object\/cat-s-paw-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Cave Nebula",
+            "coords": {
+                "x": "-2241",
+                "y": "118",
+                "z": "-836"
+            },
+            "cat": [
+                3,
+                5,
+                7,
+                10
+            ],
+            "infos": "<div>S 155, also known as the Cave Nebula, Sh2-155 or Caldwell 9, is a dim and very diffuse bright nebula within a larger nebula complex containing emission, reflection, and dark nebulosity. It is located in the constellation Cepheus.<br \/>\nVisually it is a difficult object, but with adequate exposure, makes a striking image. The nebula gets its name Cave Nebula from the dark lane at the eastern side abutting the brightest curve of emission nebulosity which gives the appearance of a deep cave when seen...<\/div><div><a href=\"en\/object\/cave-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Chamaeleon",
+            "coords": {
+                "x": "504",
+                "y": "-117",
+                "z": "288"
+            },
+            "cat": [
+                3,
+                8,
+                9
+            ],
+            "infos": "<div>Chamaeleon (\/k\u0259\u02c8mi\u02d0li\u0259n\/) is a small constellation in the southern sky. It is named after the chameleon, a kind of lizard. It was first defined in the 16th century.<br \/>\n<\/div><div><a href=\"en\/object\/chamaeleon\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Coalsack Nebula",
+            "coords": {
+                "x": "403",
+                "y": "25",
+                "z": "262"
+            },
+            "cat": [
+                3,
+                6
+            ],
+            "infos": "<div>The Coalsack Dark Nebula (or simply the Coalsack) is the most prominent dark nebula in the skies, easily visible to the naked eye as a dark patch silhouetted against the southern Milky Way. It is located at a distance of approximately 600 light years away from Earth, in the constellation Crux.<br \/>\n<\/div><div><a href=\"en\/object\/coalsack-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Cone Nebula",
+            "coords": {
+                "x": "868",
+                "y": "80",
+                "z": "-2010"
+            },
+            "cat": [
+                3,
+                6
+            ],
+            "infos": "<div>The Cone Nebula is an H II region in the constellation of Monoceros. It was discovered by William Herschel on December 26, 1785, at which time he designated it H V.27. The nebula is located about 830 parsecs or 2,700 light-years away from Earth. The Cone Nebula forms part of the nebulosity surrounding the Christmas Tree Cluster. The designation of NGC 2264 in the New General Catalogue refers to both objects and not the nebula alone.<br \/>\nThe diffuse Cone Nebula, so named because of its apparent...<\/div><div><a href=\"en\/object\/cone-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Flame Nebula",
+            "coords": {
+                "x": "421",
+                "y": "-303",
+                "z": "-848"
+            },
+            "cat": [
+                3,
+                8,
+                10,
+                12
+            ],
+            "infos": "<div>The Flame Nebula, designated as NGC 2024 and Sh2-277, is an emission nebula in the constellation Orion. It is about 900 to 1,500 light-years away.<br \/>\nThe bright star Alnitak (\u03b6 Ori), the easternmost star in the Belt of Orion, shines energetic ultraviolet light into the Flame and this knocks electrons away from the great clouds of hydrogen gas that reside there. Much of the glow results when the electrons and ionized hydrogen recombine. Additional dark gas and dust lies in front of the bright...<\/div><div><a href=\"en\/object\/flame-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "G2 Dust Cloud",
+            "coords": {
+                "x": "45",
+                "y": "-62",
+                "z": "27865"
+            },
+            "cat": [
+                3
+            ],
+            "infos": "<div><a href=\"en\/object\/g2-dust-cloud\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Hind",
+            "coords": {
+                "x": "-32",
+                "y": "-191",
+                "z": "-539"
+            },
+            "cat": [
+                3,
+                5,
+                10,
+                13,
+                14
+            ],
+            "infos": "<div>A hind is a female deer, especially a red deer.<br \/>\nHind may also refer to:<br \/>\n<\/div><div><a href=\"en\/object\/hind\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HIP 17890",
+            "coords": {
+                "x": "-149",
+                "y": "-77",
+                "z": "-354"
+            },
+            "cat": [
+                3,
+                5,
+                7
+            ],
+            "infos": "<div><a href=\"en\/object\/hip-17890\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Horsehead Nebula",
+            "coords": {
+                "x": "398",
+                "y": "-294",
+                "z": "-763"
+            },
+            "cat": [
+                3,
+                6,
+                8
+            ],
+            "infos": "<div>The Horsehead Nebula (also known as Barnard 33 ) is a dark nebula in the constellation Orion. The nebula is located just to the south of the star Alnitak, which is farthest east on Orion's Belt, and is part of the much larger Orion Molecular Cloud Complex. The nebula was first recorded in 1888 by Scottish astronomer Williamina Fleming on photographic plate B2312 taken at the Harvard College Observatory. The Horsehead Nebula is approximately 1500 light years from Earth. It is one of the most...<\/div><div><a href=\"en\/object\/horsehead-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IC 1287",
+            "coords": {
+                "x": "-345",
+                "y": "-5",
+                "z": "934"
+            },
+            "cat": [
+                3,
+                4,
+                7,
+                10
+            ],
+            "infos": "<div><a href=\"en\/object\/ic-1287\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IC 348",
+            "coords": {
+                "x": "-395",
+                "y": "-393",
+                "z": "-1134"
+            },
+            "cat": [
+                3,
+                7,
+                8,
+                9,
+                10
+            ],
+            "infos": "<div>IC 348 is a star forming region in the constellation Perseus located about 315\u00a0parsecs from the Sun. It consists of nebulosity and an associated 2-million-year-old cluster of roughly 400 stars within an angular diameter of 20\u2033. The most massive stars in the cluster are the binary star system BD+31\u00b0643, which has a combined spectral class of B5. Based upon infrared observations using the Spitzer Space Telescope, about half of the stars in the cluster have a circumstellar disk, of which 60%...<\/div><div><a href=\"en\/object\/ic-348\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IC 4604",
+            "coords": {
+                "x": "60",
+                "y": "168",
+                "z": "559"
+            },
+            "cat": [
+                3,
+                4,
+                5,
+                7,
+                10
+            ],
+            "infos": "<div><a href=\"en\/object\/ic-4604\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Iris Nebula",
+            "coords": {
+                "x": "-1393",
+                "y": "362",
+                "z": "-340"
+            },
+            "cat": [
+                3,
+                6
+            ],
+            "infos": "<div>The Iris Nebula, also NGC 7023 and Caldwell 4, is a bright reflection nebula and Caldwell object in the constellation Cepheus. NGC 7023 is actually the cluster within the nebula, LBN 487, and the nebula is lit by a magnitude +7 star, SAO 19158. It shines at magnitude +6.8. It is located near the Mira-type variable star T Cephei, and near the bright magnitude +3.23 variable star Beta Cephei (Alphirk). It lies 1,300 light-years away and is six light-years across.<\/div><div><a href=\"en\/object\/iris-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Messier 78",
+            "coords": {
+                "x": "679",
+                "y": "-423",
+                "z": "-1365"
+            },
+            "cat": [
+                3,
+                7
+            ],
+            "infos": "<div>The nebula Messier 78 (also known as M 78 or NGC 2068) is a reflection nebula in the constellation Orion. It was discovered by Pierre M\u00e9chain in 1780 and included by Charles Messier in his catalog of comet-like objects that same year.<br \/>\nM78 is the brightest diffuse reflection nebula of a group of nebulae that include NGC 2064, NGC 2067 and NGC 2071. This group belongs to the Orion Molecular Cloud Complex and is about 1,600 light years distant from Earth. M78 is easily found in small telescopes...<\/div><div><a href=\"en\/object\/messier-78\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 1333",
+            "coords": {
+                "x": "-355",
+                "y": "-360",
+                "z": "-933"
+            },
+            "cat": [
+                3,
+                5,
+                7,
+                8,
+                9,
+                10
+            ],
+            "infos": "<div>NGC 1333 is a reflection nebula located in the constellation Perseus. It belongs to the Perseus molecular cloud.<br \/>\nIn 2011 researchers reported finding 30 to 40 brown dwarf objects in the cloud and in the Rho Ophiuchi cloud complex.<\/div><div><a href=\"en\/object\/ngc-1333\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 1931",
+            "coords": {
+                "x": "-719",
+                "y": "7",
+                "z": "-6980"
+            },
+            "cat": [
+                3,
+                5,
+                10
+            ],
+            "infos": "<div>NGC 1931, found in the constellation Auriga has been referred to as a \"miniature version of the Orion Nebula\", as it shares some of the same characteristics. It is a mixed emission-reflection nebula, and contains a smaller version of the Trapezium in its hot young star cluster centered in the emission nebula. The entire cluster\/nebula complex is only about 3 arcmin in size. The distance from earth is estimated at about 7000 light years.<br \/>\nThe nebula is Sharpless catalog Sh 2-237.<\/div><div><a href=\"en\/object\/ngc-1931\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 1999",
+            "coords": {
+                "x": "528",
+                "y": "-385",
+                "z": "-939"
+            },
+            "cat": [
+                3,
+                7,
+                10
+            ],
+            "infos": "<div>NGC 1999 is a dust-filled bright nebula with a vast hole of empty space represented by a black patch of sky, as can be seen in the photograph. It is a reflection nebula, and shines from the light of the variable star V380 Orionis.<br \/>\nIt was previously believed that the black patch was a dense cloud of dust and gas which blocked light that would normally pass through, called a dark nebula. Analysis of this patch by the infrared telescope Herschel (October 9, 2009), which has the capability of...<\/div><div><a href=\"en\/object\/ngc-1999\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 5367",
+            "coords": {
+                "x": "1357",
+                "y": "734",
+                "z": "1412"
+            },
+            "cat": [
+                3,
+                5,
+                7
+            ],
+            "infos": "<div><a href=\"en\/object\/ngc-5367\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 6820",
+            "coords": {
+                "x": "-5587",
+                "y": "-9",
+                "z": "3341"
+            },
+            "cat": [
+                3,
+                4
+            ],
+            "infos": "<div>NGC 6820 is an emission nebula that surrounds open cluster NGC 6823 in Vulpecula, near M27, the Dumbbell Nebula. The nebula NGC 6820 is also called Sharpless catalog Sh 2-86.<br \/>\nThe most striking feature is the trunk-like pillar of dust and gas protruding from the east side of the nebula towards the open cluster, NGC 6823 in the west. The center of the open cluster is about two million years old and is predominantly represented by many young, bright blue stars. Outer parts of the cluster...<\/div><div><a href=\"en\/object\/ngc-6820\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Parrot's Head",
+            "coords": {
+                "x": "27",
+                "y": "-94",
+                "z": "992"
+            },
+            "cat": [
+                3,
+                6
+            ],
+            "infos": "<div><a href=\"en\/object\/parrot-s-head\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "R Monocerotis",
+            "coords": {
+                "x": "1210",
+                "y": "68",
+                "z": "-2744"
+            },
+            "cat": [
+                3,
+                7,
+                10
+            ],
+            "infos": "<div>R Monocerotis (R Mon) is a T Tauri variable in the constellation Monoceros. The apparent magnitude of R Mon varies between 10 and 12 and the spectral type B8IIIe.<br \/>\nThe star is located in a diffuse nebula called \"Hubble's Variable Nebula\" (NGC 2261). According to some astronomers, the \"star\" R Monocerotis is not more than a very bright concentration of gases within the nebula, and some sky catalogues and atlases do not list it as a star.<\/div><div><a href=\"en\/object\/r-monocerotis\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Rigel",
+            "coords": {
+                "x": "386",
+                "y": "-360",
+                "z": "-683"
+            },
+            "cat": [
+                3,
+                7,
+                15
+            ],
+            "infos": "<div>Rigel, also known by its Bayer designation Beta Orionis (\u03b2 Ori, \u03b2 Orionis), is the brightest star in the constellation Orion and the seventh brightest star in the night sky, with visual magnitude 0.13. The star as seen from Earth is actually a triple or quadruple star system, with the primary star (Rigel A) a blue-white supergiant that is estimated to be anywhere from 120,000 to 279,000 times as luminous as the Sun, depending on method used to calculate its properties. It has exhausted its...<\/div><div><a href=\"en\/object\/rigel\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Running Man Nebula",
+            "coords": {
+                "x": "575",
+                "y": "-407",
+                "z": "-1080"
+            },
+            "cat": [
+                3,
+                5
+            ],
+            "infos": "<div>NGC 1973\/5\/7 is a reflection nebula 1\/2 degree northeast of the Orion Nebula. The three NGC objects are divided by darker regions. It is also called The Running Man Nebula and Sharpless Catalog 279.<br \/>\nThis object was named 'The Running Man Nebula' by Texas Astronomical Society member Jason Ware. Approximately 20 years ago his downstairs neighbor looked at the object and said it looked like a running man. He brought this up a TAS club meeting and the name stuck. Now widely accepted as 'The...<\/div><div><a href=\"en\/object\/running-man-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V1578 Cygni",
+            "coords": {
+                "x": "-3163",
+                "y": "-302",
+                "z": "-235"
+            },
+            "cat": [
+                3
+            ],
+            "infos": "<div><a href=\"en\/object\/v1578-cygni\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Witch Head Nebula",
+            "coords": {
+                "x": "367",
+                "y": "-386",
+                "z": "-710"
+            },
+            "cat": [
+                3,
+                7,
+                10,
+                11
+            ],
+            "infos": "<div>IC 2118 (also known as Witch Head Nebula due to its shape) is an extremely faint reflection nebula believed to be an ancient supernova remnant or gas cloud illuminated by nearby supergiant star Rigel in Orion. It lies in the Eridanus constellation, about 900 light-years from Earth. The nature of the dust particles, reflecting blue light better than red, is a factor in giving the Witch Head its blue color. Radio observations show substantial carbon monoxide emission throughout parts of IC 2118...<\/div><div><a href=\"en\/object\/witch-head-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Barnard's Loop",
+            "coords": {
+                "x": "765",
+                "y": "-361",
+                "z": "-1385"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>Barnard's Loop (catalogue designation Sh 2-276) is an emission nebula in the constellation of Orion. It is part of the Orion Molecular Cloud Complex which also contains the dark Horsehead and bright Orion nebulae. The loop takes the form of a large arc centered approximately on the Orion Nebula. The stars within the Orion Nebula are believed to be responsible for ionizing the loop.<br \/>\nThe loop extends over about 600 arcminutes as seen from Earth, covering much of Orion. It is well seen in...<\/div><div><a href=\"en\/object\/barnard-s-loop\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Bubble Nebula",
+            "coords": {
+                "x": "-6574",
+                "y": "21",
+                "z": "-2665"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>NGC 7635, also called the Bubble Nebula, Sharpless 162, or Caldwell 11, is a H\u00a0II region emission nebula in the constellation Cassiopeia. It lies close to the direction of the open cluster Messier 52. The \"bubble\" is created by the stellar wind from a massive hot, 8.7 magnitude young central star, the 15 \u00b1 5\u00a0M\u2609 SAO 20575 (BD+60 2522). The nebula is near a giant molecular cloud which contains the expansion of the bubble nebula while itself being excited by the hot central star, causing it...<\/div><div><a href=\"en\/object\/bubble-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Bug Nebula",
+            "coords": {
+                "x": "601",
+                "y": "51",
+                "z": "3327"
+            },
+            "cat": [
+                10,
+                11
+            ],
+            "infos": "<div>NGC 6302, also called the Bug Nebula, Butterfly Nebula, is a bipolar planetary nebula in the constellation Scorpius. The structure in the nebula is among the most complex ever observed in planetary nebulae. The spectrum of NGC 6302 shows that its central star is one of the hottest stars in the galaxy, with a surface temperature in excess of 200,000 K, implying that the star from which it formed must have been very large (cf. PG 1159 star).<br \/>\nThe central star, a white dwarf, was only recently...<\/div><div><a href=\"en\/object\/bug-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "California Nebula",
+            "coords": {
+                "x": "-319",
+                "y": "-219",
+                "z": "-911"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The California Nebula (NGC 1499) is an emission nebula located in the constellation Perseus. It is so named because it appears to resemble the outline of the US State of California on long exposure photographs. It is almost 2.5\u00b0 long on the sky and, because of its very low surface brightness, it is extremely difficult to observe visually. It can be observed with a H\u03b2 filter (isolates the H\u03b2 line at 486\u00a0nm) in a rich-field telescope under dark skies. It lies at a distance of about 1,000...<\/div><div><a href=\"en\/object\/california-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "CD-36 11341",
+            "coords": {
+                "x": "619",
+                "y": "65",
+                "z": "3342"
+            },
+            "cat": [
+                10,
+                11
+            ],
+            "infos": "<div>NGC 6302, also called the Bug Nebula, Butterfly Nebula, is a bipolar planetary nebula in the constellation Scorpius. The structure in the nebula is among the most complex ever observed in planetary nebulae. The spectrum of NGC 6302 shows that its central star is one of the hottest stars in the galaxy, with a surface temperature in excess of 200,000 K, implying that the star from which it formed must have been very large (cf. PG 1159 star).<br \/>\nThe central star, a white dwarf, was only recently...<\/div><div><a href=\"en\/object\/cd-36-11341\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Cocoon Nebula",
+            "coords": {
+                "x": "-3159",
+                "y": "-293",
+                "z": "-248"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>IC 5146 (also Caldwell 19, Sh 2-125, and the Cocoon Nebula) is a reflection\/emission nebula and Caldwell object in the constellation Cygnus. The NGC description refers to IC 5146 as a cluster of 9.5 mag stars involved in a bright and dark nebula. The cluster is also known as Collinder 470. It shines at magnitude +10.0\/+9.3\/+7.2. Its celestial coordinates are RA 21h\u00a053.5m, dec+47\u00b0\u00a016\u2032. It is located near the naked-eye star Pi Cygni, the open cluster NGC 7209 in Lacerta, and the bright...<\/div><div><a href=\"en\/object\/cocoon-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Crab Nebula",
+            "coords": {
+                "x": "569",
+                "y": "-699",
+                "z": "-6946"
+            },
+            "cat": [
+                10,
+                12
+            ],
+            "infos": "<div>The Crab Nebula (catalogue designations M1, NGC 1952, Taurus A) is a supernova remnant and pulsar wind nebula in the constellation of Taurus. It is not, as its name might suggest, in Cancer. The now-current name is due to William Parsons, 3rd Earl of Rosse, who observed the object in 1840 using a 36-inch telescope and produced a drawing that looked somewhat like a crab. Corresponding to a bright supernova recorded by Chinese astronomers in 1054, the nebula was observed later by English...<\/div><div><a href=\"en\/object\/crab-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Crescent Nebula",
+            "coords": {
+                "x": "-4843",
+                "y": "207",
+                "z": "1250"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Crescent Nebula (also known as NGC 6888, Caldwell 27, Sharpless 105) is an emission nebula in the constellation Cygnus, about 5000 light-years away. It was discovered by Friedrich Wilhelm Herschel in 1792. It is formed by the fast stellar wind from the Wolf-Rayet star WR 136 (HD 192163) colliding with and energizing the slower moving wind ejected by the star when it became a red giant around 250,000 to 400,000 years ago. The result of the collision is a shell and two shock waves, one...<\/div><div><a href=\"en\/object\/crescent-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Csi+29-19529",
+            "coords": {
+                "x": "-5477",
+                "y": "63",
+                "z": "2450"
+            },
+            "cat": [
+                10,
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/csi-29-19529\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Eagle Nebula",
+            "coords": {
+                "x": "-2030",
+                "y": "99",
+                "z": "6684"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Eagle Nebula (catalogued as Messier 16 or M16, and as NGC 6611, and also known as the Star Queen Nebula and The Spire) is a young open cluster of stars in the constellation Serpens, discovered by Jean-Philippe de Cheseaux in 1745-46. Both the \"Eagle\" and the \"Star Queen\" refer to visual impressions of the dark silhouette near the center of the nebula, an area made famous as the \"Pillars of Creation\" photographed by the Hubble Space Telescope. The nebula contains several active...<\/div><div><a href=\"en\/object\/eagle-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Fine Ring Nebula",
+            "coords": {
+                "x": "507",
+                "y": "33",
+                "z": "860"
+            },
+            "cat": [
+                10,
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/fine-ring-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Flaming Star Nebula",
+            "coords": {
+                "x": "-235",
+                "y": "-44",
+                "z": "-1681"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>IC 405 (also known as the Flaming Star Nebula, SH 2-229, or Caldwell 31) is an emission\/reflection nebula in the constellation Auriga, surrounding the bluish star AE Aurigae. It shines at magnitude +6.0. Its celestial coordinates are RA 05h\u00a016.2m dec +34\u00b0\u00a028\u2032. It surrounds the irregular variable star AE Aurigae and is located near the emission nebula IC 410, the open clusters M38 and M36, and the K-class star Iota Aurigae. The nebula measures approximately 37.0' x 19.0', and lies about...<\/div><div><a href=\"en\/object\/flaming-star-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HD 99897",
+            "coords": {
+                "x": "1646",
+                "y": "-46",
+                "z": "731"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div><a href=\"en\/object\/hd-99897\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Heart Nebula",
+            "coords": {
+                "x": "-5332",
+                "y": "110",
+                "z": "-5293"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Heart Nebula, IC 1805, Sharpless 2-190, lies some 7500 light years away from Earth and is located in the Perseus Arm of the Galaxy in the constellation Cassiopeia. This is an emission nebula showing glowing ionized hydrogen gas and darker dust lanes.<br \/>\nThe very brightest part of this nebula (the knot at the right) is separately classified as NGC 896, because it was the first part of this nebula to be discovered.<br \/>\nThe nebula's intense red output and its configuration are driven by the...<\/div><div><a href=\"en\/object\/heart-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Hen 2-215",
+            "coords": {
+                "x": "901",
+                "y": "-94",
+                "z": "4815"
+            },
+            "cat": [
+                10,
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/hen-2-215\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IC 1396",
+            "coords": {
+                "x": "-2518",
+                "y": "173",
+                "z": "-553"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Elephant's Trunk nebula is a concentration of interstellar gas and dust within the much larger ionized gas region IC 1396 located in the constellation Cepheus about 2,400 light years away from Earth. The piece of the nebula shown here is the dark, dense globule IC 1396A; it is commonly called the Elephant's Trunk nebula because of its appearance at visible light wavelengths, where there is a dark patch with a bright, sinuous rim. The bright rim is the surface of the dense cloud that is...<\/div><div><a href=\"en\/object\/ic-1396\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IC 1805",
+            "coords": {
+                "x": "-4290",
+                "y": "59",
+                "z": "-4279"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Heart Nebula, IC 1805, Sharpless 2-190, lies some 7500 light years away from Earth and is located in the Perseus Arm of the Galaxy in the constellation Cassiopeia. This is an emission nebula showing glowing ionized hydrogen gas and darker dust lanes.<br \/>\nThe very brightest part of this nebula (the knot at the right) is separately classified as NGC 896, because it was the first part of this nebula to be discovered.<br \/>\nThe nebula's intense red output and its configuration are driven by the...<\/div><div><a href=\"en\/object\/ic-1805\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IC 1848",
+            "coords": {
+                "x": "-4438",
+                "y": "73",
+                "z": "-4821"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>Westerhout 5 (Sharpless 2-199, LBN 667, Soul Nebula) is an emission nebula located in Cassiopeia. Several small open clusters are embedded in the nebula: CR 34, 632, and 634 (in the head) and IC\u00a01848 (in the body). The object is more commonly called by the cluster designation IC\u00a01848.<br \/>\nSmall emission nebula IC\u00a01871 is present just left of the top of the head, and small emission nebulae 670 and 669 are just below the lower back area.<br \/>\nThe galaxies Maffei 1 and Maffei 2 are both nearby the...<\/div><div><a href=\"en\/object\/ic-1848\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IC 2944",
+            "coords": {
+                "x": "5490",
+                "y": "-9",
+                "z": "2187"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>IC 2944, also known as the Running Chicken Nebula or the \u03bb Centauri Nebula, is an open cluster with an associated emission nebula found in the constellation Centaurus, near the star \u03bb Centauri. It features Bok globules, which are frequently a site of active star formation. However, no evidence for star formation has been found in any of the globules in IC 2944.<br \/>\nThe ESO Very Large Telescope image on the right is a close up of a set of Bok globules discovered in IC 2944 by South African...<\/div><div><a href=\"en\/object\/ic-2944\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "KN Muscae",
+            "coords": {
+                "x": "1415",
+                "y": "-106",
+                "z": "1074"
+            },
+            "cat": [
+                10,
+                11
+            ],
+            "infos": "<div>NGC 5189 (Gum 47, IC 4274, nicknamed Spiral Planetary Nebula) is a planetary nebula in the constellation Musca. It was discovered by James Dunlop on 1 July 1826, who catalogued it as \u0394252. For many years, well into the 1960s, it was thought to be a bright emission nebula. It was Karl Gordon Henize in 1967 who first described NGC 5189 as quasi-planetary based on its spectral emissions.<br \/>\nSeen through the telescope it seems to have an S shape, reminiscent of a barred spiral galaxy. The S shape,...<\/div><div><a href=\"en\/object\/kn-muscae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Lagoon Nebula",
+            "coords": {
+                "x": "-472",
+                "y": "-100",
+                "z": "4470"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Lagoon Nebula (catalogued as Messier 8 or M8, and as NGC 6523) is a giant interstellar cloud in the constellation Sagittarius. It is classified as an emission nebula and as an H II region.<br \/>\nThe Lagoon Nebula was discovered by Giovanni Hodierna before 1654 and is one of only two star-forming nebulae faintly visible to the naked eye from mid-northern latitudes. Seen with binoculars, it appears as a distinct oval cloudlike patch with a definite core. In the foreground is the open cluster NGC...<\/div><div><a href=\"en\/object\/lagoon-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "LBN 623",
+            "coords": {
+                "x": "-484",
+                "y": "-22",
+                "z": "-328"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div><a href=\"en\/object\/lbn-623\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "M16",
+            "coords": {
+                "x": "-1658",
+                "y": "67",
+                "z": "5509"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Eagle Nebula (catalogued as Messier 16 or M16, and as NGC 6611, and also known as the Star Queen Nebula and The Spire) is a young open cluster of stars in the constellation Serpens, discovered by Jean-Philippe de Cheseaux in 1745-46. Both the \"Eagle\" and the \"Star Queen\" refer to visual impressions of the dark silhouette near the center of the nebula, an area made famous as the \"Pillars of Creation\" photographed by the Hubble Space Telescope. The nebula contains several active...<\/div><div><a href=\"en\/object\/m16\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "M17",
+            "coords": {
+                "x": "-1053",
+                "y": "16",
+                "z": "4112"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Omega Nebula, also known as the Swan Nebula, Checkmark Nebula, and the Horseshoe Nebula (catalogued as Messier 17 or M17) is an H II region in the constellation Sagittarius. It was discovered by Philippe Loys de Ch\u00e9seaux in 1745. Charles Messier catalogued it in 1764. It is located in the rich starfields of the Sagittarius area of the Milky Way.<br \/>\n<\/div><div><a href=\"en\/object\/m17\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "M20",
+            "coords": {
+                "x": "-312",
+                "y": "-48",
+                "z": "2640"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Trifid Nebula (catalogued as Messier 20 or M20 and as NGC 6514) is an H II region located in Sagittarius. It was discovered by Charles Messier on June 5, 1764. Its name means 'divided into three lobes'. The object is an unusual combination of an open cluster of stars; an emission nebula (the lower, red portion), a reflection nebula (the upper, blue portion) and a dark nebula (the apparent 'gaps' within the emission nebula that cause the trifurcated appearance; these are also designated...<\/div><div><a href=\"en\/object\/m20\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Monkey Head Nebula",
+            "coords": {
+                "x": "1122",
+                "y": "34",
+                "z": "-6290"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>NGC 2174 (also known as Monkey Head Nebula) is an H II emission nebula located in the constellation Orion and is associated with the open star cluster NGC 2175. It is thought to be located about 6,400 light-years away from Earth. The nebula may have formed through hierarchical collapse.<br \/>\nThere is some equivocation in the use of the identifiers NGC 2174 and NGC 2175. These may apply to the entire nebula, to its brightest knot, or to the star cluster it includes. Burnham's Celestial Handbook...<\/div><div><a href=\"en\/object\/monkey-head-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 2264",
+            "coords": {
+                "x": "691",
+                "y": "-2",
+                "z": "-1947"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>NGC 2264 is the designation number of the New General Catalogue that identifies two astronomical objects as a single object:<br \/>\nthe Cone Nebula,<br \/>\nthe Christmas Tree Cluster,<br \/>\nTwo other objects are within this designation but not officially included:<br \/>\nSnowflake Cluster,<br \/>\nand the Fox Fur Nebula.<br \/>\nAll of the objects are located in the Monoceros constellation and are located about 800 parsecs or 2600 light-years from Earth.<br \/>\nNGC 2264 is sometimes referred to as the Christmas Tree Cluster and the Cone...<\/div><div><a href=\"en\/object\/ngc-2264\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 281",
+            "coords": {
+                "x": "-6665",
+                "y": "-867",
+                "z": "-4347"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>NGC 281 is an H II region in the constellation of Cassiopeia and part of the Perseus Spiral Arm. It includes the open cluster IC 1590, the multiple star HD 5005, and several Bok globules. Colloquially, NGC 281 is also known as the Pacman Nebula for its resemblance to the video game character.<br \/>\nThe nebula was discovered in August 1883 by E. E. Barnard, who described it as \"a large faint nebula, very diffuse.\" The multiple star HD 5005, also called , was discovered by S. W. Burnham. It consists...<\/div><div><a href=\"en\/object\/ngc-281\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 3199",
+            "coords": {
+                "x": "14602",
+                "y": "-250",
+                "z": "3540"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div><a href=\"en\/object\/ngc-3199\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 6337",
+            "coords": {
+                "x": "907",
+                "y": "-88",
+                "z": "4791"
+            },
+            "cat": [
+                10,
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/ngc-6337\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 6357",
+            "coords": {
+                "x": "954",
+                "y": "144",
+                "z": "8102"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>NGC 6357 is a diffuse nebula near NGC 6334 in the constellation Scorpius. The nebula contains many proto-stars shielded by dark disks of gas, and young stars wrapped in expanding \"cocoons\" or expanding gases surrounding these small stars. It is also known as the Lobster Nebula<br \/>\nThis nebula was also given the name War and Peace Nebula by the Midcourse Space Experiment scientists because of its appearance. They said that in infrared images the bright, western part resembles a dove, while the...<\/div><div><a href=\"en\/object\/ngc-6357\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 7538",
+            "coords": {
+                "x": "-8374",
+                "y": "123",
+                "z": "-3303"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>NGC 7538, near the more famous Bubble Nebula, is located in the constellation Cepheus. It is located about 9,100 light-years from Earth. It is home to the biggest yet discovered protostar which is about 300 times the size of the Solar System. It is located in the Perseus Spiral Arm of the Milky Way and is probably part of the Cassiopeia OB2 complex. It is a region of active star formation including several luminous near-IR and far-IR sources.<\/div><div><a href=\"en\/object\/ngc-7538\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 7822",
+            "coords": {
+                "x": "-2436",
+                "y": "282",
+                "z": "-1330"
+            },
+            "cat": [
+                10,
+                12
+            ],
+            "infos": "<div>NGC 7822 is a young star forming complex in the constellation of Cepheus. The complex encompasses the emission region designated Sharpless 171, and the young cluster of stars named Berkeley 59. The complex is believed to be some 800-1000 pc distant, with the younger components aged no more than a few million years. The complex also includes one of the hottest stars discovered within 1 kpc of the Sun, namely BD+66 1673, which is an eclipsing binary system consisting of an O5V that exhibits a...<\/div><div><a href=\"en\/object\/ngc-7822\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "North America Nebula",
+            "coords": {
+                "x": "-1884",
+                "y": "-13",
+                "z": "160"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The North America Nebula (NGC 7000 or Caldwell 20) is an emission nebula in the constellation Cygnus, close to Deneb (the tail of the swan and its brightest star). The remarkable shape of the nebula resembles that of the continent of North America, complete with a prominent Gulf of Mexico. It is sometimes incorrectly called the \"North American Nebula\".<br \/>\n<\/div><div><a href=\"en\/object\/north-america-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Omega",
+            "coords": {
+                "x": "-1405",
+                "y": "-64",
+                "z": "5321"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Omega Nebula, also known as the Swan Nebula, Checkmark Nebula, and the Horseshoe Nebula (catalogued as Messier 17 or M17) is an H II region in the constellation Sagittarius. It was discovered by Philippe Loys de Ch\u00e9seaux in 1745. Charles Messier catalogued it in 1764. It is located in the rich starfields of the Sagittarius area of the Milky Way.<br \/>\n<\/div><div><a href=\"en\/object\/omega\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Orion Nebula",
+            "coords": {
+                "x": "620",
+                "y": "-419",
+                "z": "-1180"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Orion Nebula (also known as Messier 42, M42, or NGC 1976) is a diffuse nebula situated in the Milky Way, being south of Orion's Belt in the constellation of Orion. It is one of the brightest nebulae, and is visible to the naked eye in the night sky. M42 is located at a distance of 1,344 \u00b1 20 light years and is the closest region of massive star formation to Earth. The M42 nebula is estimated to be 24\u00a0light years across. It has a mass of about 2000 times the mass of the Sun. Older texts...<\/div><div><a href=\"en\/object\/orion-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Pelican Nebula",
+            "coords": {
+                "x": "-1869",
+                "y": "27",
+                "z": "235"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Pelican Nebula (also known as IC 5070 and IC 5067) is an H II region associated with the North America Nebula in the constellation Cygnus. The gaseous contortions of this emission nebula bear a resemblance to a pelican, giving rise to its name. The Pelican Nebula is located nearby first magnitude star Deneb, and is divided from its more prominent neighbour, the North America Nebula, by a molecular cloud filled with dark dust.<br \/>\nThe Pelican is much studied because it has a particularly...<\/div><div><a href=\"en\/object\/pelican-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Pencil Nebula",
+            "coords": {
+                "x": "813",
+                "y": "-17",
+                "z": "-54"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>NGC 2736 (also known as the Pencil Nebula) is a small part of the Vela Supernova Remnant, located near the Vela Pulsar in the constellation Vela. The nebula's linear appearance triggered its popular name. It resides about 815 light-years (250 parsecs) away from the Solar System. It is thought to be formed from part of the shock wave of the larger Vela Supernova Remnant. The Pencil Nebula is moving at roughly 644,000 kilometers per hour (400,000 miles per hour).<br \/>\n<\/div><div><a href=\"en\/object\/pencil-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "PMD2009 11",
+            "coords": {
+                "x": "577",
+                "y": "-419",
+                "z": "-1041"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div><a href=\"en\/object\/pmd2009-11\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Red Spider Nebula",
+            "coords": {
+                "x": "-527",
+                "y": "24",
+                "z": "2957"
+            },
+            "cat": [
+                10,
+                11
+            ],
+            "infos": "<div>The Red Spider Nebula (also catalogued as NGC 6537) is a planetary nebula located near the heart of the Milky Way, in the northwest of  the constellation Sagittarius. The nebula has a prominent two-lobed shape, possibly due to a binary companion or magnetic fields and has an \u2018S\u2019-shaped symmetry of the lobes \u2013 the lobes opposite each other appear similar. This is believed to be due to the presence of a companion to the central white dwarf. However, the gas walls of the two lobed...<\/div><div><a href=\"en\/object\/red-spider-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Regor",
+            "coords": {
+                "x": "1034",
+                "y": "-87",
+                "z": "-137"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>Gamma Velorum (\u03b3 Vel, \u03b3 Velorum) is a multiple star system in the constellation Vela. At magnitude +1.7, it is one of the brightest stars in the night sky, and by far the closest and brightest Wolf-Rayet star. It has the traditional name Suhail al Muhlif and the modern name Regor, but neither is approved by the International Astronomical Union.<br \/>\n<\/div><div><a href=\"en\/object\/regor\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Rosette Nebula",
+            "coords": {
+                "x": "2353",
+                "y": "-175",
+                "z": "-4748"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Rosette Nebula (also known as Caldwell 49) is a large, spherical (circular in appearance), H II region located near one end of a giant molecular cloud in the Monoceros region of the Milky Way Galaxy. The open cluster NGC 2244 (Caldwell 50) is closely associated with the nebulosity, the stars of the cluster having been formed from the nebula's matter.<br \/>\nThe complex has the following NGC designations:<br \/>\nNGC 2237 \u2013 Part of the nebulous region (Also used to denote whole nebula)<br \/>\nNGC 2238 \u2013...<\/div><div><a href=\"en\/object\/rosette-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Trifid Nebula",
+            "coords": {
+                "x": "-647",
+                "y": "-25",
+                "z": "5157"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div>The Trifid Nebula (catalogued as Messier 20 or M20 and as NGC 6514) is an H II region located in Sagittarius. It was discovered by Charles Messier on June 5, 1764. Its name means 'divided into three lobes'. The object is an unusual combination of an open cluster of stars; an emission nebula (the lower, red portion), a reflection nebula (the upper, blue portion) and a dark nebula (the apparent 'gaps' within the emission nebula that cause the trifurcated appearance; these are also designated...<\/div><div><a href=\"en\/object\/trifid-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V1328 Orionis",
+            "coords": {
+                "x": "576",
+                "y": "-418",
+                "z": "-1038"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div><a href=\"en\/object\/v1328-orionis\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V2288 Orionis",
+            "coords": {
+                "x": "575",
+                "y": "-417",
+                "z": "-1037"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div><a href=\"en\/object\/v2288-orionis\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V594 Cas",
+            "coords": {
+                "x": "-556",
+                "y": "-8",
+                "z": "-352"
+            },
+            "cat": [
+                10
+            ],
+            "infos": "<div><a href=\"en\/object\/v594-cas\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "BD+01 3979",
+            "coords": {
+                "x": "-2015",
+                "y": "-362",
+                "z": "2588"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 6790 is a planetary nebula located in the constellation Aquila.<\/div><div><a href=\"en\/object\/bd-01-3979\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "BD+22 3878",
+            "coords": {
+                "x": "-958",
+                "y": "-71",
+                "z": "536"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>The Dumbbell Nebula (also known as Apple Core Nebula, Messier 27, M 27, or NGC 6853) is a planetary nebula in the constellation Vulpecula, at a distance of about 1,360 light-years.<br \/>\nThis object was the first planetary nebula to be discovered; by Charles Messier in 1764. At its brightness of visual magnitude 7.5 and its diameter of about 8 arcminutes, it is easily visible in binoculars, and a popular observing target in amateur telescopes.<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<\/div><div><a href=\"en\/object\/bd-22-3878\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "BD+30 623",
+            "coords": {
+                "x": "-202",
+                "y": "-219",
+                "z": "-807"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 1514 is a planetary nebula that was discovered by William Herschel on November 13, 1790, describing it \"A most singular phaenomenon\" and forcing him to rethink his ideas on the construction of the heavens. Up until this point Herschel was convinced that all nebulae consisted of masses of stars too remote to resolve, but now here was a single star \"surrounded with a faintly luminous atmosphere.\" He went on to conclude \"Our judgement I may venture to say, will be, that the nebulosity about...<\/div><div><a href=\"en\/object\/bd-30-623\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "BD+50 2869",
+            "coords": {
+                "x": "-1938",
+                "y": "443",
+                "z": "217"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 6826 (also known as Caldwell 15) is a planetary nebula located in the constellation Cygnus. It is commonly referred to as the \"blinking planetary\", although many other nebulae exhibit such \"blinking\". When viewed through a small telescope, the brightness of the central star overwhelms the eye when viewed directly, obscuring the surrounding nebula. However, it can be viewed well using averted vision, which causes it to \"blink\" in and out of view as the observer's eye wanders.<br \/>\nA distinctive...<\/div><div><a href=\"en\/object\/bd-50-2869\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "BD-12 1172",
+            "coords": {
+                "x": "578",
+                "y": "-453",
+                "z": "-819"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>IC 418, also known as Spirograph Nebula, is a planetary nebula in the Milky Way Galaxy.<br \/>\nThe name derives from the intricate pattern of the nebula, which resembles a pattern which can be created using the Spirograph, a toy which produces geometric patterns (specifically, hypotrochoids and epitrochoids) on paper.<\/div><div><a href=\"en\/object\/bd-12-1172\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "BD-17 3140",
+            "coords": {
+                "x": "1172",
+                "y": "744",
+                "z": "-184"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 3242, commonly known as the Ghost of Jupiter, is a planetary nebula located in the constellation Hydra.<br \/>\nWilliam Herschel discovered the nebula on February 7, 1785, and cataloged it as H IV.27. John Herschel observed it from the Cape of Good Hope, South Africa, in the 1830s, and numbered it as h 3248, and included it in the 1864 General Catalogue as GC 2102; this became NGC 3242 in J. L. E. Dreyer's New General Catalogue of 1888.<br \/>\nThis planetary nebula is most frequently called the Ghost of...<\/div><div><a href=\"en\/object\/bd-17-3140\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Blue Flash Nebula",
+            "coords": {
+                "x": "-2600",
+                "y": "502",
+                "z": "1423"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 6905, also known as the Blue Flash Nebula, is a planetary nebula in the constellation Delphinus. It was discovered by William Herschel in 1784. The central star is 14.0 mag. The distance of the nebula, as with most planetary nebulae, is not well determined and estimates range between 1.7 and 2.6 kpc.<br \/>\nThe shape of NGC 6905 is characterised by an internal shell with angular dimensions 47\" \u00d734\" and roughly conical extensions, with ansae-type formations along the major axis. The nucleus of...<\/div><div><a href=\"en\/object\/blue-flash-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "CD-23 13397",
+            "coords": {
+                "x": "-204",
+                "y": "504",
+                "z": "4870"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>Little Ghost Nebula is a planetary nebula in the constellation Ophiuchus. It was discovered by William Herschel.<br \/>\nRound and planet-shaped, the nebula is also relatively faint. Planetary nebulae are not related to planets at all, but instead are created at the end of a sun-like star's life as its outer layers expand into space while the star's core shrinks to become a white dwarf. The transformed white dwarf star, seen near the center, radiates strongly at ultraviolet wavelengths and powers the...<\/div><div><a href=\"en\/object\/cd-23-13397\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "CD-33 12935",
+            "coords": {
+                "x": "80",
+                "y": "-394",
+                "z": "3074"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/cd-33-12935\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "CD-39 6137",
+            "coords": {
+                "x": "2050",
+                "y": "451",
+                "z": "75"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 3132, also known as the Eight-Burst Nebula, the Southern Ring Nebula, is a bright and extensively studied planetary nebula in the constellation Vela. Its distance from Earth is estimated at about 550 pc. or 2,000 light-years.<br \/>\n<\/div><div><a href=\"en\/object\/cd-39-6137\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "CD-43 9005",
+            "coords": {
+                "x": "1868",
+                "y": "812",
+                "z": "2203"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>IC 4406 is a planetary nebula near the western border of the constellation Lupus, the Wolf. It has dust clouds and has the shape of a torus. Despite this, it looks somewhat rectangular because it is seen from its side as viewed from Earth, almost in the plane of its equator.<\/div><div><a href=\"en\/object\/cd-43-9005\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "CPD-65 2513",
+            "coords": {
+                "x": "6500",
+                "y": "-644",
+                "z": "5282"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 5315 is a planetary nebula in the constellation Circinus. Of apparent magnitude 9.8 around a central star of magnitude 14.2, it is located 5.2 degrees westsouthwest of Alpha Circini. It is only visible as a disc at magnifications over 200-fold.<\/div><div><a href=\"en\/object\/cpd-65-2513\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Csi+19-20105",
+            "coords": {
+                "x": "-7732",
+                "y": "-1206",
+                "z": "4446"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 6886 is a planetary nebula in the constellation Sagitta. It was discovered by Ralph Copeland on September 17, 1884.<\/div><div><a href=\"en\/object\/csi-19-20105\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Csi+19-20201",
+            "coords": {
+                "x": "-2600",
+                "y": "500",
+                "z": "1411"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 6905, also known as the Blue Flash Nebula, is a planetary nebula in the constellation Delphinus. It was discovered by William Herschel in 1784. The central star is 14.0 mag. The distance of the nebula, as with most planetary nebulae, is not well determined and estimates range between 1.7 and 2.6 kpc.<br \/>\nThe shape of NGC 6905 is characterised by an internal shell with angular dimensions 47\" \u00d734\" and roughly conical extensions, with ansae-type formations along the major axis. The nucleus of...<\/div><div><a href=\"en\/object\/csi-19-20201\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Csi+46-20087",
+            "coords": {
+                "x": "-2457",
+                "y": "309",
+                "z": "341"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 6884 is a planetary nebula located in the constellation Cygnus.<\/div><div><a href=\"en\/object\/csi-46-20087\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Csi+61-22385",
+            "coords": {
+                "x": "-3996",
+                "y": "169",
+                "z": "-1283"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 7354 is a planetary nebula located in the constellation Cepheus.<\/div><div><a href=\"en\/object\/csi-61-22385\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "CSI-20-17462",
+            "coords": {
+                "x": "-633",
+                "y": "306",
+                "z": "4445"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/csi-20-17462\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "CSI-21-22270",
+            "coords": {
+                "x": "-225",
+                "y": "-588",
+                "z": "307"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>The Helix Nebula, also known as The Helix, NGC 7293, is a large planetary nebula (PN) located in the constellation Aquarius. Discovered by Karl Ludwig Harding, probably before 1824, this object is one of the closest to the Earth of all the bright planetary nebulae. The estimated distance is about 215 parsecs (700 light-years). It is similar in appearance to the Cat's Eye Nebula and the Ring Nebula, whose size, age, and physical characteristics are similar to the Dumbbell Nebula, varying only...<\/div><div><a href=\"en\/object\/csi-21-22270\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "CSI-61-15434",
+            "coords": {
+                "x": "5443",
+                "y": "-831",
+                "z": "7119"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/csi-61-15434\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Dumbbell Nebula",
+            "coords": {
+                "x": "-937",
+                "y": "-52",
+                "z": "539"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>The Dumbbell Nebula (also known as Apple Core Nebula, Messier 27, M 27, or NGC 6853) is a planetary nebula in the constellation Vulpecula, at a distance of about 1,360 light-years.<br \/>\nThis object was the first planetary nebula to be discovered; by Charles Messier in 1764. At its brightness of visual magnitude 7.5 and its diameter of about 8 arcminutes, it is easily visible in binoculars, and a popular observing target in amateur telescopes.<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<br \/>\n<\/div><div><a href=\"en\/object\/dumbbell-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Eskimo Nebula",
+            "coords": {
+                "x": "227",
+                "y": "216",
+                "z": "-698"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>The Eskimo Nebula (NGC 2392), also known as the Clownface Nebula or Caldwell 39, is a bipolar double-shell planetary nebula (PN). It was discovered by astronomer William Herschel in 1787. The formation resembles a person's head surrounded by a parka hood. It is surrounded by gas that composed the outer layers of a Sun-like star. The visible inner filaments are ejected by a strong wind of particles from the central star. The outer disk contains unusual light-year-long filaments.<br \/>\n<br \/>\nNGC 2392 lies...<\/div><div><a href=\"en\/object\/eskimo-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "GCRV 4981",
+            "coords": {
+                "x": "235",
+                "y": "239",
+                "z": "-726"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>The Eskimo Nebula (NGC 2392), also known as the Clownface Nebula or Caldwell 39, is a bipolar double-shell planetary nebula (PN). It was discovered by astronomer William Herschel in 1787. The formation resembles a person's head surrounded by a parka hood. It is surrounded by gas that composed the outer layers of a Sun-like star. The visible inner filaments are ejected by a strong wind of particles from the central star. The outer disk contains unusual light-year-long filaments.<br \/>\n<br \/>\nNGC 2392 lies...<\/div><div><a href=\"en\/object\/gcrv-4981\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "GCRV 6897",
+            "coords": {
+                "x": "-624",
+                "y": "1847",
+                "z": "-1019"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>The Owl Nebula (Messier 97,M97, NGC 3587) is a planetary nebula located approximately 2,030 light years away in the constellation Ursa Major. It was discovered by French astronomer Pierre M\u00e9chain on February 16, 1781. When William Parsons, 3rd Earl of Rosse, observed the nebula in 1848, his hand-drawn illustration resembled an owl's head. It has been known as the Owl Nebula ever since.<br \/>\nThe nebula is approximately 8,000 years old. It is approximately circular in cross-section with a little...<\/div><div><a href=\"en\/object\/gcrv-6897\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "GCRV 950",
+            "coords": {
+                "x": "-1561",
+                "y": "-383",
+                "z": "-1352"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>The Little Dumbbell Nebula, also known as Messier 76, NGC 650\/651, the Barbell Nebula, or the Cork Nebula, is a planetary nebula in the constellation Perseus. It was discovered by Pierre M\u00e9chain in 1780 and included in Charles Messier's catalog of comet-like objects as number 76. It was first recognised as a planetary nebula in 1918 by the astronomer Heber Doust Curtis. However, there is some contention to this claim, as Isaac Roberts in 1891 did suggest that M76 might be similar to the Ring...<\/div><div><a href=\"en\/object\/gcrv-950\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Ghost of Jupiter",
+            "coords": {
+                "x": "1167",
+                "y": "732",
+                "z": "-203"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 3242, commonly known as the Ghost of Jupiter, is a planetary nebula located in the constellation Hydra.<br \/>\nWilliam Herschel discovered the nebula on February 7, 1785, and cataloged it as H IV.27. John Herschel observed it from the Cape of Good Hope, South Africa, in the 1830s, and numbered it as h 3248, and included it in the 1864 General Catalogue as GC 2102; this became NGC 3242 in J. L. E. Dreyer's New General Catalogue of 1888.<br \/>\nThis planetary nebula is most frequently called the Ghost of...<\/div><div><a href=\"en\/object\/ghost-of-jupiter\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Helix Nebula",
+            "coords": {
+                "x": "-221",
+                "y": "-580",
+                "z": "300"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>The Helix Nebula, also known as The Helix, NGC 7293, is a large planetary nebula (PN) located in the constellation Aquarius. Discovered by Karl Ludwig Harding, probably before 1824, this object is one of the closest to the Earth of all the bright planetary nebulae. The estimated distance is about 215 parsecs (700 light-years). It is similar in appearance to the Cat's Eye Nebula and the Ring Nebula, whose size, age, and physical characteristics are similar to the Dumbbell Nebula, varying only...<\/div><div><a href=\"en\/object\/helix-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HIP 66732",
+            "coords": {
+                "x": "374",
+                "y": "499",
+                "z": "433"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/hip-66732\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IC 289",
+            "coords": {
+                "x": "-1129",
+                "y": "91",
+                "z": "-1281"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>IC 289 is a planetary nebula in the constellation Cassiopeia. It was discovered by Lewis Swift in early September 1888. It lies close to the 10th magnitude star BD +60\u00b0 0631. N.J. Martin described IC 289 as \"A nice, faint round planet like planetary nebula. The uniform oval disc shows some irregularity in brightness but is not obviously brighter at the edge.\"<\/div><div><a href=\"en\/object\/ic-289\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IC 4663",
+            "coords": {
+                "x": "1518",
+                "y": "-943",
+                "z": "6198"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/ic-4663\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "IRAS 21565-3937",
+            "coords": {
+                "x": "-84",
+                "y": "-2377",
+                "z": "1828"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><br \/>\nNicknamed the Spare-tyre nebula, IC 5148 is a planetary nebula located around 1 degree west of Lambda Gruis in the constellation of Grus (The Crane). Around 3000 light-years distant, it is expanding at a rate of 50 kilometres a second, one of the fastest of all planetary nebulae.<\/div><div><a href=\"en\/object\/iras-21565-3937\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Lan 111",
+            "coords": {
+                "x": "-2882",
+                "y": "278",
+                "z": "-171"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 7008 (PK 93+5.2), also known as the Fetus Nebula is a planetary nebula with a diameter of approximately 1 light-year located at a distance of 2800 light years in northern Cygnus. It was discovered by William Herschel in 1787, in Slough, England. NGC 7008 (H I-192) is included in the Astronomical League's Herschel 400 observing program.<\/div><div><a href=\"en\/object\/lan-111\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Little Dumbbell Nebula",
+            "coords": {
+                "x": "-1538",
+                "y": "-385",
+                "z": "-1316"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>The Little Dumbbell Nebula, also known as Messier 76, NGC 650\/651, the Barbell Nebula, or the Cork Nebula, is a planetary nebula in the constellation Perseus. It was discovered by Pierre M\u00e9chain in 1780 and included in Charles Messier's catalog of comet-like objects as number 76. It was first recognised as a planetary nebula in 1918 by the astronomer Heber Doust Curtis. However, there is some contention to this claim, as Isaac Roberts in 1891 did suggest that M76 might be similar to the Ring...<\/div><div><a href=\"en\/object\/little-dumbbell-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Little Ghost Nebula",
+            "coords": {
+                "x": "-219",
+                "y": "480",
+                "z": "4868"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>Little Ghost Nebula is a planetary nebula in the constellation Ophiuchus. It was discovered by William Herschel.<br \/>\nRound and planet-shaped, the nebula is also relatively faint. Planetary nebulae are not related to planets at all, but instead are created at the end of a sun-like star's life as its outer layers expand into space while the star's core shrinks to become a white dwarf. The transformed white dwarf star, seen near the center, radiates strongly at ultraviolet wavelengths and powers the...<\/div><div><a href=\"en\/object\/little-ghost-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 1360",
+            "coords": {
+                "x": "434",
+                "y": "-915",
+                "z": "-512"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 1360, also known as the Robin's Egg Nebula, is a planetary nebula in the constellation of Fornax. It was identified as a planetary nebula due to its strong radiation in the OIII (oxygen) bands. Reddish matter, believed to have been ejected from the original star before its final collapse, is visible in images. It is slightly fainter than IC 2003.<br \/>\nNGC 1360 was discovered in January 1868 by the German astronomer Friedrich August Theodor Winnecke.<\/div><div><a href=\"en\/object\/ngc-1360\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 1514",
+            "coords": {
+                "x": "-232",
+                "y": "-208",
+                "z": "-790"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 1514 is a planetary nebula that was discovered by William Herschel on November 13, 1790, describing it \"A most singular phaenomenon\" and forcing him to rethink his ideas on the construction of the heavens. Up until this point Herschel was convinced that all nebulae consisted of masses of stars too remote to resolve, but now here was a single star \"surrounded with a faintly luminous atmosphere.\" He went on to conclude \"Our judgement I may venture to say, will be, that the nebulosity about...<\/div><div><a href=\"en\/object\/ngc-1514\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 2440",
+            "coords": {
+                "x": "4632",
+                "y": "320",
+                "z": "-3290"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 2440 is a planetary nebula, one of many in our galaxy. Its central star, HD62166, is possibly the hottest known white dwarf. The nebula is situated in the Puppis constellation.<br \/>\nIt was discovered by William Herschel on March 4, 1790. He described it as \"a beautiful planetary nebula of a considerable degree of brightness, not very well defined.\" The nebula is located about 1.23 kiloparsecs (3.79\u00d71019 m) or about 4,000 light years from the Sun.<br \/>\n<\/div><div><a href=\"en\/object\/ngc-2440\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 5979",
+            "coords": {
+                "x": "5466",
+                "y": "-881",
+                "z": "7101"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/ngc-5979\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 6445",
+            "coords": {
+                "x": "-634",
+                "y": "290",
+                "z": "4475"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/ngc-6445\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 6563",
+            "coords": {
+                "x": "53",
+                "y": "-369",
+                "z": "3081"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/ngc-6563\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 6567",
+            "coords": {
+                "x": "-902",
+                "y": "-28",
+                "z": "4077"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/ngc-6567\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 6804",
+            "coords": {
+                "x": "-3540",
+                "y": "-343",
+                "z": "3504"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div><a href=\"en\/object\/ngc-6804\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 6886",
+            "coords": {
+                "x": "-7743",
+                "y": "-1183",
+                "z": "4420"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 6886 is a planetary nebula in the constellation Sagitta. It was discovered by Ralph Copeland on September 17, 1884.<\/div><div><a href=\"en\/object\/ngc-6886\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NSV 1056",
+            "coords": {
+                "x": "-1118",
+                "y": "83",
+                "z": "-1278"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>IC 289 is a planetary nebula in the constellation Cassiopeia. It was discovered by Lewis Swift in early September 1888. It lies close to the 10th magnitude star BD +60\u00b0 0631. N.J. Martin described IC 289 as \"A nice, faint round planet like planetary nebula. The uniform oval disc shows some irregularity in brightness but is not obviously brighter at the edge.\"<\/div><div><a href=\"en\/object\/nsv-1056\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Phantom Streak Nebula",
+            "coords": {
+                "x": "-3581",
+                "y": "-303",
+                "z": "5436"
+            },
+            "cat": [
+                11
+            ],
+            "infos": "<div>NGC 6741, also known as the Phantom Streak Nebula, is located about 7000 light-years away in the constellation of Aquila (the Eagle). NGC 6741 is classed as a planetary nebula, though no planets are responsible for this billowy cloud; the term came about in the 18th century because the round gas shells resembled the Solar System's outer giant planets in astronomers' telescopes. Although fairly bright, this object appears very small though a typical telescope and was missed by early surveyors...<\/div><div><a href=\"en\/object\/phantom-streak-nebula\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Vela Pulsar",
+            "coords": {
+                "x": "906",
+                "y": "-44",
+                "z": "-102"
+            },
+            "cat": [
+                12
+            ],
+            "infos": "<div>The Vela Pulsar (PSR J0835-4510 or PSR B0833-45) is a radio, optical, X-ray- and gamma-emitting pulsar associated with the Vela Supernova Remnant in the constellation of Vela.<br \/>\n<\/div><div><a href=\"en\/object\/vela-pulsar\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HH 17",
+            "coords": {
+                "x": "-417",
+                "y": "-422",
+                "z": "-1051"
+            },
+            "cat": [
+                13,
+                14
+            ],
+            "infos": "<div><a href=\"en\/object\/hh-17\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "NGC 2244",
+            "coords": {
+                "x": "2219",
+                "y": "-100",
+                "z": "-4199"
+            },
+            "cat": [
+                13,
+                14
+            ],
+            "infos": "<div>NGC 2244 (also known as Caldwell 50) is an open cluster in the Rosette Nebula, which is located in the constellation Monoceros. This cluster has several O-type stars, super hot stars that generate large amounts of radiation and stellar wind.<br \/>\nThe age of this cluster has been estimated to be less than 5 million years and its two brightest stars are HD 46223 of spectral class O4V, 400,000 times brighter than the Sun, and approximately 50 times more massive, and HD 46150, whose spectral type is...<\/div><div><a href=\"en\/object\/ngc-2244\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "T Tauri",
+            "coords": {
+                "x": "-33",
+                "y": "-206",
+                "z": "-557"
+            },
+            "cat": [
+                13,
+                14
+            ],
+            "infos": "<div>T Tauri is a variable star in the constellation Taurus, the prototype of the T Tauri stars. It was discovered in October 1852 by John Russell Hind. T Tauri appears from Earth amongst the Hyades cluster, not far from \u03b5 Tauri; but it is actually 420 light years behind it and was not formed with the rest of them.<br \/>\nLike all T Tauri stars, it is very young, being only a million years old. Its distance from Earth is about 460 light years, and its apparent magnitude varies unpredictably from about...<\/div><div><a href=\"en\/object\/t-tauri\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V1348 Orionis",
+            "coords": {
+                "x": "580",
+                "y": "-419",
+                "z": "-1044"
+            },
+            "cat": [
+                13,
+                14
+            ],
+            "infos": "<div><a href=\"en\/object\/v1348-orionis\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Alpha Cygni",
+            "coords": {
+                "x": "-1405",
+                "y": "46",
+                "z": "133"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div>Deneb (\/\u02c8d\u025bn\u025bb\/; \u03b1 Cyg, \u03b1 Cygni, Alpha Cygni) is the brightest star in the constellation Cygnus, it is one of the vertices of the Summer Triangle and forms the 'head' of the Northern Cross. It is the 19th brightest star in the night sky, with an apparent magnitude of 1.25. A blue-white supergiant, Deneb is also one of the most luminous nearby stars. However, its exact distance (and hence luminosity) has been difficult to calculate; it is estimated to be somewhere between 55,000 and...<\/div><div><a href=\"en\/object\/alpha-cygni\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Aludra",
+            "coords": {
+                "x": "1760",
+                "y": "-213",
+                "z": "-901"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div>Eta Canis Majoris (\u03b7 Canis Majoris, abbreviated Eta CMa, \u03b7 CMa), also named Aludra, is a star in the constellation of Canis Major. Since 1943, the spectrum of this star has served as one of the stable anchor points by which other stars are classified.<br \/>\n<\/div><div><a href=\"en\/object\/aludra\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Betelgeuse",
+            "coords": {
+                "x": "169",
+                "y": "-73",
+                "z": "-463"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><br \/>\nBetelgeuse, also known by its Bayer designation Alpha Orionis (shortened to \u03b1 Orionis or \u03b1 Ori), is the ninth-brightest star in the night sky and second-brightest in the constellation of Orion. Distinctly reddish, it is a semiregular variable star whose apparent magnitude varies between 0.0 and 1.3, the widest range of any first-magnitude star. Betelgeuse is one of three stars that make up the Winter Triangle, and it marks the center of the Winter Hexagon. The star's name is derived from...<\/div><div><a href=\"en\/object\/betelgeuse\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Epsilon Orionis",
+            "coords": {
+                "x": "815",
+                "y": "-567",
+                "z": "-1709"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div>Alnilam is a large blue supergiant star some 1,340 light years distant in the constellation of Orion. It has a Bayer designation of Epsilon Orionis (\u03b5 Ori) and its Flamsteed designation is 46\u00a0Orionis. It is estimated to be 275,000 to 537,000 times as luminous as the Sun, and around 34 times as massive.<br \/>\n<\/div><div><a href=\"en\/object\/epsilon-orionis\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Eta Carina",
+            "coords": {
+                "x": "8569",
+                "y": "-145",
+                "z": "2710"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/eta-carina\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Eta Carinae",
+            "coords": {
+                "x": "7339",
+                "y": "-85",
+                "z": "2328"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><br \/>\nEta Carinae (abbreviated to \u03b7 Carinae or \u03b7 Car), formerly known as Eta Argus, is a stellar system containing at least two stars with a combined luminosity over five million times that of the Sun, located around 7500\u00a0light-years (2300\u00a0parsecs) distant in the direction of the constellation Carina. First recorded as a 4th\u00a0magnitude star, it brightened considerably over the period 1837 to 1856 in an event known as the Great Eruption. Eta Carinae became the second brightest star in the sky...<\/div><div><a href=\"en\/object\/eta-carinae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HD 167971",
+            "coords": {
+                "x": "-689",
+                "y": "41",
+                "z": "2047"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/hd-167971\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HD 218915",
+            "coords": {
+                "x": "-2345",
+                "y": "-293",
+                "z": "-784"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div>This is the list of notable stars in the constellation Andromeda, sorted by decreasing brightness.<br \/>\nNotes<br \/>\n<\/div><div><a href=\"en\/object\/hd-218915\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HD 75222",
+            "coords": {
+                "x": "2311",
+                "y": "180",
+                "z": "-463"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/hd-75222\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HIP 101341",
+            "coords": {
+                "x": "-2116",
+                "y": "28",
+                "z": "356"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/hip-101341\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HIP 62918",
+            "coords": {
+                "x": "5426",
+                "y": "286",
+                "z": "3552"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/hip-62918\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HIP 82691",
+            "coords": {
+                "x": "1154",
+                "y": "84",
+                "z": "3887"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/hip-82691\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "HR 6272",
+            "coords": {
+                "x": "608",
+                "y": "37",
+                "z": "2182"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/hr-6272\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "KY Cygni",
+            "coords": {
+                "x": "-4872",
+                "y": "16",
+                "z": "1124"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div>KY Cygni is a red supergiant ofspectral class M3.5Ia) located in the constellation Cygnus. It is one of the largest stars known, with an estimated radius of 1,420 times that of the Sun and is also one of the most luminous, with about 300,000 or more times the Sun's luminosity. It is approximately 5,000 light-years away.<br \/>\n<\/div><div><a href=\"en\/object\/ky-cygni\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "RS Persei",
+            "coords": {
+                "x": "-5406",
+                "y": "-482",
+                "z": "-5420"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div>RS Persei is a red supergiant variable star located in the Double Cluster in Perseus. Its brightness varies from magnitude 7.82 to 10.0.<br \/>\n<\/div><div><a href=\"en\/object\/rs-persei\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "S Persei",
+            "coords": {
+                "x": "0",
+                "y": "0",
+                "z": "0"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div>S Persei is a red supergiant located near the Double Cluster in Perseus, north of the cluster NGC 869. It is a member of the Perseus OB1 association and one of the largest known stars. It is also a semiregular variable, a star whose variations are subject to more irregularities than those of Mira variables.<br \/>\n<\/div><div><a href=\"en\/object\/s-persei\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "Saiph",
+            "coords": {
+                "x": "351",
+                "y": "-200",
+                "z": "-506"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div>Saiph (\u03ba Orionis, 53 Orionis) is the sixth-brightest star in the constellation of Orion. Of the four bright stars that compose Orion's main quadrangle, it is the star at the south-eastern corner. A northern-hemisphere observer facing south would see it at the lower left of Orion, and a southern-hemisphere observer facing north would see it at the upper right. The name Saiph is from the Arabic saif al jabbar, '\u0633\u06cc\u0641 \u0627\u0644\u062c\u0628\u0651\u0627\u0631' literally sword of the giant. This name was originally...<\/div><div><a href=\"en\/object\/saiph\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V361 Carinae",
+            "coords": {
+                "x": "7497",
+                "y": "7",
+                "z": "2128"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/v361-carinae\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V403 Persei",
+            "coords": {
+                "x": "-5356",
+                "y": "-459",
+                "z": "-5388"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/v403-persei\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "V439 Persei",
+            "coords": {
+                "x": "-5399",
+                "y": "-466",
+                "z": "-5426"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div><a href=\"en\/object\/v439-persei\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        },
+        {
+            "name": "VY Canis Majoris",
+            "coords": {
+                "x": "1576",
+                "y": "-150",
+                "z": "-923"
+            },
+            "cat": [
+                15
+            ],
+            "infos": "<div>VY Canis Majoris (VY CMa) is a red hypergiant star located in the constellation Canis Major. It is one of the largest stars (at one time it was the largest known) and also one of the most luminous of its type, and has a radius of approximately 1,420 \u00b1 120 solar radii (equal to a diameter of 13.2\u00a0astronomical units, or about 1,976,640,000\u00a0km), and is located about 1.2 kiloparsecs (3,900 light-years) from Earth.<br \/>\nVY Canis Majoris is a single star categorized as a semiregular variable with an...<\/div><div><a href=\"en\/object\/vy-canis-majoris\"><i class=\"fa fa-book\"><\/i> View details<\/a><\/div>"
+        }
+    ]
+}
