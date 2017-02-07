@@ -1,3 +1,4 @@
+/* jshint ignore:start */
 
 var Action = {
 
@@ -625,3 +626,4 @@ var Action = {
 
 
 }
+/* jshint ignore:end */

@@ -65,21 +65,25 @@
         </div>
     </div>
     <div class="info-panel" ng-if="!vm.isSystemInfo">
-        <ui-select ng-model="vm.tempData.system.name" ng-change="vm.getSystem()" ng-if="vm.isEditMode">
-          <ui-select-match placeholder="Search for Systems">{{$select.selected.value}}</ui-select-match>
-          <ui-select-choices
-                repeat="system in (vm.info.data.systems | filter: $select.search) track by system.id"
-                refresh="vm.query($select.search)"
-                refresh-delay="300">
-            <span ng-bind-html="system.value"></span>
+        <ui-select ng-model="vm.tempData.faction" ng-if="vm.isEditMode">
+          <ui-select-match placeholder="Select your faction">{{$select.selected.name}}</ui-select-match>
+          <ui-select-choices repeat="faction in vm.info.data.factions | filter: $select.search">
+            <span ng-bind-html="faction.name"></span>
           </ui-select-choices>
         </ui-select>
-        <ui-select ng-model="vm.tempData.mission.alliance" ng-if="vm.isEditMode">
-          <ui-select-match placeholder="Select your character's alliance">{{$select.selected.alliance}}</ui-select-match>
-          <ui-select-choices repeat="alliance in vm.info.data.mission.alliance | filter: $select.search">
-            <span ng-bind-html="alliance.value"></span>
-          </ui-select-choices>
-        </ui-select>
+        <div class="info-inner-wrap" ng-if="!vm.data.faction.name && !vm.isEditMode">
+            <div class="new-info-prompt">
+                In Edit Mode, indicate the faction whose goals you are furthering.
+            </div>
+        </div>
+        <div class="info-inner-wrap" ng-if="vm.data.faction.name">
+            <ul class="info-wrapper">
+                <li class="info-item">
+                    <div class="">Agent of:</div>
+                    <div class="">{{vm.data.faction.name}}</div>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 <div class="reading-actions">

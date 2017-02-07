@@ -25,7 +25,7 @@ angular.module('clientApp')
 
     function isEntry() {
         var state = $state.current.name;
-        if (state === 'root.entry' || state === 'root.dashboard') {
+        if (state === 'root' || state === 'root.entry' || state === 'root.dashboard') {
             return true;
         } else {
             return false;

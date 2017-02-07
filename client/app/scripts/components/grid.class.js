@@ -1,3 +1,4 @@
+/* jshint ignore:start */
 
 var Grid = {
 
@@ -190,3 +191,4 @@ var Grid = {
 
 }
 
+/* jshint ignore:end */

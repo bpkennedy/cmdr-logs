@@ -1,3 +1,4 @@
+/* jshint ignore:start */
 
 var System = {
 
@@ -33,12 +34,20 @@ var System = {
 
       //-- If system with info already registered, concat datas
       var idSys = x+'_'+y+'_'+z;
-      if(val.infos != undefined && this.particleInfos[idSys]) {
-        var indexParticle = this.particleInfos[idSys];
-        this.particleGeo.vertices[indexParticle].infos += val.infos;
-        if(val.cat != undefined) Ed3d.addObjToCategories(indexParticle,val.cat);
-        return;
-      }
+      // Brian added here - start //
+        //   if(val.infos != undefined && this.particleInfos[idSys]) {
+        //     console.log('inside if');
+        //     console.log(val);
+        //     console.log('particleInfos is');
+        //     console.log(this.particleInfos[idSys]);
+        //     var indexParticle = this.particleInfos[idSys];
+        //     console.log('vertix is');
+        //     console.log(this.particleGeo.vertices[indexParticle]);
+        //     this.particleGeo.vertices[indexParticle].infos += val.infos;
+        //     if(val.cat != undefined) Ed3d.addObjToCategories(indexParticle,val.cat);
+        //     return;
+        //   }
+      // Brian added here - start //
 
       var particle = new THREE.Vector3(x, y, z);
 
@@ -180,3 +189,4 @@ var System = {
   }
 
 }
+/* jshint ignore:end */

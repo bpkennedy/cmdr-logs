@@ -40,7 +40,8 @@ angular.module('clientApp')
                 'title': entry.title,
                 'message': entry.message,
                 'modified_at': eliteDate,
-                'system': entry.system || ''
+                'system': entry.system || '',
+                'faction': entry.faction || ''
             });
         }).catch(function(error) {
             toastr.error(error.message, error.code);
@@ -56,7 +57,8 @@ angular.module('clientApp')
             'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
             'created_by': vm.user.uid,
-            'system': entry.system || ''
+            'system': entry.system || '',
+            'faction': entry.faction || ''
         }).then(function(snapshot) {
             var newEntryId = snapshot.key;
             vm.lastCreatedUid.key = newEntryId;
@@ -74,7 +76,8 @@ angular.module('clientApp')
             'modified_at': makeEliteDate(),
             'created_at': makeEliteDate(),
             'created_by': vm.user.uid,
-            'system': entry.system || ''
+            'system': entry.system || '',
+            'faction': entry.faction || ''
         });
     }
 

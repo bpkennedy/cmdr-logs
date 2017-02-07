@@ -1,3 +1,4 @@
+/* jshint ignore:start */
 
 var HUD = {
 
@@ -56,7 +57,7 @@ var HUD = {
     $('#'+this.container).append('<div id="hud"></div>');
     $('#hud').append(
       '<div>'+
-      '    <h2>Infos</h2>'+
+      '    <h2>Story Map</h2>'+
       '     Dist. Sol <span id="distsol"></span>'+
       '    <div id="coords" class="coords">'+
       '      <span id="cx"></span><span id="cy"></span><span id="cz"></span></div>'+
@@ -537,3 +538,4 @@ var HUD = {
 
   }
 }
+/* jshint ignore:end */

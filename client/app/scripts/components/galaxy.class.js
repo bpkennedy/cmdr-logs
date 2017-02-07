@@ -1,3 +1,4 @@
+/* jshint ignore:start */
 
 var Galaxy = {
 
@@ -376,3 +377,4 @@ var Galaxy = {
   }
 
 }
+/* jshint ignore:end */

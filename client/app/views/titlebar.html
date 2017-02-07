@@ -7,10 +7,10 @@
       </div>
       <div class="" id="">
         <ul class="nav navbar-nav">
-          <li ng-class="{active: vm.isEntry()}">
+          <li ng-class="{'active': vm.isEntry()}">
               <a ui-sref="root.dashboard" ng-audio="../sounds/navClick.mp3" volume="1">CMDR Logs</a>
           </li>
-          <li ng-class="{active: vm.isMap()}">
+          <li ng-class="{'active': vm.isMap()}">
               <a ui-sref="root.map" ng-audio="../sounds/navClick.mp3" volume="1">Galaxy Map</a>
           </li>
           <li ng-if="!vm.user" ui-sref-active="active">
@@ -25,4 +25,6 @@
   </div>
   <div class="nav-bottom"></div>
 </div>
-<galaxy-map class="map-background" ng-class="{'show-map': vm.isMap()}"></galaxy-map>
+<div class="">
+    <galaxy-map class="map-background" ng-class="{'show-map': vm.isMap()}"></galaxy-map>
+</div>

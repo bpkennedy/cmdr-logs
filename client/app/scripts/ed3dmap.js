@@ -203,7 +203,6 @@ var Ed3d = {
    */
 
   'rebuild' : function(options) {
-
     Loader.start();
 
     // Remove System & HUD filters
@@ -213,6 +212,13 @@ var Ed3d = {
     // Reload from JSon
     if(this.jsonPath != null) Ed3d.loadDatasFromFile();
     else if(this.jsonContainer != null) Ed3d.loadDatasFromContainer();
+
+    // Brian added here - start //
+    else if (this.json != null) Ed3d.loadDatas(options.json);
+
+    Ed3d.loadDatasComplete();
+    Ed3d.showScene();
+    // Brian added here - end //
 
     this.Action.moveInitalPosition();
 
@@ -339,10 +345,6 @@ var Ed3d = {
     /*scene.scale.set(10,10,10);*/
 
     //camera
-    console.log('width is');
-    console.log(container.offsetWidth);
-    console.log('height is');
-    console.log(container.offsetHeight);
     camera = new THREE.PerspectiveCamera(45, container.offsetWidth / container.offsetHeight, 1, 200000);
     //camera = new THREE.OrthographicCamera( container.offsetWidth / - 2, container.offsetWidth / 2, container.offsetHeight / 2, container.offsetHeight / - 2, - 500, 1000 );
 
@@ -473,7 +475,6 @@ var Ed3d = {
 
       Loader.update('Systems...');
       $.each(list, function(key, val) {
-
         system = System.create(val);
         if(system != undefined) {
           if(val.cat != undefined) Ed3d.addObjToCategories(system,val.cat);

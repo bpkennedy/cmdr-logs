@@ -1,3 +1,4 @@
+/* jshint ignore:start */
 
 var Route = {
 
@@ -225,3 +226,4 @@ var Route = {
 
 
 }
+/* jshint ignore:end */

@@ -1063,6 +1063,10 @@ input {
   border: solid 5px rgba(60,60,60,0.9);
 }
 
+#hud {
+    font-size:1em!important;
+}
+
 #hud > div {
   margin-bottom: 20px;
   clear: both;
@@ -1070,10 +1074,27 @@ input {
 #hud h2 {
   font-weight: bold;
   color: #eee;
-  font-size: 1rem;
+  font-size: 1.2em;
   border-bottom: 1px solid #eee;
   margin: 0 0 5px;
   text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+#systemDetails p {
+    font-size: 1.6em!important;
+}
+#systemDetails #nav {
+    bottom: 65px;
+    left:-15px;
+}
+#systemDetails #nav a {
+    margin: 1%;
+    padding:5px;
+}
+#systemDetails > div {
+    max-height: calc(100% - 190px)!important;
+}
+#systemDetails div p:first-child {
+    height:100%;
 }
 #hud p {
   margin: 0 0 3px;
