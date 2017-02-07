@@ -1,0 +1,1510 @@
+
+
+{
+  "categories": {
+    "Galnet": {
+      "1": {
+        "name": "Freelance Report: Dr Arcanonn Appeals for Help",
+        "color": "6BF93D"
+      },
+      "2": {
+        "name": "Freelance Report: Fuel Rats Announce Plans for New Outpost",
+        "color": "58CAE0"
+      },
+      "6": {
+        "name": "Community Goal: Boosting the Federal Fleet",
+        "color": "6525FB"
+      },
+      "7": {
+        "name": "Community Goal: Ambika in Need",
+        "color": "5FD943"
+      },
+      "8": {
+        "name": "Galactic News: Weekly Conflict Report",
+        "color": "70EC39"
+      },
+      "9": {
+        "name": "Galactic News: Curious Developments in Tionisla",
+        "color": "8CBE85"
+      },
+      "10": {
+        "name": "Freelance Report: Children of Liberty Criticize Mahon",
+        "color": "61F3F2"
+      },
+      "11": {
+        "name": "Galactic News: Weekly Democracy Report",
+        "color": "4CC790"
+      },
+      "12": {
+        "name": "Galactic News: Jaques Station Making a Comeback",
+        "color": "8CFFB7"
+      },
+      "13": {
+        "name": "Galactic News: Imperial Appeal Comes to an End",
+        "color": "774FD4"
+      },
+      "14": {
+        "name": "Galactic News: Federal Campaign Comes to an End",
+        "color": "61B8A5"
+      },
+      "15": {
+        "name": "Community Goal: Boosting the Federal Fleet",
+        "color": "7E732F"
+      },
+      "16": {
+        "name": "Community Goal: Ambika in Need",
+        "color": "5386F1"
+      },
+      "17": {
+        "name": "Galactic News: Weekly Security Report",
+        "color": "645C16"
+      },
+      "18": {
+        "name": "Powerplay: Incoming Update",
+        "color": "6622F9"
+      },
+      "19": {
+        "name": "Galactic News: Starport Status Update",
+        "color": "77023E"
+      },
+      "20": {
+        "name": "Galactic News: Weekly Economic Report",
+        "color": "8EA35C"
+      }
+    },
+    "Factions": {
+      "3": {
+        "name": "Empire"
+      },
+      "4": {
+        "name": "Federation"
+      },
+      "5": {
+        "name": "Alliance"
+      }
+    }
+  },
+  "systems": [
+    {
+      "name": "Hel",
+      "coords": {
+        "x": "-66",
+        "y": "-34",
+        "z": "-70"
+      },
+      "cat": [
+        1
+      ],
+      "infos": "<h2>Freelance Report: Dr Arcanonn Appeals for Help<\/h2><div>The image transmitted by the mysterious Unknown Probes is still a mystery. But while the image occupies his teams, Dr Arcanonn of the Canonn Interstellar Research Group believes there is more to discover about the Probes themselves. The problem is supply.<br \/>\n\"The only known sources of Unknown Probes are Federal military convoys in the Ross 47, G 99-49, Wolf 294 and Wolf 504 systems.\"<br \/>\n\"The Federal military apparently knows where the Probes can be found, but they're keeping it a secret, so it's up to us to lift the veil.\"<br \/>\n\"Since Unknown Artefacts are found in a 135\u2013150 light year shell around Merope, we believe the probes are in a similar region - possibly even the same region. We also think they will be found in anomalous signal sources, the same as the Artefacts.\"<br \/>\n\"So please help science, and break the Federal monopoly on these Probes. It could be the most important thing you ever do.\"<br \/>\nCommander Lord Zoltan<\/div>"
+    },
+    {
+      "name": "Wolf 504",
+      "coords": {
+        "x": "15",
+        "y": "91",
+        "z": "40"
+      },
+      "cat": [
+        1
+      ],
+      "infos": "<h2>Freelance Report: Dr Arcanonn Appeals for Help<\/h2><div>The image transmitted by the mysterious Unknown Probes is still a mystery. But while the image occupies his teams, Dr Arcanonn of the Canonn Interstellar Research Group believes there is more to discover about the Probes themselves. The problem is supply.<br \/>\n\"The only known sources of Unknown Probes are Federal military convoys in the Ross 47, G 99-49, Wolf 294 and Wolf 504 systems.\"<br \/>\n\"The Federal military apparently knows where the Probes can be found, but they're keeping it a secret, so it's up to us to lift the veil.\"<br \/>\n\"Since Unknown Artefacts are found in a 135\u2013150 light year shell around Merope, we believe the probes are in a similar region - possibly even the same region. We also think they will be found in anomalous signal sources, the same as the Artefacts.\"<br \/>\n\"So please help science, and break the Federal monopoly on these Probes. It could be the most important thing you ever do.\"<br \/>\nCommander Lord Zoltan<\/div>"
+    },
+    {
+      "name": "Ross 47",
+      "coords": {
+        "x": "5",
+        "y": "-3",
+        "z": "-18"
+      },
+      "cat": [
+        1
+      ],
+      "infos": "<h2>Freelance Report: Dr Arcanonn Appeals for Help<\/h2><div>The image transmitted by the mysterious Unknown Probes is still a mystery. But while the image occupies his teams, Dr Arcanonn of the Canonn Interstellar Research Group believes there is more to discover about the Probes themselves. The problem is supply.<br \/>\n\"The only known sources of Unknown Probes are Federal military convoys in the Ross 47, G 99-49, Wolf 294 and Wolf 504 systems.\"<br \/>\n\"The Federal military apparently knows where the Probes can be found, but they're keeping it a secret, so it's up to us to lift the veil.\"<br \/>\n\"Since Unknown Artefacts are found in a 135\u2013150 light year shell around Merope, we believe the probes are in a similar region - possibly even the same region. We also think they will be found in anomalous signal sources, the same as the Artefacts.\"<br \/>\n\"So please help science, and break the Federal monopoly on these Probes. It could be the most important thing you ever do.\"<br \/>\nCommander Lord Zoltan<\/div>"
+    },
+    {
+      "name": "Inte",
+      "coords": {
+        "x": "-128",
+        "y": "-97",
+        "z": "15"
+      },
+      "cat": [
+        1,
+        17
+      ],
+      "infos": "<h2>Freelance Report: Dr Arcanonn Appeals for Help<\/h2><div>The image transmitted by the mysterious Unknown Probes is still a mystery. But while the image occupies his teams, Dr Arcanonn of the Canonn Interstellar Research Group believes there is more to discover about the Probes themselves. The problem is supply.<br \/>\n\"The only known sources of Unknown Probes are Federal military convoys in the Ross 47, G 99-49, Wolf 294 and Wolf 504 systems.\"<br \/>\n\"The Federal military apparently knows where the Probes can be found, but they're keeping it a secret, so it's up to us to lift the veil.\"<br \/>\n\"Since Unknown Artefacts are found in a 135\u2013150 light year shell around Merope, we believe the probes are in a similar region - possibly even the same region. We also think they will be found in anomalous signal sources, the same as the Artefacts.\"<br \/>\n\"So please help science, and break the Federal monopoly on these Probes. It could be the most important thing you ever do.\"<br \/>\nCommander Lord Zoltan<\/div><h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "G 99-49",
+      "coords": {
+        "x": "7",
+        "y": "-3",
+        "z": "-16"
+      },
+      "cat": [
+        1
+      ],
+      "infos": "<h2>Freelance Report: Dr Arcanonn Appeals for Help<\/h2><div>The image transmitted by the mysterious Unknown Probes is still a mystery. But while the image occupies his teams, Dr Arcanonn of the Canonn Interstellar Research Group believes there is more to discover about the Probes themselves. The problem is supply.<br \/>\n\"The only known sources of Unknown Probes are Federal military convoys in the Ross 47, G 99-49, Wolf 294 and Wolf 504 systems.\"<br \/>\n\"The Federal military apparently knows where the Probes can be found, but they're keeping it a secret, so it's up to us to lift the veil.\"<br \/>\n\"Since Unknown Artefacts are found in a 135\u2013150 light year shell around Merope, we believe the probes are in a similar region - possibly even the same region. We also think they will be found in anomalous signal sources, the same as the Artefacts.\"<br \/>\n\"So please help science, and break the Federal monopoly on these Probes. It could be the most important thing you ever do.\"<br \/>\nCommander Lord Zoltan<\/div>"
+    },
+    {
+      "name": "Wolf 294",
+      "coords": {
+        "x": "1",
+        "y": "5",
+        "z": "-18"
+      },
+      "cat": [
+        1
+      ],
+      "infos": "<h2>Freelance Report: Dr Arcanonn Appeals for Help<\/h2><div>The image transmitted by the mysterious Unknown Probes is still a mystery. But while the image occupies his teams, Dr Arcanonn of the Canonn Interstellar Research Group believes there is more to discover about the Probes themselves. The problem is supply.<br \/>\n\"The only known sources of Unknown Probes are Federal military convoys in the Ross 47, G 99-49, Wolf 294 and Wolf 504 systems.\"<br \/>\n\"The Federal military apparently knows where the Probes can be found, but they're keeping it a secret, so it's up to us to lift the veil.\"<br \/>\n\"Since Unknown Artefacts are found in a 135\u2013150 light year shell around Merope, we believe the probes are in a similar region - possibly even the same region. We also think they will be found in anomalous signal sources, the same as the Artefacts.\"<br \/>\n\"So please help science, and break the Federal monopoly on these Probes. It could be the most important thing you ever do.\"<br \/>\nCommander Lord Zoltan<\/div>"
+    },
+    {
+      "name": "Merope",
+      "coords": {
+        "x": "-79",
+        "y": "-150",
+        "z": "-341"
+      },
+      "cat": [
+        1,
+        14
+      ],
+      "infos": "<h2>Freelance Report: Dr Arcanonn Appeals for Help<\/h2><div>The image transmitted by the mysterious Unknown Probes is still a mystery. But while the image occupies his teams, Dr Arcanonn of the Canonn Interstellar Research Group believes there is more to discover about the Probes themselves. The problem is supply.<br \/>\n\"The only known sources of Unknown Probes are Federal military convoys in the Ross 47, G 99-49, Wolf 294 and Wolf 504 systems.\"<br \/>\n\"The Federal military apparently knows where the Probes can be found, but they're keeping it a secret, so it's up to us to lift the veil.\"<br \/>\n\"Since Unknown Artefacts are found in a 135\u2013150 light year shell around Merope, we believe the probes are in a similar region - possibly even the same region. We also think they will be found in anomalous signal sources, the same as the Artefacts.\"<br \/>\n\"So please help science, and break the Federal monopoly on these Probes. It could be the most important thing you ever do.\"<br \/>\nCommander Lord Zoltan<\/div><h2>Galactic News: Federal Campaign Comes to an End<\/h2><div>A spokesperson for the Future of Segovan has announced that the Federation's appeal for construction materials has come to an end. Thousands of tonnes of material were delivered to Obsidian Orbital this week, which will be used to construct a new outpost on HIP 17225 A 1. In a brief statement, the spokesperson thanked those who had contributed to the initiative:<br \/>\n\"The Federal pilots who supported this campaign have performed a great service. The new outpost will provide the Federation with a valuable trade and resource-processing hub. You have made the Federation proud.\"<br \/>\nThe campaign attracted no small measure of controversy, however, with the Federation's opponents claiming that it represented a further attempt to control access to the non-human structures known as barnacles, a number of which are located on HIP 17225 A 1. One Imperial pilot, speaking on condition of anonymity, made the following statement to the Imperial Herald:<br \/>\n\"The Federation wants to control the flow of meta-alloys, pure and simple. That's why they entered Merope, and that's why they're building this new outpost. And as for their claim that they're protecting the barnacles...well, does anyone really believe that anymore?\"<\/div>"
+    },
+    {
+      "name": "Sin",
+      "coords": {
+        "x": "23",
+        "y": "-21",
+        "z": "18"
+      },
+      "cat": [
+        1,
+        12
+      ],
+      "infos": "<h2>Freelance Report: Dr Arcanonn Appeals for Help<\/h2><div>The image transmitted by the mysterious Unknown Probes is still a mystery. But while the image occupies his teams, Dr Arcanonn of the Canonn Interstellar Research Group believes there is more to discover about the Probes themselves. The problem is supply.<br \/>\n\"The only known sources of Unknown Probes are Federal military convoys in the Ross 47, G 99-49, Wolf 294 and Wolf 504 systems.\"<br \/>\n\"The Federal military apparently knows where the Probes can be found, but they're keeping it a secret, so it's up to us to lift the veil.\"<br \/>\n\"Since Unknown Artefacts are found in a 135\u2013150 light year shell around Merope, we believe the probes are in a similar region - possibly even the same region. We also think they will be found in anomalous signal sources, the same as the Artefacts.\"<br \/>\n\"So please help science, and break the Federal monopoly on these Probes. It could be the most important thing you ever do.\"<br \/>\nCommander Lord Zoltan<\/div><h2>Galactic News: Jaques Station Making a Comeback<\/h2><div>It has been two weeks since Jaques, the owner and operator of Jaques Station, issued an appeal for commodities to repair his beleaguered starport. Since then, scores of pilots from across the galaxy have made the long journey to the Eol Prou RS-T d3-94 system to deliver tantalum, power generators and other materials to Jaques.<br \/>\nAlthough the campaign is scheduled to run for two more weeks, Jaques has confirmed that the materials received so far have allowed starport personnel to restore some of the station's facilities.<br \/>\n\"The moment supplies started arriving our teams were hard at work, making repairs and restoring facilities. So I'm very pleased to announce that we can now offer our guests refuelling, restocking, repair and outfitting services, as well as the option to purchase limpets and mining equipment from our commodities market.\"<br \/>\n\"But we're not out of the woods yet! We still need more material if we're going to give the old girl a clean bill of health.\"<\/div>"
+    },
+    {
+      "name": "Sagittarius A*",
+      "coords": {
+        "x": "25",
+        "y": "-21",
+        "z": "25900"
+      },
+      "cat": [
+        2
+      ],
+      "infos": "<h2>Freelance Report: Fuel Rats Announce Plans for New Outpost<\/h2><div>Earlier today, the Fuel Rats Mischief announced plans for an extraction outpost near Jaques Station.<br \/>\n\"We've been considering such a base for quite a while now. Originally the idea was to set up near Sagittarius A* since it's one of the regions most visited by explorers. The biggest challenge was always supplying the station with commodities like food and spare parts. Being near Jaques Station will solve this problem since it's equipped with a habitation ring, and because it's a destination for a steady stream of supply ships.\"<br \/>\nAsked if the fact that Jaques Station is already serving as an operations base would render such an operation pointless, the Fuel Rats spokesperson answered:<br \/>\n\"We fully expect Jaques to continue his journey at some point, and since his station simply can't produce enough fuel to make that possible, sooner or later an outpost will be necessary.\"<br \/>\nCommander Rebecca Hail<\/div>"
+    },
+    {
+      "name": "Ori",
+      "coords": {
+        "x": "-26",
+        "y": "56",
+        "z": "2"
+      },
+      "cat": [
+        2
+      ],
+      "infos": "<h2>Freelance Report: Fuel Rats Announce Plans for New Outpost<\/h2><div>Earlier today, the Fuel Rats Mischief announced plans for an extraction outpost near Jaques Station.<br \/>\n\"We've been considering such a base for quite a while now. Originally the idea was to set up near Sagittarius A* since it's one of the regions most visited by explorers. The biggest challenge was always supplying the station with commodities like food and spare parts. Being near Jaques Station will solve this problem since it's equipped with a habitation ring, and because it's a destination for a steady stream of supply ships.\"<br \/>\nAsked if the fact that Jaques Station is already serving as an operations base would render such an operation pointless, the Fuel Rats spokesperson answered:<br \/>\n\"We fully expect Jaques to continue his journey at some point, and since his station simply can't produce enough fuel to make that possible, sooner or later an outpost will be necessary.\"<br \/>\nCommander Rebecca Hail<\/div>"
+    },
+    {
+      "name": "Ra",
+      "coords": {
+        "x": "-21",
+        "y": "-44",
+        "z": "23"
+      },
+      "cat": [
+        2,
+        19
+      ],
+      "infos": "<h2>Freelance Report: Fuel Rats Announce Plans for New Outpost<\/h2><div>Earlier today, the Fuel Rats Mischief announced plans for an extraction outpost near Jaques Station.<br \/>\n\"We've been considering such a base for quite a while now. Originally the idea was to set up near Sagittarius A* since it's one of the regions most visited by explorers. The biggest challenge was always supplying the station with commodities like food and spare parts. Being near Jaques Station will solve this problem since it's equipped with a habitation ring, and because it's a destination for a steady stream of supply ships.\"<br \/>\nAsked if the fact that Jaques Station is already serving as an operations base would render such an operation pointless, the Fuel Rats spokesperson answered:<br \/>\n\"We fully expect Jaques to continue his journey at some point, and since his station simply can't produce enough fuel to make that possible, sooner or later an outpost will be necessary.\"<br \/>\nCommander Rebecca Hail<\/div><h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Gooheimar",
+      "coords": {
+        "x": "-16",
+        "y": "-36",
+        "z": "-17"
+      },
+      "cat": [
+        6,
+        3,
+        4,
+        5,
+        15
+      ],
+      "infos": "<h2>Community Goal: Boosting the Federal Fleet<\/h2><div>As the antagonism between the Federation and the Empire continues to simmer, the Federation has announced plans to expand its Navy with three new Farragut-class Battlecruisers. The development follows a recent initiative to add three new capital ships to the Imperial fleet.<br \/>\nIn a statement, Federal President Zachary Hudson spoke candidly about the motivation behind the campaign.<br \/>\n\"We live in uncertain times, and we are on the brink of an uncertain future. When I speak to the people of the Federation, I want to be able to promise them that their homes and families are safe. By contributing to this campaign, you can help me keep that promise.\"<br \/>\nThe Federation has placed an open order for autofabricators, tantalum and superconductors for use in the construction, and has authorised the Workers of Gooheimar Alliance to reward pilots who deliver the requested materials to Brady Horizons in the Gooheimar system.<br \/>\nThe campaign begins on the 4th of August 3302 and will run for one week. If the Federation's targets are met earlier than planned, the campaign will end immediately.<\/div><h2>Community Goal: Boosting the Federal Fleet<\/h2><div>As the antagonism between the Federation and the Empire continues to simmer, the Federation has announced plans to expand its Navy with three new Farragut-class Battlecruisers. The development follows a recent initiative to add three new capital ships to the Imperial fleet.<br \/>\nIn a statement, Federal President Zachary Hudson spoke candidly about the motivation behind the campaign.<br \/>\n\"We live in uncertain times, and we are on the brink of an uncertain future. When I speak to the people of the Federation, I want to be able to promise them that their homes and families are safe. By contributing to this campaign, you can help me keep that promise.\"<br \/>\nThe Federation has placed an open order for autofabricators, tantalum and superconductors for use in the construction, and has authorised the Workers of Gooheimar Alliance to reward pilots who deliver the requested materials to Brady Horizons in the Gooheimar system.<br \/>\nThe campaign begins on the 4th of August 3302 and will run for one week. If the Federation's targets are met earlier than planned, the campaign will end immediately.<br \/>\n<\/div>"
+    },
+    {
+      "name": "Zacha",
+      "coords": {
+        "x": "140",
+        "y": "-207",
+        "z": "26"
+      },
+      "cat": [
+        6,
+        3,
+        4,
+        5,
+        15
+      ],
+      "infos": "<h2>Community Goal: Boosting the Federal Fleet<\/h2><div>As the antagonism between the Federation and the Empire continues to simmer, the Federation has announced plans to expand its Navy with three new Farragut-class Battlecruisers. The development follows a recent initiative to add three new capital ships to the Imperial fleet.<br \/>\nIn a statement, Federal President Zachary Hudson spoke candidly about the motivation behind the campaign.<br \/>\n\"We live in uncertain times, and we are on the brink of an uncertain future. When I speak to the people of the Federation, I want to be able to promise them that their homes and families are safe. By contributing to this campaign, you can help me keep that promise.\"<br \/>\nThe Federation has placed an open order for autofabricators, tantalum and superconductors for use in the construction, and has authorised the Workers of Gooheimar Alliance to reward pilots who deliver the requested materials to Brady Horizons in the Gooheimar system.<br \/>\nThe campaign begins on the 4th of August 3302 and will run for one week. If the Federation's targets are met earlier than planned, the campaign will end immediately.<\/div><h2>Community Goal: Boosting the Federal Fleet<\/h2><div>As the antagonism between the Federation and the Empire continues to simmer, the Federation has announced plans to expand its Navy with three new Farragut-class Battlecruisers. The development follows a recent initiative to add three new capital ships to the Imperial fleet.<br \/>\nIn a statement, Federal President Zachary Hudson spoke candidly about the motivation behind the campaign.<br \/>\n\"We live in uncertain times, and we are on the brink of an uncertain future. When I speak to the people of the Federation, I want to be able to promise them that their homes and families are safe. By contributing to this campaign, you can help me keep that promise.\"<br \/>\nThe Federation has placed an open order for autofabricators, tantalum and superconductors for use in the construction, and has authorised the Workers of Gooheimar Alliance to reward pilots who deliver the requested materials to Brady Horizons in the Gooheimar system.<br \/>\nThe campaign begins on the 4th of August 3302 and will run for one week. If the Federation's targets are met earlier than planned, the campaign will end immediately.<br \/>\n<\/div>"
+    },
+    {
+      "name": "Ambika",
+      "coords": {
+        "x": "91",
+        "y": "140",
+        "z": "69"
+      },
+      "cat": [
+        7,
+        16
+      ],
+      "infos": "<h2>Community Goal: Ambika in Need<\/h2><div>Authorities in the Ambika system have reported that the region is in the grip of a severe famine. All efforts to shore up agricultural markets have failed, and the food shortage has even triggered bouts of civil unrest. A tentative relief effort has begun, but the convoys attempting to bring aid to the people of Ambika are being targeted by opportunist pirates.<br \/>\nIn response to this development, the Union Party of Ambika has launched a two-pronged initiative, focused on bringing relief to the people of Ambika and neutralising the agitators operating in the system. The organisation has promised to reward pilots who deliver the foods to Goulart City, and has placed a kill order on all wanted ships operating in Ambika.<br \/>\nThe campaign begins on the 4th of August 3302 and will run for one week. If the final targets are met earlier than planned, the campaign will end immediately.<\/div><h2>Community Goal: Ambika in Need<\/h2><div>Authorities in the Ambika system have reported that the region is in the grip of a severe famine. All efforts to shore up agricultural markets have failed, and the food shortage has even triggered bouts of civil unrest. A tentative relief effort has begun, but the convoys attempting to bring aid to the people of Ambika are being targeted by opportunist pirates.<br \/>\nIn response to this development, the Union Party of Ambika has launched a two-pronged initiative, focused on bringing relief to the people of Ambika and neutralising the agitators operating in the system. The organisation has promised to reward pilots who deliver the foods to Goulart City, and has placed a kill order on all wanted ships operating in Ambika.<br \/>\nThe campaign begins on the 4th of August 3302 and will run for one week. If the final targets are met earlier than planned, the campaign will end immediately.<\/div>"
+    },
+    {
+      "name": "test",
+      "coords": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "cat": [
+        8,
+        5,
+        11,
+        17,
+        18,
+        19,
+        20
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div><h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div><h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div><h2>Powerplay: Incoming Update<\/h2><div>At 7.00 am tomorrow morning (GMT), the monitoring of powers' activities will go offline for a short period while the latest data is assembled. Pilots who operate for one of the powers should deliver any cargo or vouchers before this time to ensure their activities are registered.<\/div><h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div><h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "LP 470-65",
+      "coords": {
+        "x": "83",
+        "y": "40",
+        "z": "41"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Borme",
+      "coords": {
+        "x": "136",
+        "y": "65",
+        "z": "123"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Istanu",
+      "coords": {
+        "x": "2",
+        "y": "55",
+        "z": "1"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Dyavansana",
+      "coords": {
+        "x": "-80",
+        "y": "148",
+        "z": "20"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Gateway",
+      "coords": {
+        "x": "-11",
+        "y": "78",
+        "z": "-1"
+      },
+      "cat": [
+        8,
+        5,
+        19
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div><h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Ualame",
+      "coords": {
+        "x": "-53",
+        "y": "16",
+        "z": "76"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Zagoro",
+      "coords": {
+        "x": "-33",
+        "y": "-175",
+        "z": "-49"
+      },
+      "cat": [
+        8,
+        5,
+        13
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div><h2>Galactic News: Imperial Appeal Comes to an End<\/h2><div>The Empire's recent request for meta-alloys has been enthusiastically received by the galactic community, which has delivered large quantities of the rare material to Axon Station in the Zagoro system. A spokesperson for the Zagoro Imperial Society, which coordinated the appeal, confirmed that hundreds of Imperial-aligned pilots had contributed to the campaign. In a statement, the spokesperson said:<br \/>\n\"The Empire sincerely thanks you for your service, but this is merely the first step in ensuring that the Federal monopoly on this material does not continue unopposed. We cannot rest yet.\"<\/div>"
+    },
+    {
+      "name": "Ma'a",
+      "coords": {
+        "x": "-104",
+        "y": "55",
+        "z": "-131"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Nagii",
+      "coords": {
+        "x": "-55",
+        "y": "38",
+        "z": "-159"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Leesti",
+      "coords": {
+        "x": "73",
+        "y": "49",
+        "z": "68"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Chukchan",
+      "coords": {
+        "x": "143",
+        "y": "56",
+        "z": "40"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Gluscheimr",
+      "coords": {
+        "x": "54",
+        "y": "-6",
+        "z": "-37"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Isitab",
+      "coords": {
+        "x": "67",
+        "y": "-78",
+        "z": "118"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "BD-00 4461",
+      "coords": {
+        "x": "-66",
+        "y": "-91",
+        "z": "16"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "HIP 29596",
+      "coords": {
+        "x": "165",
+        "y": "-82",
+        "z": "-36"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Chaaratisa",
+      "coords": {
+        "x": "-34",
+        "y": "-123",
+        "z": "7"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Ross 1015",
+      "coords": {
+        "x": "-6",
+        "y": "29",
+        "z": "3"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Yera",
+      "coords": {
+        "x": "65",
+        "y": "-27",
+        "z": "-47"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Aditi",
+      "coords": {
+        "x": "73",
+        "y": "-338",
+        "z": "-159"
+      },
+      "cat": [
+        8,
+        5
+      ],
+      "infos": "<h2>Galactic News: Weekly Conflict Report<\/h2><div>This report presents the latest data on conflict among the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a civil war:<br \/>\nAditi Jet Mafia<br \/>\nLeesti Alliance Union<br \/>\nLeesti United Steelworks<br \/>\nZagoro Jet Society<br \/>\nCartel of Chukchan<br \/>\nGluscheimr Jet Power Co<br \/>\nCamorra of Chaaratisa<br \/>\nUalame Exchange<br \/>\nNew Dyavansana Defence Party<br \/>\nValues Party of BD-00 4461<br \/>\nCivil wars occur when minor factions compete for control of major assets such as starports. When a faction is involved in a civil war, the standard of living, development level and security level in the system it controls are temporarily reduced. Combat activities can bring a civil war to an end.<br \/>\nHere are the latest factions to experience war:<br \/>\nWorkers of Gateway for Equality<br \/>\nHIP 29596 Law Party<br \/>\nIstanu PLC<br \/>\nTraditional Borme Defence Party<br \/>\nNagii Union<br \/>\nYera Life Partners<br \/>\nMarquis du Ma'a<br \/>\nLP 470-65 Jet Public Services<br \/>\nIsitab Galactic Ltd<br \/>\nLeague of Ross 1015<br \/>\nWars occur when a minor faction invades a star system controlled by another minor faction. For the duration of the war, the standard of living, wealth level and security level in the disputed system are reduced. Combat activity between the two warring factions determines the outcome of the conflict. If neither faction succeeds in dominating the other, the war ends in a ceasefire.<\/div>"
+    },
+    {
+      "name": "Wi",
+      "coords": {
+        "x": "14",
+        "y": "26",
+        "z": "-48"
+      },
+      "cat": [
+        9
+      ],
+      "infos": "<h2>Galactic News: Curious Developments in Tionisla<\/h2><div>For the first time in over a hundred years, a new ship has been added to the Tionisla Orbital Graveyard. Established in the 3100s, the mausoleum was originally a resting place for the rich and famous, but in the economic slump that befell the Old Worlds during that period, the graveyard fell into disuse.<br \/>\nWith the graveyard having fallen into disrepair and many of its relics vandalised or looted, it came as something of a surprise when the Tionisla government received a request to inter a recently deceased Commander.<br \/>\nDespite the unusual circumstances, the government of Tionisla processed the application with surprising swiftness, prompting speculation that the individual may have been some kind of celebrity.<br \/>\nJust before the vessel was moved to its final resting place, an onboard beacon briefly activated, transmitting a repeating sequence of curious characters. This continued for a few minutes until a power failure silenced it. The message read \"OTSEAFOTSEAF\" The significance of the transmission, if any, is unclear.<br \/>\n\"I wouldn't worry about it,\" said Grace Mayweather of the Tionisla government. \"We see this sort of thing all the time. It's just a last bit of mischief from the recently deceased. Tricks, codes \u2013 sometimes even traps for the unwary. People go mad trying to work these things out, but they never mean anything.\"<br \/>\nThe identity of the Commander in question is not known, but the ship was identified as an antique Cobra Mk III with the unusual hull registry of 'Cor meum et animam'.<\/div>"
+    },
+    {
+      "name": "Tionisla",
+      "coords": {
+        "x": "82",
+        "y": "49",
+        "z": "68"
+      },
+      "cat": [
+        9
+      ],
+      "infos": "<h2>Galactic News: Curious Developments in Tionisla<\/h2><div>For the first time in over a hundred years, a new ship has been added to the Tionisla Orbital Graveyard. Established in the 3100s, the mausoleum was originally a resting place for the rich and famous, but in the economic slump that befell the Old Worlds during that period, the graveyard fell into disuse.<br \/>\nWith the graveyard having fallen into disrepair and many of its relics vandalised or looted, it came as something of a surprise when the Tionisla government received a request to inter a recently deceased Commander.<br \/>\nDespite the unusual circumstances, the government of Tionisla processed the application with surprising swiftness, prompting speculation that the individual may have been some kind of celebrity.<br \/>\nJust before the vessel was moved to its final resting place, an onboard beacon briefly activated, transmitting a repeating sequence of curious characters. This continued for a few minutes until a power failure silenced it. The message read \"OTSEAFOTSEAF\" The significance of the transmission, if any, is unclear.<br \/>\n\"I wouldn't worry about it,\" said Grace Mayweather of the Tionisla government. \"We see this sort of thing all the time. It's just a last bit of mischief from the recently deceased. Tricks, codes \u2013 sometimes even traps for the unwary. People go mad trying to work these things out, but they never mean anything.\"<br \/>\nThe identity of the Commander in question is not known, but the ship was identified as an antique Cobra Mk III with the unusual hull registry of 'Cor meum et animam'.<\/div>"
+    },
+    {
+      "name": "Prim",
+      "coords": {
+        "x": "-24",
+        "y": "-71",
+        "z": "175"
+      },
+      "cat": [
+        10,
+        3,
+        4,
+        5
+      ],
+      "infos": "<h2>Freelance Report: Children of Liberty Criticize Mahon<\/h2><div>The organization known as the Children of Liberty has issued a statement criticizing Alliance Prime Minister Edmund Mahon for his recent remarks concerning the supposed failings of the Federation and Empire.<br \/>\n\"Prime Minister Mahon has denounced the 'pettiness and greed' of his political rivals, but he tolerates those same sins among many of the Alliance's own member systems. He wishes to create 'a truly unified society', yet he tolerates ideologies within the Alliance's own borders that are irreconcilably opposed to one another! According to a study published in 3301, over 213 million Alliance citizens live under the rule of explicitly authoritarian governments. How can a galactic power that purports to value harmony and self-determination allow a member system to oppress its own citizens?\"<br \/>\nThe missive, though critical, does conclude on a note of accord:<br \/>\n\"Despite our political disagreements, we believe Prime Minister Mahon is absolutely right to call for protection of the barnacles. The rampant exploitation of these structures is not only reckless, it may even be dangerous. Until we know more about their origin and purpose, we should treat the barnacles with respect...and a healthy dose of caution.\"<\/div>"
+    },
+    {
+      "name": "LP 404-66",
+      "coords": {
+        "x": "-50",
+        "y": "-49",
+        "z": "-20"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "Njoeris",
+      "coords": {
+        "x": "-35",
+        "y": "-27",
+        "z": "94"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "Tsohoda",
+      "coords": {
+        "x": "61",
+        "y": "-69",
+        "z": "108"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "Saffron",
+      "coords": {
+        "x": "73",
+        "y": "-118",
+        "z": "56"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "Mitl",
+      "coords": {
+        "x": "-28",
+        "y": "-16",
+        "z": "96"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "Minu",
+      "coords": {
+        "x": "38",
+        "y": "139",
+        "z": "-85"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "Wailla Sakh",
+      "coords": {
+        "x": "-19",
+        "y": "-52",
+        "z": "118"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "HIP 20019",
+      "coords": {
+        "x": "-5",
+        "y": "-58",
+        "z": "-138"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "Bridge",
+      "coords": {
+        "x": "-83",
+        "y": "-100",
+        "z": "95"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "LTT 9810",
+      "coords": {
+        "x": "61",
+        "y": "-100",
+        "z": "54"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "Kuruntabal",
+      "coords": {
+        "x": "59",
+        "y": "-100",
+        "z": "61"
+      },
+      "cat": [
+        11
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "El",
+      "coords": {
+        "x": "24",
+        "y": "-13",
+        "z": "-42"
+      },
+      "cat": [
+        11,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Democracy Report<\/h2><div>This report presents the latest data on democratic activity among the galaxy's minor factions.<br \/>\nHere are the latest factions to hold elections:<br \/>\nMinutemen<br \/>\nSaffron Corp.<br \/>\nIndependent HIP 20019 for Equality<br \/>\nLP 404-66 Life Industry<br \/>\nWailla Sakh Defence Party<br \/>\nMitl PLC<br \/>\nNjoeris Crimson Bridge Company<br \/>\nLTT 9810 Citizens' Forum<br \/>\nLiberty Party of Kuruntabal<br \/>\nTsohoda Patron's Principles<br \/>\nElections occur when two minor factions with a similar political structure resolve a conflict over ownership and influence within a system.<\/div>"
+    },
+    {
+      "name": "Hera",
+      "coords": {
+        "x": "-37",
+        "y": "56",
+        "z": "-18"
+      },
+      "cat": [
+        14,
+        4
+      ],
+      "infos": "<h2>Galactic News: Federal Campaign Comes to an End<\/h2><div>A spokesperson for the Future of Segovan has announced that the Federation's appeal for construction materials has come to an end. Thousands of tonnes of material were delivered to Obsidian Orbital this week, which will be used to construct a new outpost on HIP 17225 A 1. In a brief statement, the spokesperson thanked those who had contributed to the initiative:<br \/>\n\"The Federal pilots who supported this campaign have performed a great service. The new outpost will provide the Federation with a valuable trade and resource-processing hub. You have made the Federation proud.\"<br \/>\nThe campaign attracted no small measure of controversy, however, with the Federation's opponents claiming that it represented a further attempt to control access to the non-human structures known as barnacles, a number of which are located on HIP 17225 A 1. One Imperial pilot, speaking on condition of anonymity, made the following statement to the Imperial Herald:<br \/>\n\"The Federation wants to control the flow of meta-alloys, pure and simple. That's why they entered Merope, and that's why they're building this new outpost. And as for their claim that they're protecting the barnacles...well, does anyone really believe that anymore?\"<\/div>"
+    },
+    {
+      "name": "Segovan",
+      "coords": {
+        "x": "-106",
+        "y": "-18",
+        "z": "-128"
+      },
+      "cat": [
+        14,
+        4,
+        4,
+        19
+      ],
+      "infos": "<h2>Galactic News: Federal Campaign Comes to an End<\/h2><div>A spokesperson for the Future of Segovan has announced that the Federation's appeal for construction materials has come to an end. Thousands of tonnes of material were delivered to Obsidian Orbital this week, which will be used to construct a new outpost on HIP 17225 A 1. In a brief statement, the spokesperson thanked those who had contributed to the initiative:<br \/>\n\"The Federal pilots who supported this campaign have performed a great service. The new outpost will provide the Federation with a valuable trade and resource-processing hub. You have made the Federation proud.\"<br \/>\nThe campaign attracted no small measure of controversy, however, with the Federation's opponents claiming that it represented a further attempt to control access to the non-human structures known as barnacles, a number of which are located on HIP 17225 A 1. One Imperial pilot, speaking on condition of anonymity, made the following statement to the Imperial Herald:<br \/>\n\"The Federation wants to control the flow of meta-alloys, pure and simple. That's why they entered Merope, and that's why they're building this new outpost. And as for their claim that they're protecting the barnacles...well, does anyone really believe that anymore?\"<\/div><h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "HIP 17225",
+      "coords": {
+        "x": "-86",
+        "y": "-166",
+        "z": "-357"
+      },
+      "cat": [
+        14,
+        4,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5
+      ],
+      "infos": "<h2>Galactic News: Federal Campaign Comes to an End<\/h2><div>A spokesperson for the Future of Segovan has announced that the Federation's appeal for construction materials has come to an end. Thousands of tonnes of material were delivered to Obsidian Orbital this week, which will be used to construct a new outpost on HIP 17225 A 1. In a brief statement, the spokesperson thanked those who had contributed to the initiative:<br \/>\n\"The Federal pilots who supported this campaign have performed a great service. The new outpost will provide the Federation with a valuable trade and resource-processing hub. You have made the Federation proud.\"<br \/>\nThe campaign attracted no small measure of controversy, however, with the Federation's opponents claiming that it represented a further attempt to control access to the non-human structures known as barnacles, a number of which are located on HIP 17225 A 1. One Imperial pilot, speaking on condition of anonymity, made the following statement to the Imperial Herald:<br \/>\n\"The Federation wants to control the flow of meta-alloys, pure and simple. That's why they entered Merope, and that's why they're building this new outpost. And as for their claim that they're protecting the barnacles...well, does anyone really believe that anymore?\"<\/div>"
+    },
+    {
+      "name": "LHS 215",
+      "coords": {
+        "x": "-21",
+        "y": "13",
+        "z": "-18"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Gendalla",
+      "coords": {
+        "x": "12",
+        "y": "10",
+        "z": "-6"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Bilskirnir",
+      "coords": {
+        "x": "77",
+        "y": "15",
+        "z": "-64"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Matses",
+      "coords": {
+        "x": "-98",
+        "y": "-25",
+        "z": "88"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Liaedin",
+      "coords": {
+        "x": "-32",
+        "y": "-6",
+        "z": "38"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Millese",
+      "coords": {
+        "x": "15",
+        "y": "20",
+        "z": "56"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "LHS 1604",
+      "coords": {
+        "x": "6",
+        "y": "-31",
+        "z": "-36"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Kaura",
+      "coords": {
+        "x": "58",
+        "y": "-13",
+        "z": "-15"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Elysia",
+      "coords": {
+        "x": "115",
+        "y": "-111",
+        "z": "17"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Hrisastshi",
+      "coords": {
+        "x": "-38",
+        "y": "-29",
+        "z": "35"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Tollan",
+      "coords": {
+        "x": "-15",
+        "y": "20",
+        "z": "-22"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Lung",
+      "coords": {
+        "x": "4",
+        "y": "-7",
+        "z": "-14"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Ba Pin",
+      "coords": {
+        "x": "-163",
+        "y": "8",
+        "z": "-40"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Opala",
+      "coords": {
+        "x": "-26",
+        "y": "35",
+        "z": "9"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "G 203-47",
+      "coords": {
+        "x": "-18",
+        "y": "14",
+        "z": "7"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Luhman 16",
+      "coords": {
+        "x": "6",
+        "y": "1",
+        "z": "2"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Eravate",
+      "coords": {
+        "x": "-42",
+        "y": "-3",
+        "z": "60"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Perktomen",
+      "coords": {
+        "x": "135",
+        "y": "46",
+        "z": "0"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "LP 726-6",
+      "coords": {
+        "x": "57",
+        "y": "24",
+        "z": "-38"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Aulin",
+      "coords": {
+        "x": "-20",
+        "y": "33",
+        "z": "5"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Lega",
+      "coords": {
+        "x": "156",
+        "y": "-17",
+        "z": "71"
+      },
+      "cat": [
+        17
+      ],
+      "infos": "<h2>Galactic News: Weekly Security Report<\/h2><div>This report presents the latest data on the security status of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience a lockdown:<br \/>\nGendalla Interstellar<br \/>\nLP 726-6 Partners<br \/>\nBureau of Perktomen Regulatory State<br \/>\nLuhman 16 First<br \/>\nElysia Transport Corporation<br \/>\nNationals of G 203-47<br \/>\nMatses Jet Universal Systems<br \/>\nEravate Network<br \/>\nAulin Silver United Company<br \/>\nOpala Power Commodities<br \/>\nWhen a faction experiences a lockdown, the security rating of the system it controls temporarily increases and the system's wealth temporarily decreases. Bounty hunting activity can shorten the lockdown period.<br \/>\nHere are the latest factions to experience civil unrest:<br \/>\nTraditional Millese Focus<br \/>\nHrisastshi Purple Legal Partners<br \/>\nFreedom Party of Ba Pin<br \/>\nTollan Bureau<br \/>\nBureau of Lung Nationalists<br \/>\nIndependent Bilskirnir Revolutionary Party<br \/>\nKaura Ltd<br \/>\nPeople's Liaedin Independents<br \/>\nLHS 1604 Silver Dynamic Inc<br \/>\nJustice Party of LHS 215<br \/>\nCivil unrest is the result of illegal activity. When a faction is affected by civil unrest, the standard of living in the system it controls temporarily decreases, as does the system's wealth. Combat missions and activities can bring civil unrest to an end.<\/div>"
+    },
+    {
+      "name": "Arawere",
+      "coords": {
+        "x": "-44",
+        "y": "-102",
+        "z": "25"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Almar",
+      "coords": {
+        "x": "-45",
+        "y": "-87",
+        "z": "13"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Warkushanui",
+      "coords": {
+        "x": "-43",
+        "y": "-85",
+        "z": "6"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "HIP 19934",
+      "coords": {
+        "x": "-17",
+        "y": "-58",
+        "z": "-160"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "LP 462-19",
+      "coords": {
+        "x": "-33",
+        "y": "-26",
+        "z": "-3"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Rhea",
+      "coords": {
+        "x": "58",
+        "y": "23",
+        "z": "-29"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "HIP 18843",
+      "coords": {
+        "x": "-10",
+        "y": "-87",
+        "z": "-174"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "G 190-28",
+      "coords": {
+        "x": "-44",
+        "y": "-16",
+        "z": "-13"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Loperada",
+      "coords": {
+        "x": "-103",
+        "y": "97",
+        "z": "-4"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "63 G. Capricorni",
+      "coords": {
+        "x": "-19",
+        "y": "-45",
+        "z": "53"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Halbangaay",
+      "coords": {
+        "x": "-52",
+        "y": "-96",
+        "z": "10"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Manite",
+      "coords": {
+        "x": "-8",
+        "y": "-19",
+        "z": "167"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Wolf 1301",
+      "coords": {
+        "x": "-15",
+        "y": "-35",
+        "z": "-79"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Lave",
+      "coords": {
+        "x": "76",
+        "y": "49",
+        "z": "71"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "109 Piscium",
+      "coords": {
+        "x": "-51",
+        "y": "-69",
+        "z": "-62"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Pic Tok",
+      "coords": {
+        "x": "-81",
+        "y": "-23",
+        "z": "-161"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Scirtoq",
+      "coords": {
+        "x": "35",
+        "y": "-202",
+        "z": "81"
+      },
+      "cat": [
+        19
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "Robigo",
+      "coords": {
+        "x": "-303",
+        "y": "7",
+        "z": "-314"
+      },
+      "cat": [
+        19,
+        3
+      ],
+      "infos": "<h2>Galactic News: Starport Status Update<\/h2><div>his report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.<br \/>\nThe following starports are currently closed:<br \/>\nFozard Dock, HIP 19934\t<br \/>\nIrens Dock, Manite<br \/>\nvon Bellingshausen Port, Almar<br \/>\nHaack Gateway, Halbangaay<br \/>\nGurragchaa Gateway, Warkushanui<br \/>\nKorolyov Hub, Arawere<br \/>\nLobachevsky Outpost, Pic Tok<br \/>\nRutan Terminal, Scirtoq<br \/>\nTarelkin Dock, LP 462-19<br \/>\nLiwei Gateway, 63 G. Capricorni<br \/>\nRamsbottom Hub, Segovan<br \/>\nMeanwhile, the following starports continue to experience technical issues:<br \/>\nLave Station, Lave<br \/>\nCarter Port, Rhea<br \/>\nKooi Gateway, G 190-28\t<br \/>\nIsing Dock, 109 Piscium\t<br \/>\nJaques Station, Eol Prou RS-T d3-94<br \/>\nRobigo Mines, Robigo<br \/>\nSkvortsov Orbital, 63 G. Capricorni<br \/>\nSaunders's Dive, Wolf 1301<br \/>\nAlexander Freeport, HIP 18843<br \/>\nBloch Vision, Loperada<\/div>"
+    },
+    {
+      "name": "LHS 199",
+      "coords": {
+        "x": "96",
+        "y": "-73",
+        "z": "1"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Haroingori",
+      "coords": {
+        "x": "76",
+        "y": "-21",
+        "z": "95"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Tetrian",
+      "coords": {
+        "x": "63",
+        "y": "-50",
+        "z": "38"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Hojin",
+      "coords": {
+        "x": "102",
+        "y": "-171",
+        "z": "107"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Futhark",
+      "coords": {
+        "x": "75",
+        "y": "-119",
+        "z": "46"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Fire Fade",
+      "coords": {
+        "x": "131",
+        "y": "-164",
+        "z": "99"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Nuenets",
+      "coords": {
+        "x": "48",
+        "y": "18",
+        "z": "28"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Ross 490",
+      "coords": {
+        "x": "4",
+        "y": "24",
+        "z": "8"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "49 Arietis",
+      "coords": {
+        "x": "-74",
+        "y": "-97",
+        "z": "-171"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Quillaente",
+      "coords": {
+        "x": "98",
+        "y": "-184",
+        "z": "138"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Bast",
+      "coords": {
+        "x": "-36",
+        "y": "16",
+        "z": "-35"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Yuror",
+      "coords": {
+        "x": "-54",
+        "y": "-111",
+        "z": "77"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "CD-37 641",
+      "coords": {
+        "x": "28",
+        "y": "-113",
+        "z": "-7"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "LTT 15449",
+      "coords": {
+        "x": "-55",
+        "y": "21",
+        "z": "42"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Harma",
+      "coords": {
+        "x": "-99",
+        "y": "-101",
+        "z": "20"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Gree",
+      "coords": {
+        "x": "-37",
+        "y": "65",
+        "z": "-46"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "HIP 1114",
+      "coords": {
+        "x": "82",
+        "y": "-192",
+        "z": "76"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "31 Aquilae",
+      "coords": {
+        "x": "-37",
+        "y": "-2",
+        "z": "33"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Gridge",
+      "coords": {
+        "x": "65",
+        "y": "-118",
+        "z": "101"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "Caeresi",
+      "coords": {
+        "x": "87",
+        "y": "-118",
+        "z": "84"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    },
+    {
+      "name": "LTT 14019",
+      "coords": {
+        "x": "-38",
+        "y": "66",
+        "z": "-13"
+      },
+      "cat": [
+        20,
+        3
+      ],
+      "infos": "<h2>Galactic News: Weekly Economic Report<\/h2><div>This report presents the latest data on the economic health of the galaxy's minor factions.<br \/>\nHere are the latest factions to experience an economic boom:<br \/>\nNew 31 Aquilae Green Party<br \/>\nNuenets Corp.<br \/>\nProgressive Party of LTT 15449<br \/>\nRoss 490 Blue Public Corp.<br \/>\nMovement for CD-37 641 Free<br \/>\nFuthark Silver Fortune and Co<br \/>\nBast Purple Council<br \/>\nLTT 14019 Public Group<br \/>\nLHS 199 Silver Travel Corp<br \/>\nTetrian Fortune Network<br \/>\nBoom is usually the result of consistent trade profit and completed trade contracts. When a faction experiences a boom, the wealth of the system it controls temporarily increases and trade missions completed in the system have double the effect on influence. The faction's influence may also increase. Booms typically last until they naturally expire.<br \/>\nHere are the latest factions to experience an economic bust:<br \/>\nHarma Silver Cartel<br \/>\n49 Arietis Gold Council<br \/>\nYuror Crimson Drug Empire<br \/>\nHIP 1114 Blue Cartel<br \/>\nOfficial Haroingori Defence Force<br \/>\nFire Fade Patron's Principles<br \/>\nDrug Empire of Caeresi<br \/>\nHojin Blue Dragons<br \/>\nGridge Emperor's Grace<br \/>\nWorkers of Quillaente Union Party<br \/>\nWhen a faction experiences a bust, the wealth of the system it controls is temporarily reduced and the faction's influence is temporarily diminished. Trade actions do not contribute to boom while a bust is active. A bust typically has to run its course before ending.<\/div>"
+    }
+  ]
+}
