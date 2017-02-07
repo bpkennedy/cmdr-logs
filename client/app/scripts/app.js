@@ -128,6 +128,24 @@ angular
             }
         }
     });
+    $stateProvider.state('root.map', {
+        url: '/map',
+        parent: 'root',
+        params: {
+            isNew: null
+        },
+        data: {
+            pageName: 'MapCtrl',
+            browserTitle: 'Map'
+        },
+        views: {
+            'container@': {
+                templateUrl: 'views/map.html',
+                controller: 'MapCtrl',
+                controllerAs: 'vm'
+            }
+        }
+    });
 })
 .config(function($provide, toastrConfig) {
     $provide.decorator('taOptions', ['taRegisterTool', '$delegate', function(taRegisterTool, taOptions) {
