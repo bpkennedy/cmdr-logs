@@ -12,16 +12,25 @@ angular.module('clientApp')
     var vm = this;
     vm.auth = auth;
     vm.user = auth.$getAuth();
+    vm.loadMap = false;
     vm.isEntry = isEntry;
     vm.isMap = isMap;
+    vm.ifMapLoaded = ifMapLoaded;
 
     vm.auth.$onAuthStateChanged(function(firebaseUser) {
         if (firebaseUser) {
             vm.user = firebaseUser;
+            vm.loadMap = true;
         } else {
             vm.user = null;
         }
     });
+
+    function ifMapLoaded() {
+        if (vm.loadMap) {
+            $state.go('root.map', {isNew:false});
+        }
+    }
 
     function isEntry() {
         var state = $state.current.name;
