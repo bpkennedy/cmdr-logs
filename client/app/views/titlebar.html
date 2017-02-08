@@ -11,7 +11,7 @@
               <a ui-sref="root.dashboard" ng-audio="../sounds/navClick.mp3" volume="1">CMDR Logs</a>
           </li>
           <li ng-class="{'active': vm.isMap()}">
-              <a ui-sref="root.map" ng-audio="../sounds/navClick.mp3" volume="1">Galaxy Map</a>
+              <a ng-click="vm.ifMapLoaded()" ng-audio="../sounds/navClick.mp3" volume="1">Galaxy Map</a>
           </li>
           <li ng-if="!vm.user" ui-sref-active="active">
               <a ui-sref="root.login" ng-audio="../sounds/navClick.mp3" volume="1">Login</a>
@@ -25,6 +25,6 @@
   </div>
   <div class="nav-bottom"></div>
 </div>
-<div class="">
+<div class="" ng-if="vm.loadMap">
     <galaxy-map class="map-background" ng-class="{'show-map': vm.isMap()}"></galaxy-map>
 </div>

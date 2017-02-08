@@ -50,7 +50,7 @@ angular.module('clientApp')
     };
 
     function init() {
-        loaderSvc.toggleOnText('Creating galaxy..');
+        // loaderSvc.toggleOnText('Creating galaxy..');
         loadUserEntries();
     }
 
@@ -58,7 +58,7 @@ angular.module('clientApp')
         vm.entries = $firebaseArray(entries.getUserEntries());
         $timeout(function() {
             buildMapObject(vm.entries, refresh);
-        }, 4000);
+        }, 2000);
     }
 
     function buildMapObject(entries, refresh) {
@@ -98,7 +98,7 @@ angular.module('clientApp')
             loadMap();
         }
 
-        loaderSvc.toggleOff();
+        // loaderSvc.toggleOff();
     }
 
     function loadMap() {
