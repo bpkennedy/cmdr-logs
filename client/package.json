@@ -8,6 +8,7 @@
   "version": "0.2.2",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
+    "electron-builder": "^13.3.2",
     "electron-installer-dmg": "^0.2.0",
     "electron-packager": "8.4.0",
     "electron-winstaller": "^2.5.1",
@@ -47,14 +48,32 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "package-mac": "electron-packager . --platform=darwin --arch=x64 --icon=images/commanderLog.icns --prune=true --out=release-builds --overwrite=true",
-    "package-win": "electron-packager . --platform=win32 --arch=ia32 --icon=images/commanderLog.ico --prune=true --out=release-builds --overwrite=true --ignore=node_modules --electron-version-string.CompanyName=CE --electron-version-string.FileDescription=CE --electron-version-string.ProductName=CommanderLog --version-string.ProductName=CommanderLog",
-    "create-installer-mac": "electron-installer-dmg ./release-builds/CommanderLog-darwin-x64/CommanderLog.app CommanderLog --out=release-builds --overwrite --icon=images/commanderLog.icns",
-    "create-installer-win": "node installers/windows/createinstaller.js",
+    "pack": "build --dir",
+    "dist:mac": "build -m",
+        "dist:win": "build -w",
     "test": "karma start test/karma.conf.js"
   },
   "dependencies": {
     "angular-animate": "^1.6.1",
     "electron": "^1.4.14"
-  }
+  },
+  "build": {
+        "appId": "com.bpkennedy.cmdr-logs",
+        "nsis": {
+            "oneClick": false,
+            "allowToChangeInstallationDirectory": true
+        },
+        "mac": {
+            "category": "public.app-category.entertainment",
+            "target": "dmg"
+        },
+        "win": {
+            "target": [
+                "nsis"
+            ],
+            "publish": [
+                "github"
+            ]
+        }
+    }
 }
