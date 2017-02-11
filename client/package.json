@@ -1,6 +1,10 @@
 {
   "name": "CommanderLog",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpkennedy/cmdr-logs.git"
+  },
   "private": true,
   "author": "Brian Kennedy",
   "productName": "CommanderLog",
@@ -8,7 +12,7 @@
   "version": "0.2.2",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
-    "electron-builder": "^13.3.2",
+    "electron-builder": "^11.7.0",
     "electron-installer-dmg": "^0.2.0",
     "electron-packager": "8.4.0",
     "electron-winstaller": "^2.5.1",
@@ -42,7 +46,8 @@
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.2",
     "phantomjs-prebuilt": "^2.1.14",
-    "time-grunt": "^1.0.0"
+    "time-grunt": "^1.0.0",
+    "electron": "^1.4.14"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -54,8 +59,7 @@
     "test": "karma start test/karma.conf.js"
   },
   "dependencies": {
-    "angular-animate": "^1.6.1",
-    "electron": "^1.4.14"
+    "angular-animate": "^1.6.1"
   },
   "build": {
         "appId": "com.bpkennedy.cmdr-logs",
