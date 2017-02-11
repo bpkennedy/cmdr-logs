@@ -12,7 +12,7 @@
   "version": "0.2.2",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
-    "electron-builder": "^11.7.0",
+    "electron-builder": "11.7.0",
     "electron-installer-dmg": "^0.2.0",
     "electron-packager": "8.4.0",
     "electron-winstaller": "^2.5.1",
